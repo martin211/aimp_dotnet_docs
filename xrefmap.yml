@@ -7858,12 +7858,12 @@ references:
   commentId: Overload:AIMP.SDK.Options.IAimpOptionsDialogFrame.GetName
   fullName: AIMP.SDK.Options.IAimpOptionsDialogFrame.GetName
   nameWithType: IAimpOptionsDialogFrame.GetName
-- uid: AIMP.SDK.Options.IAimpOptionsDialogFrame.Notification(System.Int32)
-  name: Notification(Int32)
-  href: api/AIMP.SDK.Options.IAimpOptionsDialogFrame.html#AIMP_SDK_Options_IAimpOptionsDialogFrame_Notification_System_Int32_
-  commentId: M:AIMP.SDK.Options.IAimpOptionsDialogFrame.Notification(System.Int32)
-  fullName: AIMP.SDK.Options.IAimpOptionsDialogFrame.Notification(System.Int32)
-  nameWithType: IAimpOptionsDialogFrame.Notification(Int32)
+- uid: AIMP.SDK.Options.IAimpOptionsDialogFrame.Notification(AIMP.SDK.Options.OptionsDialogFrameNotificationType)
+  name: Notification(OptionsDialogFrameNotificationType)
+  href: api/AIMP.SDK.Options.IAimpOptionsDialogFrame.html#AIMP_SDK_Options_IAimpOptionsDialogFrame_Notification_AIMP_SDK_Options_OptionsDialogFrameNotificationType_
+  commentId: M:AIMP.SDK.Options.IAimpOptionsDialogFrame.Notification(AIMP.SDK.Options.OptionsDialogFrameNotificationType)
+  fullName: AIMP.SDK.Options.IAimpOptionsDialogFrame.Notification(AIMP.SDK.Options.OptionsDialogFrameNotificationType)
+  nameWithType: IAimpOptionsDialogFrame.Notification(OptionsDialogFrameNotificationType)
 - uid: AIMP.SDK.Options.IAimpOptionsDialogFrame.Notification*
   name: Notification
   href: api/AIMP.SDK.Options.IAimpOptionsDialogFrame.html#AIMP_SDK_Options_IAimpOptionsDialogFrame_Notification_
@@ -7942,6 +7942,36 @@ references:
   commentId: Overload:AIMP.SDK.Options.IAimpServiceOptionsDialog.FrameShow
   fullName: AIMP.SDK.Options.IAimpServiceOptionsDialog.FrameShow
   nameWithType: IAimpServiceOptionsDialog.FrameShow
+- uid: AIMP.SDK.Options.OptionsDialogFrameNotificationType
+  name: OptionsDialogFrameNotificationType
+  href: api/AIMP.SDK.Options.OptionsDialogFrameNotificationType.html
+  commentId: T:AIMP.SDK.Options.OptionsDialogFrameNotificationType
+  fullName: AIMP.SDK.Options.OptionsDialogFrameNotificationType
+  nameWithType: OptionsDialogFrameNotificationType
+- uid: AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_CAN_SAVE
+  name: AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_CAN_SAVE
+  href: api/AIMP.SDK.Options.OptionsDialogFrameNotificationType.html#AIMP_SDK_Options_OptionsDialogFrameNotificationType_AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_CAN_SAVE
+  commentId: F:AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_CAN_SAVE
+  fullName: AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_CAN_SAVE
+  nameWithType: OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_CAN_SAVE
+- uid: AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOAD
+  name: AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOAD
+  href: api/AIMP.SDK.Options.OptionsDialogFrameNotificationType.html#AIMP_SDK_Options_OptionsDialogFrameNotificationType_AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOAD
+  commentId: F:AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOAD
+  fullName: AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOAD
+  nameWithType: OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOAD
+- uid: AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOCALIZATION
+  name: AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOCALIZATION
+  href: api/AIMP.SDK.Options.OptionsDialogFrameNotificationType.html#AIMP_SDK_Options_OptionsDialogFrameNotificationType_AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOCALIZATION
+  commentId: F:AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOCALIZATION
+  fullName: AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOCALIZATION
+  nameWithType: OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_LOCALIZATION
+- uid: AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_SAVE
+  name: AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_SAVE
+  href: api/AIMP.SDK.Options.OptionsDialogFrameNotificationType.html#AIMP_SDK_Options_OptionsDialogFrameNotificationType_AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_SAVE
+  commentId: F:AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_SAVE
+  fullName: AIMP.SDK.Options.OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_SAVE
+  nameWithType: OptionsDialogFrameNotificationType.AIMP_SERVICE_OPTIONSDIALOG_NOTIFICATION_SAVE
 - uid: AIMP.SDK.Playback
   name: AIMP.SDK.Playback
   href: api/AIMP.SDK.Playback.html
