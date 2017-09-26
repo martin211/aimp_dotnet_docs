@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpExtensionFileInfoProvider
    | Aimp DotNet SDK documentation ">
-    <meta name="generator" content="docfx 2.16.4.1">
+    <meta name="generator" content="docfx 2.24.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     <meta property="docfx:rel" content="../">
     
   </head>
@@ -57,7 +58,7 @@
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content">
+      <div class="container body-content">
         
         <div id="search-results">
           <div class="search-list"></div>
@@ -75,108 +76,108 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content">
-              
-              
-              <h1 id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider" data-uid="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider">Interface IAimpExtensionFileInfoProvider
-              </h1>
-              <div class="markdown level0 summary"><p>Interface is an extension for the <a class="xref" href="AIMP.SDK.FileManager.IAimpServiceFileInfo.html">IAimpServiceFileInfo</a> service that provides an extended information about the file.
+            <article class="content wrap" id="_content" data-uid="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider">
+  
+  
+  <h1 id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider" data-uid="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider" class="text-break">Interface IAimpExtensionFileInfoProvider
+  </h1>
+  <div class="markdown level0 summary"><p>Interface is an extension for the <a class="xref" href="AIMP.SDK.FileManager.IAimpServiceFileInfo.html">IAimpServiceFileInfo</a> service that provides an extended information about the file.
 <p>
 Instance should be created by plugin and must be registered in the application at the plugin initialization method via the IAimpCore.RegisterExtension method.
 </p></p>
 </div>
-              <div class="markdown level0 conceptual"></div>
-              <h6><strong>Namespace</strong>:AIMP.SDK.FileManager.Extensions</h6>
-              <h6><strong>Assembly</strong>:AIMP.SDK.dll</h6>
-              <h5 id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public interface IAimpExtensionFileInfoProvider</code></pre>
-              </div>
-              <h3 id="methods">Methods
-              </h3>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/FileManager/Extensions/IAimpExtensionFileInfoProvider.cs/#L38">View Source</a>
-              </span>
-              <a id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_" data-uid="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo*"></a>
-              <h4 id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_System_IO_Stream_AIMP_SDK_FileManager_IAimpFileInfo__" data-uid="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(System.IO.Stream,AIMP.SDK.FileManager.IAimpFileInfo@)">GetFileInfo(Stream, ref IAimpFileInfo)</h4>
-              <div class="markdown level1 summary"><p>Returns the file information. This method slowes then get info by file name.</p>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.FileManager.Extensions.html">AIMP.SDK.FileManager.Extensions</a></h6>
+  <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
+  <h5 id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAimpExtensionFileInfoProvider</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/FileManager/Extensions/IAimpExtensionFileInfoProvider.cs/#L38">View Source</a>
+  </span>
+  <a id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_" data-uid="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo*"></a>
+  <h4 id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_System_IO_Stream_AIMP_SDK_FileManager_IAimpFileInfo__" data-uid="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(System.IO.Stream,AIMP.SDK.FileManager.IAimpFileInfo@)">GetFileInfo(Stream, ref IAimpFileInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns the file information. This method slowes then get info by file name.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              
-              <div class="div-decalaration">
-              	<h5 class="decalaration">Declaration</h5>
-              	<div class="codewrapper">
-              	<pre><code class="lang-csharp hljs">AimpActionResult GetFileInfo(Stream stream, ref IAimpFileInfo fileInfo)</code></pre>
-              	</div>
-              </div>
-              <div class="div-decalaration">
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.IO.Stream</span></td>
-                    <td><span class="parametername">stream</span></td>
-                    <td><p>The file stream.</p>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult GetFileInfo(Stream stream, ref IAimpFileInfo fileInfo)</code></pre>
+  	</div>
+  </div>
+  <div class="div-decalaration">
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The file stream.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IAimpFileInfo</a></td>
-                    <td><span class="parametername">fileInfo</span></td>
-                    <td><p>Out. File information/</p>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IAimpFileInfo</a></td>
+        <td><span class="parametername">fileInfo</span></td>
+        <td><p>Out. File information/</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              </div>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/FileManager/Extensions/IAimpExtensionFileInfoProvider.cs/#L30">View Source</a>
-              </span>
-              <a id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_" data-uid="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo*"></a>
-              <h4 id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_System_String_AIMP_SDK_FileManager_IAimpFileInfo__" data-uid="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(System.String,AIMP.SDK.FileManager.IAimpFileInfo@)">GetFileInfo(String, ref IAimpFileInfo)</h4>
-              <div class="markdown level1 summary"><p>Returns the file information.</p>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/FileManager/Extensions/IAimpExtensionFileInfoProvider.cs/#L30">View Source</a>
+  </span>
+  <a id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_" data-uid="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo*"></a>
+  <h4 id="AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_System_String_AIMP_SDK_FileManager_IAimpFileInfo__" data-uid="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(System.String,AIMP.SDK.FileManager.IAimpFileInfo@)">GetFileInfo(String, ref IAimpFileInfo)</h4>
+  <div class="markdown level1 summary"><p>Returns the file information.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              
-              <div class="div-decalaration">
-              	<h5 class="decalaration">Declaration</h5>
-              	<div class="codewrapper">
-              	<pre><code class="lang-csharp hljs">AimpActionResult GetFileInfo(string fileUri, ref IAimpFileInfo fileInfo)</code></pre>
-              	</div>
-              </div>
-              <div class="div-decalaration">
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.String</span></td>
-                    <td><span class="parametername">fileUri</span></td>
-                    <td><p>The virtual file name.</p>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult GetFileInfo(string fileUri, ref IAimpFileInfo fileInfo)</code></pre>
+  	</div>
+  </div>
+  <div class="div-decalaration">
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileUri</span></td>
+        <td><p>The virtual file name.</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IAimpFileInfo</a></td>
-                    <td><span class="parametername">fileInfo</span></td>
-                    <td><p>Out. File information/</p>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IAimpFileInfo</a></td>
+        <td><span class="parametername">fileInfo</span></td>
+        <td><p>Out. File information/</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              </div>
-                        </article>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

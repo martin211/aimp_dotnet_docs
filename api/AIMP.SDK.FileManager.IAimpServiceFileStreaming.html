@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpServiceFileStreaming
    | Aimp DotNet SDK documentation ">
-    <meta name="generator" content="docfx 2.16.4.1">
+    <meta name="generator" content="docfx 2.24.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     <meta property="docfx:rel" content="../">
     
   </head>
@@ -57,7 +58,7 @@
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content">
+      <div class="container body-content">
         
         <div id="search-results">
           <div class="search-list"></div>
@@ -75,118 +76,118 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content">
-              
-              
-              <h1 id="AIMP_SDK_FileManager_IAimpServiceFileStreaming" data-uid="AIMP.SDK.FileManager.IAimpServiceFileStreaming">Interface IAimpServiceFileStreaming
-              </h1>
-              <div class="markdown level0 summary"></div>
-              <div class="markdown level0 conceptual"></div>
-              <h6><strong>Namespace</strong>:AIMP.SDK.FileManager</h6>
-              <h6><strong>Assembly</strong>:AIMP.SDK.dll</h6>
-              <h5 id="AIMP_SDK_FileManager_IAimpServiceFileStreaming_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public interface IAimpServiceFileStreaming</code></pre>
-              </div>
-              <h3 id="methods">Methods
-              </h3>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/FileManager/IAimpServiceFileStreaming.cs/#L24">View Source</a>
-              </span>
-              <a id="AIMP_SDK_FileManager_IAimpServiceFileStreaming_CreateStreamForFile_" data-uid="AIMP.SDK.FileManager.IAimpServiceFileStreaming.CreateStreamForFile*"></a>
-              <h4 id="AIMP_SDK_FileManager_IAimpServiceFileStreaming_CreateStreamForFile_System_String_AIMP_SDK_FileManager_FileStreamingType_System_Int64_System_Int64_AIMP_SDK_IAimpStream__" data-uid="AIMP.SDK.FileManager.IAimpServiceFileStreaming.CreateStreamForFile(System.String,AIMP.SDK.FileManager.FileStreamingType,System.Int64,System.Int64,AIMP.SDK.IAimpStream@)">CreateStreamForFile(String, FileStreamingType, Int64, Int64, out IAimpStream)</h4>
-              <div class="markdown level1 summary"></div>
-              <div class="markdown level1 conceptual"></div>
-              
-              <div class="div-decalaration">
-              	<h5 class="decalaration">Declaration</h5>
-              	<div class="codewrapper">
-              	<pre><code class="lang-csharp hljs">AimpActionResult CreateStreamForFile(string fileName, FileStreamingType flags, long ofset, long size, out IAimpStream stream)</code></pre>
-              	</div>
-              </div>
-              <div class="div-decalaration">
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.String</span></td>
-                    <td><span class="parametername">fileName</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="AIMP.SDK.FileManager.FileStreamingType.html">FileStreamingType</a></td>
-                    <td><span class="parametername">flags</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Int64</span></td>
-                    <td><span class="parametername">ofset</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.Int64</span></td>
-                    <td><span class="parametername">size</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="AIMP.SDK.IAimpStream.html">IAimpStream</a></td>
-                    <td><span class="parametername">stream</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              </div>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/FileManager/IAimpServiceFileStreaming.cs/#L27">View Source</a>
-              </span>
-              <a id="AIMP_SDK_FileManager_IAimpServiceFileStreaming_CreateStreamForFileUri_" data-uid="AIMP.SDK.FileManager.IAimpServiceFileStreaming.CreateStreamForFileUri*"></a>
-              <h4 id="AIMP_SDK_FileManager_IAimpServiceFileStreaming_CreateStreamForFileUri_System_String_AIMP_SDK_FileManager_IAimpVirtualFile__AIMP_SDK_IAimpStream__" data-uid="AIMP.SDK.FileManager.IAimpServiceFileStreaming.CreateStreamForFileUri(System.String,AIMP.SDK.FileManager.IAimpVirtualFile@,AIMP.SDK.IAimpStream@)">CreateStreamForFileUri(String, out IAimpVirtualFile, out IAimpStream)</h4>
-              <div class="markdown level1 summary"></div>
-              <div class="markdown level1 conceptual"></div>
-              
-              <div class="div-decalaration">
-              	<h5 class="decalaration">Declaration</h5>
-              	<div class="codewrapper">
-              	<pre><code class="lang-csharp hljs">AimpActionResult CreateStreamForFileUri(string fileUrl, out IAimpVirtualFile virtualFile, out IAimpStream stream)</code></pre>
-              	</div>
-              </div>
-              <div class="div-decalaration">
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.String</span></td>
-                    <td><span class="parametername">fileUrl</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="AIMP.SDK.FileManager.IAimpVirtualFile.html">IAimpVirtualFile</a></td>
-                    <td><span class="parametername">virtualFile</span></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td><a class="xref" href="AIMP.SDK.IAimpStream.html">IAimpStream</a></td>
-                    <td><span class="parametername">stream</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              </div>
-                        </article>
+            <article class="content wrap" id="_content" data-uid="AIMP.SDK.FileManager.IAimpServiceFileStreaming">
+  
+  
+  <h1 id="AIMP_SDK_FileManager_IAimpServiceFileStreaming" data-uid="AIMP.SDK.FileManager.IAimpServiceFileStreaming" class="text-break">Interface IAimpServiceFileStreaming
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.FileManager.html">AIMP.SDK.FileManager</a></h6>
+  <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
+  <h5 id="AIMP_SDK_FileManager_IAimpServiceFileStreaming_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAimpServiceFileStreaming</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/FileManager/IAimpServiceFileStreaming.cs/#L24">View Source</a>
+  </span>
+  <a id="AIMP_SDK_FileManager_IAimpServiceFileStreaming_CreateStreamForFile_" data-uid="AIMP.SDK.FileManager.IAimpServiceFileStreaming.CreateStreamForFile*"></a>
+  <h4 id="AIMP_SDK_FileManager_IAimpServiceFileStreaming_CreateStreamForFile_System_String_AIMP_SDK_FileManager_FileStreamingType_System_Int64_System_Int64_AIMP_SDK_IAimpStream__" data-uid="AIMP.SDK.FileManager.IAimpServiceFileStreaming.CreateStreamForFile(System.String,AIMP.SDK.FileManager.FileStreamingType,System.Int64,System.Int64,AIMP.SDK.IAimpStream@)">CreateStreamForFile(String, FileStreamingType, Int64, Int64, out IAimpStream)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult CreateStreamForFile(string fileName, FileStreamingType flags, long ofset, long size, out IAimpStream stream)</code></pre>
+  	</div>
+  </div>
+  <div class="div-decalaration">
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.FileManager.FileStreamingType.html">FileStreamingType</a></td>
+        <td><span class="parametername">flags</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">ofset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.IAimpStream.html">IAimpStream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/FileManager/IAimpServiceFileStreaming.cs/#L27">View Source</a>
+  </span>
+  <a id="AIMP_SDK_FileManager_IAimpServiceFileStreaming_CreateStreamForFileUri_" data-uid="AIMP.SDK.FileManager.IAimpServiceFileStreaming.CreateStreamForFileUri*"></a>
+  <h4 id="AIMP_SDK_FileManager_IAimpServiceFileStreaming_CreateStreamForFileUri_System_String_AIMP_SDK_FileManager_IAimpVirtualFile__AIMP_SDK_IAimpStream__" data-uid="AIMP.SDK.FileManager.IAimpServiceFileStreaming.CreateStreamForFileUri(System.String,AIMP.SDK.FileManager.IAimpVirtualFile@,AIMP.SDK.IAimpStream@)">CreateStreamForFileUri(String, out IAimpVirtualFile, out IAimpStream)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult CreateStreamForFileUri(string fileUrl, out IAimpVirtualFile virtualFile, out IAimpStream stream)</code></pre>
+  	</div>
+  </div>
+  <div class="div-decalaration">
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileUrl</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.FileManager.IAimpVirtualFile.html">IAimpVirtualFile</a></td>
+        <td><span class="parametername">virtualFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.IAimpStream.html">IAimpStream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

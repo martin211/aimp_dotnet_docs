@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpExternalSettingsDialog
    | Aimp DotNet SDK documentation ">
-    <meta name="generator" content="docfx 2.16.4.1">
+    <meta name="generator" content="docfx 2.24.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     <meta property="docfx:rel" content="../">
     
   </head>
@@ -57,7 +58,7 @@
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content">
+      <div class="container body-content">
         
         <div id="search-results">
           <div class="search-list"></div>
@@ -75,58 +76,58 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content">
-              
-              
-              <h1 id="AIMP_SDK_IAimpExternalSettingsDialog" data-uid="AIMP.SDK.IAimpExternalSettingsDialog">Interface IAimpExternalSettingsDialog
-              </h1>
-              <div class="markdown level0 summary"><p>If plugin has external settings dialog that not integrated in the application via Options Dialog API, it should implement this interface on same to <a class="xref" href="AIMP.SDK.IAimpPlugin.html">IAimpPlugin</a> interface level.</p>
+            <article class="content wrap" id="_content" data-uid="AIMP.SDK.IAimpExternalSettingsDialog">
+  
+  
+  <h1 id="AIMP_SDK_IAimpExternalSettingsDialog" data-uid="AIMP.SDK.IAimpExternalSettingsDialog" class="text-break">Interface IAimpExternalSettingsDialog
+  </h1>
+  <div class="markdown level0 summary"><p>If plugin has external settings dialog that not integrated in the application via Options Dialog API, it should implement this interface on same to <a class="xref" href="AIMP.SDK.IAimpPlugin.html">IAimpPlugin</a> interface level.</p>
 </div>
-              <div class="markdown level0 conceptual"></div>
-              <h6><strong>Namespace</strong>:AIMP.SDK</h6>
-              <h6><strong>Assembly</strong>:AIMP.SDK.dll</h6>
-              <h5 id="AIMP_SDK_IAimpExternalSettingsDialog_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public interface IAimpExternalSettingsDialog</code></pre>
-              </div>
-              <h3 id="methods">Methods
-              </h3>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/IAimpExternalSettingsDialog.cs/#L25">View Source</a>
-              </span>
-              <a id="AIMP_SDK_IAimpExternalSettingsDialog_Show_" data-uid="AIMP.SDK.IAimpExternalSettingsDialog.Show*"></a>
-              <h4 id="AIMP_SDK_IAimpExternalSettingsDialog_Show_System_IntPtr_" data-uid="AIMP.SDK.IAimpExternalSettingsDialog.Show(System.IntPtr)">Show(IntPtr)</h4>
-              <div class="markdown level1 summary"><p>Shows the modal dialog.</p>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.html">AIMP.SDK</a></h6>
+  <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
+  <h5 id="AIMP_SDK_IAimpExternalSettingsDialog_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAimpExternalSettingsDialog</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/IAimpExternalSettingsDialog.cs/#L25">View Source</a>
+  </span>
+  <a id="AIMP_SDK_IAimpExternalSettingsDialog_Show_" data-uid="AIMP.SDK.IAimpExternalSettingsDialog.Show*"></a>
+  <h4 id="AIMP_SDK_IAimpExternalSettingsDialog_Show_System_IntPtr_" data-uid="AIMP.SDK.IAimpExternalSettingsDialog.Show(System.IntPtr)">Show(IntPtr)</h4>
+  <div class="markdown level1 summary"><p>Shows the modal dialog.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              
-              <div class="div-decalaration">
-              	<h5 class="decalaration">Declaration</h5>
-              	<div class="codewrapper">
-              	<pre><code class="lang-csharp hljs">void Show(IntPtr parentWindow)</code></pre>
-              	</div>
-              </div>
-              <div class="div-decalaration">
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.IntPtr</span></td>
-                    <td><span class="parametername">parentWindow</span></td>
-                    <td><p>Handle of calling window.</p>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">void Show(IntPtr parentWindow)</code></pre>
+  	</div>
+  </div>
+  <div class="div-decalaration">
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">parentWindow</span></td>
+        <td><p>Handle of calling window.</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              </div>
-                        </article>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

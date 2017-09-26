@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpPlaylistPreimageListener
    | Aimp DotNet SDK documentation ">
-    <meta name="generator" content="docfx 2.16.4.1">
+    <meta name="generator" content="docfx 2.24.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     <meta property="docfx:rel" content="../">
     
   </head>
@@ -57,7 +58,7 @@
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content">
+      <div class="container body-content">
         
         <div id="search-results">
           <div class="search-list"></div>
@@ -75,81 +76,81 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content">
-              
-              
-              <h1 id="AIMP_SDK_Playlist_IAimpPlaylistPreimageListener" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener">Interface IAimpPlaylistPreimageListener
-              </h1>
-              <div class="markdown level0 summary"><p>The interface provides an ability to notify playlist about the changes in preimage.</p>
+            <article class="content wrap" id="_content" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener">
+  
+  
+  <h1 id="AIMP_SDK_Playlist_IAimpPlaylistPreimageListener" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener" class="text-break">Interface IAimpPlaylistPreimageListener
+  </h1>
+  <div class="markdown level0 summary"><p>The interface provides an ability to notify playlist about the changes in preimage.</p>
 </div>
-              <div class="markdown level0 conceptual"></div>
-              <h6><strong>Namespace</strong>:AIMP.SDK.Playlist</h6>
-              <h6><strong>Assembly</strong>:AIMP.SDK.dll</h6>
-              <h5 id="AIMP_SDK_Playlist_IAimpPlaylistPreimageListener_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public interface IAimpPlaylistPreimageListener</code></pre>
-              </div>
-              <h3 id="events">Events
-              </h3>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistPreimageListener.cs/#L28">View Source</a>
-              </span>
-              <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimageListener_DataChanged" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.DataChanged">DataChanged</h4>
-              <div class="markdown level1 summary"><p>Occurs when data changed.</p>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.Playlist.html">AIMP.SDK.Playlist</a></h6>
+  <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
+  <h5 id="AIMP_SDK_Playlist_IAimpPlaylistPreimageListener_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAimpPlaylistPreimageListener</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistPreimageListener.cs/#L28">View Source</a>
+  </span>
+  <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimageListener_DataChanged" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.DataChanged">DataChanged</h4>
+  <div class="markdown level1 summary"><p>Occurs when data changed.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              
-              <div class="div-decalaration">
-              	<h5 class="decalaration">Declaration</h5>
-              	<div class="codewrapper">
-              	<pre><code class="lang-csharp hljs">event AimpPlaylistPreimageListenerHandler DataChanged</code></pre>
-              	</div>
-              </div>
-              <h5 class="eventType">Event Type</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="AIMP.SDK.Playlist.AimpPlaylistPreimageListenerHandler.html">AimpPlaylistPreimageListenerHandler</a></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistPreimageListener.cs/#L33">View Source</a>
-              </span>
-              <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimageListener_SettingsChanged" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.SettingsChanged">SettingsChanged</h4>
-              <div class="markdown level1 summary"><p>Occurs when settings changed.</p>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">event AimpPlaylistPreimageListenerHandler DataChanged</code></pre>
+  	</div>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.Playlist.AimpPlaylistPreimageListenerHandler.html">AimpPlaylistPreimageListenerHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistPreimageListener.cs/#L33">View Source</a>
+  </span>
+  <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimageListener_SettingsChanged" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.SettingsChanged">SettingsChanged</h4>
+  <div class="markdown level1 summary"><p>Occurs when settings changed.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              
-              <div class="div-decalaration">
-              	<h5 class="decalaration">Declaration</h5>
-              	<div class="codewrapper">
-              	<pre><code class="lang-csharp hljs">event AimpPlaylistPreimageListenerHandler SettingsChanged</code></pre>
-              	</div>
-              </div>
-              <h5 class="eventType">Event Type</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="AIMP.SDK.Playlist.AimpPlaylistPreimageListenerHandler.html">AimpPlaylistPreimageListenerHandler</a></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-                        </article>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">event AimpPlaylistPreimageListenerHandler SettingsChanged</code></pre>
+  	</div>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.Playlist.AimpPlaylistPreimageListenerHandler.html">AimpPlaylistPreimageListenerHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
