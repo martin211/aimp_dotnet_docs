@@ -1,0 +1,53 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "repos",
+          "files": [ "**/*.csproj" ],
+          "exclude": [
+            "**/Plugins/**/*",
+            "**/.build.csproj",
+            "**/obj/**",
+            "**/bin/**"
+          ]
+        }
+      ],
+      "properties": {
+        "TargetFramework": "net461"
+      },
+      "dest": "source/api"
+    }
+  ],
+
+  "build": {
+    "content": [
+      {
+        "src": "source",
+        "files": [ "**/*.md", "**/*.yml" ]
+      }
+    ],
+    "resource": [
+      {
+        "src": "source",
+        "files": [ "images/**", "favicons/**" ]
+      }
+    ],
+    "overwrite": [
+      {
+        "src": "repos",
+        "files": [ "*.disclaimer.md", "*/*/specs/*.md" ]
+      }
+    ],
+
+    "template": [ "default", "source/template" ],
+    "dest": "output/site",
+
+    "globalMetadata": {
+      "_appTitle": "AIMP DotNet SDK",
+      "_enableSearch": true,
+      "_disableBreadcrumb": true
+    },
+    "noLangKeyword": false
+  }
+}
