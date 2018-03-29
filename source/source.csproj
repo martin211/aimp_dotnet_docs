@@ -8,4 +8,8 @@
     <Content Include="**/*" Exclude="obj/**;bin/**;*.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="template\partials\li.tmpl.partial" />
+  </ItemGroup>
+
 </Project>

@@ -17,6 +17,20 @@ using static Nuke.Core.Logger;
 
 static class CustomToc
 {
+    private class RelevantType
+    {
+        public string Area { get; private set; }
+
+        public INamedTypeSymbol TypeSymbol { get; private set; }
+
+        public RelevantType(string area, INamedTypeSymbol typeSymbol)
+        {
+            Area = area;
+            TypeSymbol = typeSymbol;
+        }
+    }
+
+
     public static void WriteCustomToc(string tocFile, IEnumerable<string> solutionFiles)
     {
         var msBuildWorkspace = MSBuildWorkspace.Create(
@@ -37,7 +51,7 @@ static class CustomToc
 
         var iconClasses = (
                 from solution in solutions
-                from project in solution.Projects
+                from project in solution.Projects.Where(c => c.Name.Equals("AIMP.SDK"))
                 let compilation = project.GetCompilationAsync().Result
                 from document in project.Documents
                 let syntaxTree = document.GetSyntaxTreeAsync().Result
@@ -64,14 +78,16 @@ static class CustomToc
                 from interfaceDeclarationSyntax in syntaxTree.GetCompilationUnitRoot().DescendantNodes().OfType<InterfaceDeclarationSyntax>()
                 let typeSymbol = semanticModel.GetDeclaredSymbol(interfaceDeclarationSyntax)
                 let kind = GetKind(typeSymbol, iconClasses)
+                let area = GetArea(typeSymbol)
                 where typeSymbol.ContainingAssembly.Name != ".build" && kind != Kind.None
-                select new { TypeSymbol = typeSymbol, Kind = kind })
+                select new { TypeSymbol = typeSymbol, Kind = kind, Area = area })
             .Distinct(x => x.TypeSymbol.ToDisplayString())
             .ForEachLazy(x => Info($"Found '{x.TypeSymbol.ToDisplayString()}' ({x.Kind})."))
-            .ToLookup(x => x.Kind, x => x.TypeSymbol);
+            .ToLookup(x => x.Kind, x => new RelevantType(x.Area, x.TypeSymbol));
 
         TextTasks.WriteAllText(tocFile,
             new StringBuilder()
+                .WriteBlock(Kind.Objects, relevantTypeSymbols, iconClasses)
                 .WriteBlock(Kind.Core, relevantTypeSymbols, iconClasses)
                 .WriteBlock(Kind.Entry, relevantTypeSymbols, iconClasses)
                 .WriteBlock(Kind.Servers, relevantTypeSymbols, iconClasses)
@@ -89,6 +105,7 @@ static class CustomToc
     enum Kind
     {
         None,
+        Objects,
         Core,
         Entry,
         Servers,
@@ -96,7 +113,7 @@ static class CustomToc
         Addons
     }
 
-    static Kind GetKind(ITypeSymbol typeSymbol, Dictionary<string, string> iconClasses)
+    private static Kind GetKind(ITypeSymbol typeSymbol, Dictionary<string, string> iconClasses)
     {
         if (IsEntryType(typeSymbol, iconClasses))
             return Kind.Entry;
@@ -112,23 +129,37 @@ static class CustomToc
             return Kind.Core;
         }
 
+        if (typeSymbol.ContainingNamespace.Name.Equals("Objects"))
+        {
+            return Kind.Objects;
+        }
+
         return Kind.Common;
     }
 
+    private static string GetArea(ITypeSymbol typeSymbol)
+    {
+        return typeSymbol.ContainingNamespace.Name.Equals("SDK")
+            ? "Core"
+            : typeSymbol.ContainingNamespace.Name;
+    }
 
-    static StringBuilder WriteBlock(
-        this StringBuilder builder,
-        Kind kind,
-        ILookup<Kind, INamedTypeSymbol> typeSymbols,
-        IDictionary<string, string> iconClasses)
-        => builder
-            .AppendLine($"- separator: {kind}")
-            .ForEach(typeSymbols[kind].OrderBy(x => x.Name), x => builder.WriteType(x, iconClasses));
+    static StringBuilder WriteBlock(this StringBuilder builder, Kind kind, ILookup<Kind, RelevantType> typeSymbols, IDictionary<string, string> iconClasses)
+    {
+        var typesByArea = typeSymbols[kind].GroupBy(c => c.Area, c => c.TypeSymbol);
 
-    static StringBuilder ForEach<T>(
-        this StringBuilder builder,
-        IEnumerable<T> enumerable,
-        Action<T> builderAction)
+        builder.AppendLine($"- separator: {kind}");
+
+        foreach (IGrouping<string, INamedTypeSymbol> namedTypeSymbols in typesByArea)
+        {
+            builder.AppendLine($"- area: {namedTypeSymbols.Key}");
+            builder.ForEach(namedTypeSymbols, c => builder.WriteType(c, iconClasses));
+        }
+
+        return builder;
+    }
+
+    static StringBuilder ForEach<T>(this StringBuilder builder, IEnumerable<T> enumerable, Action<T> builderAction)
     {
         foreach (var item in enumerable)
             builderAction(item);
