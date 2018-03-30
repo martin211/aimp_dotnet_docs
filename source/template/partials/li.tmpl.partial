@@ -1,4 +1,4 @@
-﻿{{"!Copyright" "(c)","Microsoft." "All","rights" "reserved.","Licensed" "under","the" "MIT","license." "See","LICENSE" "file","in" "the","project" "root","for" "full","license" "information."}}
+﻿{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
 
 <ul class="nav level{{level}}">
 {{#items}}
@@ -7,14 +7,11 @@
     <span class="expand-stub"></span>
     {{/leaf}}
     {{#topicHref}}
-    <a href="{{topicHref}}" name="{{tocHref}}" title="{{name}}"><span class="icon icon-{{icon}}"></span>{{name}}</a>
+    <a href="{{topicHref}}" name="{{tocHref}}" title="{{name}}">{{name}}</a>
     {{/topicHref}}
-    {{#separator}}
-    <div class="category"><span class="category-text">{{separator}}</span></div>
-    {{/separator}}
-    {{#area}}
-    <div class="category"><span class="category-text">{{area}}</span></div>
-    {{/area}}
+    {{^topicHref}}
+    <a class="SubTopic">{{{name}}}</a>
+    {{/topicHref}}
     {{^leaf}}
       {{>partials/li}}
     {{/leaf}}

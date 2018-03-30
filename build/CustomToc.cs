@@ -17,6 +17,7 @@ using static Nuke.Core.Logger;
 
 static class CustomToc
 {
+    [System.Diagnostics.DebuggerDisplay("Area = {Area} Type = {TypeSymbol}")]
     private class RelevantType
     {
         public string Area { get; private set; }
@@ -85,14 +86,17 @@ static class CustomToc
             .ForEachLazy(x => Info($"Found '{x.TypeSymbol.ToDisplayString()}' ({x.Kind})."))
             .ToLookup(x => x.Kind, x => new RelevantType(x.Area, x.TypeSymbol));
 
+        var relevantTypeSymbols2 = relevantTypeSymbols.ToLookup(c => c.Key, c => c.OrderBy(x => x.Area).ToList());
+
+
         TextTasks.WriteAllText(tocFile,
             new StringBuilder()
-                .WriteBlock(Kind.Objects, relevantTypeSymbols, iconClasses)
-                .WriteBlock(Kind.Core, relevantTypeSymbols, iconClasses)
-                .WriteBlock(Kind.Entry, relevantTypeSymbols, iconClasses)
-                .WriteBlock(Kind.Servers, relevantTypeSymbols, iconClasses)
-                .WriteBlock(Kind.Common, relevantTypeSymbols, iconClasses)
-                .WriteBlock(Kind.Addons, relevantTypeSymbols, iconClasses)
+                .WriteBlock(Kind.Objects, relevantTypeSymbols2, iconClasses)
+                .WriteBlock(Kind.Core, relevantTypeSymbols2, iconClasses)
+                .WriteBlock(Kind.Entry, relevantTypeSymbols2, iconClasses)
+                .WriteBlock(Kind.Servers, relevantTypeSymbols2, iconClasses)
+                .WriteBlock(Kind.Common, relevantTypeSymbols2, iconClasses)
+                .WriteBlock(Kind.Addons, relevantTypeSymbols2, iconClasses)
                 .ToString());
     }
 
@@ -115,14 +119,14 @@ static class CustomToc
 
     private static Kind GetKind(ITypeSymbol typeSymbol, Dictionary<string, string> iconClasses)
     {
-        if (IsEntryType(typeSymbol, iconClasses))
-            return Kind.Entry;
-        if (IsServerType(typeSymbol))
-            return Kind.Servers;
-        if (typeSymbol.Name.EndsWith("Tasks"))
-            return IsCommonType(typeSymbol)
-                ? Kind.Common
-                : Kind.Addons;
+        //if (IsEntryType(typeSymbol, iconClasses))
+        //    return Kind.Entry;
+        //if (IsServerType(typeSymbol))
+        //    return Kind.Servers;
+        //if (typeSymbol.Name.EndsWith("Tasks"))
+        //    return IsCommonType(typeSymbol)
+        //        ? Kind.Common
+        //        : Kind.Addons;
 
         if (typeSymbol.ContainingNamespace.Name.Equals("SDK"))
         {
@@ -139,21 +143,71 @@ static class CustomToc
 
     private static string GetArea(ITypeSymbol typeSymbol)
     {
-        return typeSymbol.ContainingNamespace.Name.Equals("SDK")
-            ? "Core"
-            : typeSymbol.ContainingNamespace.Name;
+        var typeNamespaceParts = typeSymbol.ContainingNamespace.ToString().Split('.');
+
+        if (typeNamespaceParts.Length == 2 && typeNamespaceParts[1].Equals("SDK"))
+        {
+            return "Core";
+        }
+
+        if (typeNamespaceParts.Length == 3)
+        {
+            return typeNamespaceParts[2];
+        }
+
+        if (typeNamespaceParts.Length > 3)
+        {
+            return string.Join(".", typeNamespaceParts.Skip(2));
+        }
+
+        return string.Empty;
     }
 
-    static StringBuilder WriteBlock(this StringBuilder builder, Kind kind, ILookup<Kind, RelevantType> typeSymbols, IDictionary<string, string> iconClasses)
+    private static string Spaces(int count)
     {
-        var typesByArea = typeSymbols[kind].GroupBy(c => c.Area, c => c.TypeSymbol);
+        return new String(' ', count);
+    }
 
-        builder.AppendLine($"- separator: {kind}");
+    static StringBuilder WriteBlock(this StringBuilder builder, Kind kind, ILookup<Kind, List<RelevantType>> typeSymbols, IDictionary<string, string> iconClasses)
+    {
+        var typesByArea = typeSymbols[kind].ToList();
 
-        foreach (IGrouping<string, INamedTypeSymbol> namedTypeSymbols in typesByArea)
+        if (!typesByArea.Any())
         {
-            builder.AppendLine($"- area: {namedTypeSymbols.Key}");
-            builder.ForEach(namedTypeSymbols, c => builder.WriteType(c, iconClasses));
+            return builder;
+        }
+
+        //builder.AppendLine($"- name: {kind}");
+        //builder.AppendLine("  items:");
+
+        foreach (var namedTypeSymbols in typesByArea)
+        {
+            namedTypeSymbols.GroupBy(c => c.Area).ForEach((grouping, i) =>
+            {
+                var types = grouping.Key.Split('.');
+                int spaces = 2;
+
+                if (types.Length == 1)
+                {
+                    spaces = 2;
+                    builder.AppendLine($"- name: {types[0]}");
+                    builder.AppendLine($"{Spaces(spaces)}items:");
+                }
+                else if (types.Length == 2)
+                {
+                    spaces = 4;
+                    builder.AppendLine($"{Spaces(spaces-2)}- name: {types[1]}");
+                    builder.AppendLine($"{Spaces(spaces)}items:");
+                }
+                else if (types.Length == 3)
+                {
+                    spaces = 6;
+                    builder.AppendLine($"{Spaces(spaces-2)}- name: {types[2]}");
+                    builder.AppendLine($"{Spaces(spaces)}items:");
+                }
+
+                builder.ForEach(grouping, c => builder.WriteType(c.TypeSymbol, iconClasses, spaces));
+            });
         }
 
         return builder;
@@ -166,11 +220,11 @@ static class CustomToc
         return builder;
     }
 
-    static StringBuilder WriteType(this StringBuilder builder, ITypeSymbol typeSymbol, IDictionary<string, string> iconClasses)
+    static StringBuilder WriteType(this StringBuilder builder, ITypeSymbol typeSymbol, IDictionary<string, string> iconClasses, int spaces)
         => builder
-            .AppendLine($"- uid: {typeSymbol.ToDisplayString()}")
-            .AppendLine($"  name: {typeSymbol.GetName()}")
-            .AppendLine($"  icon: {typeSymbol.GetIconClassText(iconClasses)}");
+            .AppendLine($"{Spaces(spaces)}- uid: {typeSymbol.ToDisplayString()}")
+            .AppendLine($"{Spaces(spaces + 2)}name: {typeSymbol.GetName()}")
+            .AppendLine($"{Spaces(spaces + 2)}icon: {typeSymbol.GetIconClassText(iconClasses)}");
 
 
     static bool IsEntryType(ITypeSymbol typeSymbol, Dictionary<string, string> iconClasses)
