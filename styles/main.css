@@ -133,3 +133,19 @@ svg:hover path {
   .hero .button {
     display: block;
     margin: 12px; } }
+
+.SubTopic {
+    font-weight: bold;
+}
+
+div .container {
+    width: 100% !important;
+}
+
+div.sidefilter, div.sidetoc {
+    width: 360px !important;
+}
+
+div.article.grid-right {
+    margin-left: 360px !important;
+}

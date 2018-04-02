@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpPlaylistManager
-   | Aimp DotNet SDK documentation </title>
+   | AIMP DotNet SDK </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpPlaylistManager
-   | Aimp DotNet SDK documentation ">
-    <meta name="generator" content="docfx 2.24.0.0">
+   | AIMP DotNet SDK ">
+    <meta name="generator" content="docfx 2.33.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -49,14 +49,6 @@
             </div>
           </div>
         </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
       </header>
       <div class="container body-content">
         
@@ -84,28 +76,16 @@
   <div class="markdown level0 summary"><p>The service provides an access to playlist manager.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="AIMP.SDK.Playlist.IAimpExtensionPlaylistManagerListener.html#AIMP_SDK_Playlist_IAimpExtensionPlaylistManagerListener_PlaylistActivated">IAimpExtensionPlaylistManagerListener.PlaylistActivated</a>
-    </div>
-    <div>
-      <a class="xref" href="AIMP.SDK.Playlist.IAimpExtensionPlaylistManagerListener.html#AIMP_SDK_Playlist_IAimpExtensionPlaylistManagerListener_PlaylistAdded">IAimpExtensionPlaylistManagerListener.PlaylistAdded</a>
-    </div>
-    <div>
-      <a class="xref" href="AIMP.SDK.Playlist.IAimpExtensionPlaylistManagerListener.html#AIMP_SDK_Playlist_IAimpExtensionPlaylistManagerListener_PlaylistRemoved">IAimpExtensionPlaylistManagerListener.PlaylistRemoved</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.Playlist.html">AIMP.SDK.Playlist</a></h6>
   <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
   <h5 id="AIMP_SDK_Playlist_IAimpPlaylistManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAimpPlaylistManager : IAimpExtensionPlaylistManagerListener, IAimpExtension</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IAimpPlaylistManager</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L22">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L22">View Source</a>
   </span>
   <a id="AIMP_SDK_Playlist_IAimpPlaylistManager_PlaylistQueue_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.PlaylistQueue*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistManager_PlaylistQueue" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.PlaylistQueue">PlaylistQueue</h4>
@@ -121,7 +101,7 @@
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L36">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L36">View Source</a>
   </span>
   <a id="AIMP_SDK_Playlist_IAimpPlaylistManager_CreatePlaylist_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.CreatePlaylist*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistManager_CreatePlaylist_System_String_System_Boolean_AIMP_SDK_Playlist_IAimpPlaylist__" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.CreatePlaylist(System.String,System.Boolean,AIMP.SDK.Playlist.IAimpPlaylist@)">CreatePlaylist(String, Boolean, out IAimpPlaylist)</h4>
@@ -147,7 +127,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">name</span></td>
         <td><p>The playlist name.
 <p>
@@ -156,7 +136,7 @@ Automatic name will be applied if name is equals empty value.
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
         <td><span class="parametername">isActive</span></td>
         <td><p>If set to <code>true</code> playlist will be active.</p>
 </td>
@@ -171,7 +151,7 @@ Automatic name will be applied if name is equals empty value.
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L50">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L50">View Source</a>
   </span>
   <a id="AIMP_SDK_Playlist_IAimpPlaylistManager_CreatePlaylistFromFile_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.CreatePlaylistFromFile*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistManager_CreatePlaylistFromFile_System_String_System_Boolean_AIMP_SDK_Playlist_IAimpPlaylist__" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.CreatePlaylistFromFile(System.String,System.Boolean,AIMP.SDK.Playlist.IAimpPlaylist@)">CreatePlaylistFromFile(String, Boolean, out IAimpPlaylist)</h4>
@@ -197,7 +177,7 @@ Automatic name will be applied if name is equals empty value.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">fileName</span></td>
         <td><p>Name of the file.
 <p>
@@ -206,7 +186,7 @@ Automatic name will be applied if name is equals empty value.
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
         <td><span class="parametername">isActive</span></td>
         <td><p>If set to <code>true</code> playlist will be active.</p>
 </td>
@@ -221,7 +201,7 @@ Automatic name will be applied if name is equals empty value.
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L57">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L57">View Source</a>
   </span>
   <a id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetActivePlaylist_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetActivePlaylist*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetActivePlaylist_AIMP_SDK_Playlist_IAimpPlaylist__" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetActivePlaylist(AIMP.SDK.Playlist.IAimpPlaylist@)">GetActivePlaylist(out IAimpPlaylist)</h4>
@@ -256,7 +236,7 @@ Automatic name will be applied if name is equals empty value.
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L78">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L78">View Source</a>
   </span>
   <a id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetLoadedPlaylist_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetLoadedPlaylist*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetLoadedPlaylist_System_Int32_AIMP_SDK_Playlist_IAimpPlaylist__" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetLoadedPlaylist(System.Int32,AIMP.SDK.Playlist.IAimpPlaylist@)">GetLoadedPlaylist(Int32, out IAimpPlaylist)</h4>
@@ -282,7 +262,7 @@ Automatic name will be applied if name is equals empty value.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
         <td><span class="parametername">index</span></td>
         <td><p>The index.</p>
 </td>
@@ -297,7 +277,7 @@ Automatic name will be applied if name is equals empty value.
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L86">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L86">View Source</a>
   </span>
   <a id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetLoadedPlaylistById_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetLoadedPlaylistById*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetLoadedPlaylistById_System_String_AIMP_SDK_Playlist_IAimpPlaylist__" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetLoadedPlaylistById(System.String,AIMP.SDK.Playlist.IAimpPlaylist@)">GetLoadedPlaylistById(String, out IAimpPlaylist)</h4>
@@ -323,7 +303,7 @@ Automatic name will be applied if name is equals empty value.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">id</span></td>
         <td><p>The identifier.</p>
 </td>
@@ -338,7 +318,7 @@ Automatic name will be applied if name is equals empty value.
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L94">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L94">View Source</a>
   </span>
   <a id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetLoadedPlaylistByName_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetLoadedPlaylistByName*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetLoadedPlaylistByName_System_String_AIMP_SDK_Playlist_IAimpPlaylist__" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetLoadedPlaylistByName(System.String,AIMP.SDK.Playlist.IAimpPlaylist@)">GetLoadedPlaylistByName(String, out IAimpPlaylist)</h4>
@@ -364,7 +344,7 @@ Automatic name will be applied if name is equals empty value.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">name</span></td>
         <td><p>The name.</p>
 </td>
@@ -379,7 +359,7 @@ Automatic name will be applied if name is equals empty value.
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L99">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L99">View Source</a>
   </span>
   <a id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetLoadedPlaylistCount_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetLoadedPlaylistCount*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetLoadedPlaylistCount" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetLoadedPlaylistCount">GetLoadedPlaylistCount()</h4>
@@ -394,7 +374,7 @@ Automatic name will be applied if name is equals empty value.
   	</div>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L70">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L70">View Source</a>
   </span>
   <a id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetPlayablePlaylist_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetPlayablePlaylist*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistManager_GetPlayablePlaylist_AIMP_SDK_Playlist_IAimpPlaylist__" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.GetPlayablePlaylist(AIMP.SDK.Playlist.IAimpPlaylist@)">GetPlayablePlaylist(out IAimpPlaylist)</h4>
@@ -429,7 +409,7 @@ Automatic name will be applied if name is equals empty value.
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L63">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L63">View Source</a>
   </span>
   <a id="AIMP_SDK_Playlist_IAimpPlaylistManager_SetActivePlaylist_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.SetActivePlaylist*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistManager_SetActivePlaylist_AIMP_SDK_Playlist_IAimpPlaylist_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistManager.SetActivePlaylist(AIMP.SDK.Playlist.IAimpPlaylist)">SetActivePlaylist(IAimpPlaylist)</h4>
@@ -440,7 +420,7 @@ Automatic name will be applied if name is equals empty value.
   <div class="div-decalaration">
   	<h5 class="decalaration">Declaration</h5>
   	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">void SetActivePlaylist(IAimpPlaylist playList)</code></pre>
+  	<pre><code class="lang-csharp hljs">AimpActionResult SetActivePlaylist(IAimpPlaylist playList)</code></pre>
   	</div>
   </div>
   <div class="div-decalaration">
@@ -476,10 +456,10 @@ Automatic name will be applied if name is equals empty value.
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/develop/apiSpec/new?filename=AIMP_SDK_Playlist_IAimpPlaylistManager.md&amp;value=---%0Auid%3A%20AIMP.SDK.Playlist.IAimpPlaylistManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_Playlist_IAimpPlaylistManager.md&amp;value=---%0Auid%3A%20AIMP.SDK.Playlist.IAimpPlaylistManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L20" class="contribution-link">View Source</a>
+                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistManager.cs/#L20" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
@@ -499,7 +479,7 @@ Automatic name will be applied if name is equals empty value.
               <a href="#top">Back to top</a>
             </span>
             
-            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

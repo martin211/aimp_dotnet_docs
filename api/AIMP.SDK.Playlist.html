@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Namespace AIMP.SDK.Playlist
-   | Aimp DotNet SDK documentation </title>
+   | AIMP DotNet SDK </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace AIMP.SDK.Playlist
-   | Aimp DotNet SDK documentation ">
-    <meta name="generator" content="docfx 2.24.0.0">
+   | AIMP DotNet SDK ">
+    <meta name="generator" content="docfx 2.33.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -49,14 +49,6 @@
             </div>
           </div>
         </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
       </header>
       <div class="container body-content">
         
@@ -87,6 +79,10 @@
   </h3>
       <h4><a class="xref" href="AIMP.SDK.Playlist.AimpPlaylistEventArgs.html">AimpPlaylistEventArgs</a></h4>
       <section></section>
+      <h4><a class="xref" href="AIMP.SDK.Playlist.Constants.html">Constants</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AIMP.SDK.Playlist.Constants.PreimageFactory.html">Constants.PreimageFactory</a></h4>
+      <section></section>
       <h4><a class="xref" href="AIMP.SDK.Playlist.ScanningEndEventArgs.html">ScanningEndEventArgs</a></h4>
       <section></section>
       <h4><a class="xref" href="AIMP.SDK.Playlist.ScanningProgressEventArgs.html">ScanningProgressEventArgs</a></h4>
@@ -95,6 +91,9 @@
   </h3>
       <h4><a class="xref" href="AIMP.SDK.Playlist.IAimpExtensionPlaylistManagerListener.html">IAimpExtensionPlaylistManagerListener</a></h4>
       <section><p>This is extension for <a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistManager.html">IAimpPlaylistManager</a> service, provides an ability to receive notifications about the changes in manager.</p>
+</section>
+      <h4><a class="xref" href="AIMP.SDK.Playlist.IAimpExtensionPlaylistPreimageFactory.html">IAimpExtensionPlaylistPreimageFactory</a></h4>
+      <section><p>Provides an ability to register custom preimage (data provider) factory for smart-playlists.</p>
 </section>
       <h4><a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylist.html">IAimpPlaylist</a></h4>
       <section><p>Playlist interface.</p>
@@ -111,13 +110,21 @@
       <h4><a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistManager.html">IAimpPlaylistManager</a></h4>
       <section><p>The service provides an access to playlist manager.</p>
 </section>
+      <h4><a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistManager2.html">IAimpPlaylistManager2</a></h4>
+      <section></section>
       <h4><a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimage.html">IAimpPlaylistPreimage</a></h4>
       <section><p>It is a general interface for all preimages.
 <p>
 Preimage is data source for smart-playlists with manual or automatic synchronization.
-The principle of cooperation between preimage and playlist is so simple: when data or settings in preimage are changed - preimage notify playlist about the changes via the <a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.html">IAimpPlaylistPreimageListener</a> interface that related to binded playlist. Playlist, in own case, will reload data from preimage as soon as data will be required by plugin or user.
+The principle of cooperation between preimage and playlist is so simple: when data or settings in preimage are changed - preimage notify playlist about the changes via the <a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.html">IAimpPlaylistPreimageListener</a> interface that related to binded playlist.
+Playlist, in own case, will reload data from preimage as soon as data will be required by plugin or user.
 </p></p>
 </section>
+      <h4><a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimageDataProvider.html">IAimpPlaylistPreimageDataProvider</a></h4>
+      <section><p>Provides data for smart-playlist.</p>
+</section>
+      <h4><a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimageFolders.html">IAimpPlaylistPreimageFolders</a></h4>
+      <section></section>
       <h4><a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.html">IAimpPlaylistPreimageListener</a></h4>
       <section><p>The interface provides an ability to notify playlist about the changes in preimage.</p>
 </section>
@@ -144,6 +151,10 @@ The principle of cooperation between preimage and playlist is so simple: when da
       <h4><a class="xref" href="AIMP.SDK.Playlist.PlaylistSort.html">PlaylistSort</a></h4>
       <section></section>
       <h4><a class="xref" href="AIMP.SDK.Playlist.PlaylistSortComapreResult.html">PlaylistSortComapreResult</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AIMP.SDK.Playlist.PreimageFactoryFlags.html">PreimageFactoryFlags</a></h4>
+      <section></section>
+      <h4><a class="xref" href="AIMP.SDK.Playlist.PreimageFlags.html">PreimageFlags</a></h4>
       <section></section>
       <h4><a class="xref" href="AIMP.SDK.Playlist.ReloadInfoFlags.html">ReloadInfoFlags</a></h4>
       <section></section>
@@ -188,7 +199,7 @@ The principle of cooperation between preimage and playlist is so simple: when da
               <a href="#top">Back to top</a>
             </span>
             
-            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

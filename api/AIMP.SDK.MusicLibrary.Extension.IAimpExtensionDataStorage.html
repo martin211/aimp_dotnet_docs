@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpExtensionDataStorage
-   | Aimp DotNet SDK documentation </title>
+   | AIMP DotNet SDK </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpExtensionDataStorage
-   | Aimp DotNet SDK documentation ">
-    <meta name="generator" content="docfx 2.24.0.0">
+   | AIMP DotNet SDK ">
+    <meta name="generator" content="docfx 2.33.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -49,14 +49,6 @@
             </div>
           </div>
         </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
       </header>
       <div class="container body-content">
         
@@ -81,7 +73,18 @@
   
   <h1 id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage" class="text-break">Interface IAimpExtensionDataStorage
   </h1>
-  <div class="markdown level0 summary"><p>Data storage extension.</p>
+  <div class="markdown level0 summary"><p>The extension for the <a class="xref" href="AIMP.SDK.MusicLibrary.IAimpServiceMusicLibrary.html">IAimpServiceMusicLibrary</a> service provides an ability to plugin to implement custom data storage for the Music Library.
+Interface implementation must support asynchronous access.
+<p>
+Data storage MUST contains a fields with following names:
+AIMPML_RESERVED_FIELD_ID - unique ID of record in data storage
+AIMPML_RESERVED_FIELD_FILENAME - file name of the record that used by player
+If this fields are not defined in Data Storage - registration of the extension will be failed.</p>
+<p>Also, the Music Library engine provides an ability to use following special fields:
+AIMPML_RESERVED_FIELD_FILESIZE - file size in bytes (type: Int64), used to calculate information about the content of table
+AIMPML_RESERVED_FIELD_DURATION - duration in seconds (type: Double) ,used to calculate information about the content of table
+AIMPML_RESERVED_FIELD_USERMARK - user rating mark (type: Double), Refer to the IAIMPMLDataStorageCommandUserMark
+</p></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.MusicLibrary.Extension.html">AIMP.SDK.MusicLibrary.Extension</a></h6>
@@ -93,7 +96,7 @@
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L58">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L102">View Source</a>
   </span>
   <a id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Capabilities_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.Capabilities*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Capabilities" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.Capabilities">Capabilities</h4>
@@ -107,7 +110,7 @@
   	</div>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L56">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L100">View Source</a>
   </span>
   <a id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Caption_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.Caption*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Caption" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.Caption">Caption</h4>
@@ -122,7 +125,7 @@
   	</div>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L51">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L95">View Source</a>
   </span>
   <a id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Id_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.Id*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Id" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.Id">Id</h4>
@@ -139,11 +142,12 @@
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L73">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L129">View Source</a>
   </span>
   <a id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_ConfigLoad_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.ConfigLoad*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_ConfigLoad_AIMP_SDK_IAimpConfig_System_String_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.ConfigLoad(AIMP.SDK.IAimpConfig,System.String)">ConfigLoad(IAimpConfig, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Method will be called on first activation of tab of data storage in Music Library interface.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="div-decalaration">
@@ -166,22 +170,26 @@
       <tr>
         <td><a class="xref" href="AIMP.SDK.IAimpConfig.html">IAimpConfig</a></td>
         <td><span class="parametername">config</span></td>
-        <td></td>
+        <td><p>The configuration.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">section</span></td>
-        <td></td>
+        <td><p>Section Name to that contains the settings.
+You can use the children section names if it needed: Section + &quot;.&quot; + ChildSectionName</p>
+</td>
       </tr>
     </tbody>
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L75">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L138">View Source</a>
   </span>
   <a id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_ConfigSave_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.ConfigSave*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_ConfigSave_AIMP_SDK_IAimpConfig_System_String_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.ConfigSave(AIMP.SDK.IAimpConfig,System.String)">ConfigSave(IAimpConfig, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Method calls before the finalization of plugin.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="div-decalaration">
@@ -204,22 +212,27 @@
       <tr>
         <td><a class="xref" href="AIMP.SDK.IAimpConfig.html">IAimpConfig</a></td>
         <td><span class="parametername">config</span></td>
-        <td></td>
+        <td><p>The configuration.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
         <td><span class="parametername">section</span></td>
-        <td></td>
+        <td><p>Section Name to store the settings.
+You can use the children section names if it needed: Section + &quot;.&quot; + ChildSectionName</p>
+</td>
       </tr>
     </tbody>
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L71">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L120">View Source</a>
   </span>
   <a id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_FlushCache_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.FlushCache*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_FlushCache" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.FlushCache">FlushCache()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Method calls when user executes the &quot;refresh&quot; command via hotkey or context menu.
+After this call the Music Library engine will automatically reload the data from data storage.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="div-decalaration">
@@ -229,11 +242,12 @@
   	</div>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L77">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L146">View Source</a>
   </span>
   <a id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_GetFields_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.GetFields*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_GetFields_AIMP_SDK_MusicLibrary_Extension_SchemaType_System_Collections_IList__" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.GetFields(AIMP.SDK.MusicLibrary.Extension.SchemaType,System.Collections.IList@)">GetFields(SchemaType, out IList)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Method returns settings and layout of the data fields in dependency from specified Schema value.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="div-decalaration">
@@ -256,22 +270,25 @@
       <tr>
         <td><a class="xref" href="AIMP.SDK.MusicLibrary.Extension.SchemaType.html">SchemaType</a></td>
         <td><span class="parametername">schemaType</span></td>
-        <td></td>
+        <td><p>Type of the schema <a class="xref" href="AIMP.SDK.MusicLibrary.Extension.SchemaType.html">SchemaType</a>.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.IList</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.collections.ilist(v=vs.110).aspx">IList</a></td>
         <td><span class="parametername">list</span></td>
-        <td></td>
+        <td><p>The list.</p>
+</td>
       </tr>
     </tbody>
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L79">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L154">View Source</a>
   </span>
   <a id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_GetGroupingPresets_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.GetGroupingPresets*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_GetGroupingPresets_AIMP_SDK_MusicLibrary_Extension_GroupingPresetsSchemaType_AIMP_SDK_MusicLibrary_Presets_IAimpGroupingPresets_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.GetGroupingPresets(AIMP.SDK.MusicLibrary.Extension.GroupingPresetsSchemaType,AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresets)">GetGroupingPresets(GroupingPresetsSchemaType, IAimpGroupingPresets)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Plugin must populate the Presets list by predefined presets for grouping tree based on the Schema value.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="div-decalaration">
@@ -294,22 +311,24 @@
       <tr>
         <td><a class="xref" href="AIMP.SDK.MusicLibrary.Extension.GroupingPresetsSchemaType.html">GroupingPresetsSchemaType</a></td>
         <td><span class="parametername">schema</span></td>
-        <td></td>
+        <td><p>The schema.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresets.html">IAimpGroupingPresets</a></td>
         <td><span class="parametername">presets</span></td>
-        <td></td>
+        <td><p>The presets.</p>
+</td>
       </tr>
     </tbody>
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L64">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L108">View Source</a>
   </span>
   <a id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Initialize_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.Initialize*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Initialize_AIMP_SDK_MusicLibrary_IAimpDataStorageManager_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.Initialize(AIMP.SDK.MusicLibrary.IAimpDataStorageManager)">Initialize(IAimpDataStorageManager)</h4>
-  <div class="markdown level1 summary"><p>Initializes callback.</p>
+  <div class="markdown level1 summary"><p>Method calls after succeeded registration of data storage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -333,18 +352,19 @@
       <tr>
         <td><a class="xref" href="AIMP.SDK.MusicLibrary.IAimpDataStorageManager.html">IAimpDataStorageManager</a></td>
         <td><span class="parametername">manager</span></td>
-        <td><p>The manager.</p>
+        <td><p>The Manager interface is used to notify the Music Library about the changes in data storage.</p>
 </td>
       </tr>
     </tbody>
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L69">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L114">View Source</a>
   </span>
   <a id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Terminate_" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.Terminate*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Terminate" data-uid="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.Terminate">Terminate()</h4>
-  <div class="markdown level1 summary"><p>Finalizes callback.</p>
+  <div class="markdown level1 summary"><p>Method calls before the finalization of plugin.
+Plugin must dispose all external links.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -362,10 +382,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/develop/apiSpec/new?filename=AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage.md&amp;value=---%0Auid%3A%20AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage.md&amp;value=---%0Auid%3A%20AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L46" class="contribution-link">View Source</a>
+                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/Extension/IAimpExtensionDataStorage.cs/#L90" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
@@ -385,7 +405,7 @@
               <a href="#top">Back to top</a>
             </span>
             
-            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

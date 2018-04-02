@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpStream
-   | Aimp DotNet SDK documentation </title>
+   | AIMP DotNet SDK </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpStream
-   | Aimp DotNet SDK documentation ">
-    <meta name="generator" content="docfx 2.24.0.0">
+   | AIMP DotNet SDK ">
+    <meta name="generator" content="docfx 2.33.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -49,14 +49,6 @@
             </div>
           </div>
         </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
       </header>
       <div class="container body-content">
         
@@ -84,16 +76,22 @@
   <div class="markdown level0 summary"><p>Interface provides methods for working with binary stream.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://msdn.microsoft.com/en-us/library/es4s3w1d(v=vs.110).aspx">IDisposable.Dispose()</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.html">AIMP.SDK</a></h6>
   <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
   <h5 id="AIMP_SDK_IAimpStream_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAimpStream</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IAimpStream : IDisposable</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/IAimpStream.cs/#L38">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpStream.cs/#L40">View Source</a>
   </span>
   <a id="AIMP_SDK_IAimpStream_GetPosition_" data-uid="AIMP.SDK.IAimpStream.GetPosition*"></a>
   <h4 id="AIMP_SDK_IAimpStream_GetPosition" data-uid="AIMP.SDK.IAimpStream.GetPosition">GetPosition()</h4>
@@ -108,7 +106,7 @@
   	</div>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/IAimpStream.cs/#L22">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpStream.cs/#L24">View Source</a>
   </span>
   <a id="AIMP_SDK_IAimpStream_GetSize_" data-uid="AIMP.SDK.IAimpStream.GetSize*"></a>
   <h4 id="AIMP_SDK_IAimpStream_GetSize" data-uid="AIMP.SDK.IAimpStream.GetSize">GetSize()</h4>
@@ -123,7 +121,7 @@
   	</div>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/IAimpStream.cs/#L54">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpStream.cs/#L56">View Source</a>
   </span>
   <a id="AIMP_SDK_IAimpStream_Read_" data-uid="AIMP.SDK.IAimpStream.Read*"></a>
   <h4 id="AIMP_SDK_IAimpStream_Read_System_Byte___System_Int32_" data-uid="AIMP.SDK.IAimpStream.Read(System.Byte[],System.Int32)">Read(Byte[], Int32)</h4>
@@ -149,13 +147,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.byte(v=vs.110).aspx">Byte</a>[]</td>
         <td><span class="parametername">buffer</span></td>
         <td><p>When this method returns, contains the specified byte array with the values from the current stream.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
         <td><span class="parametername">count</span></td>
         <td><p>The maximum number of bytes to read.</p>
 </td>
@@ -164,7 +162,7 @@
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/IAimpStream.cs/#L46">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpStream.cs/#L48">View Source</a>
   </span>
   <a id="AIMP_SDK_IAimpStream_Seek_" data-uid="AIMP.SDK.IAimpStream.Seek*"></a>
   <h4 id="AIMP_SDK_IAimpStream_Seek_System_Int64_System_IO_SeekOrigin_" data-uid="AIMP.SDK.IAimpStream.Seek(System.Int64,System.IO.SeekOrigin)">Seek(Int64, SeekOrigin)</h4>
@@ -190,22 +188,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int64(v=vs.110).aspx">Int64</a></td>
         <td><span class="parametername">offset</span></td>
         <td><p>Offset in bytes.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.IO.SeekOrigin</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.io.seekorigin(v=vs.110).aspx">SeekOrigin</a></td>
         <td><span class="parametername">mode</span></td>
-        <td><p>A value of type <span class="xref">System.IO.SeekOrigin</span> indicating the reference point used to obtain the new position.</p>
+        <td><p>A value of type <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.io.seekorigin(v=vs.110).aspx">SeekOrigin</a> indicating the reference point used to obtain the new position.</p>
 </td>
       </tr>
     </tbody>
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/IAimpStream.cs/#L33">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpStream.cs/#L35">View Source</a>
   </span>
   <a id="AIMP_SDK_IAimpStream_SetSize_" data-uid="AIMP.SDK.IAimpStream.SetSize*"></a>
   <h4 id="AIMP_SDK_IAimpStream_SetSize_System_Int64_" data-uid="AIMP.SDK.IAimpStream.SetSize(System.Int64)">SetSize(Int64)</h4>
@@ -235,7 +233,7 @@ Warning! If current stream size more than new defined - part of data will be tru
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int64(v=vs.110).aspx">Int64</a></td>
         <td><span class="parametername">value</span></td>
         <td><p>New size, in bytes.</p>
 </td>
@@ -244,7 +242,7 @@ Warning! If current stream size more than new defined - part of data will be tru
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/IAimpStream.cs/#L65">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpStream.cs/#L67">View Source</a>
   </span>
   <a id="AIMP_SDK_IAimpStream_Write_" data-uid="AIMP.SDK.IAimpStream.Write*"></a>
   <h4 id="AIMP_SDK_IAimpStream_Write_System_Byte___System_Int32_System_Int32__" data-uid="AIMP.SDK.IAimpStream.Write(System.Byte[],System.Int32,System.Int32@)">Write(Byte[], Int32, out Int32)</h4>
@@ -270,19 +268,19 @@ Warning! If current stream size more than new defined - part of data will be tru
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.byte(v=vs.110).aspx">Byte</a>[]</td>
         <td><span class="parametername">buffer</span></td>
         <td><p>The buffer to write data from.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
         <td><span class="parametername">count</span></td>
         <td><p>The maximum number of bytes to write.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
         <td><span class="parametername">writen</span></td>
         <td><p>Parameter displays what bytes has been really written to the stream.
 This parameter is optional - can be null.</p>
@@ -299,10 +297,10 @@ This parameter is optional - can be null.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/develop/apiSpec/new?filename=AIMP_SDK_IAimpStream.md&amp;value=---%0Auid%3A%20AIMP.SDK.IAimpStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_IAimpStream.md&amp;value=---%0Auid%3A%20AIMP.SDK.IAimpStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/develop/src/AIMP.SDK/IAimpStream.cs/#L17" class="contribution-link">View Source</a>
+                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpStream.cs/#L19" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
@@ -322,7 +320,7 @@ This parameter is optional - can be null.</p>
               <a href="#top">Back to top</a>
             </span>
             
-            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

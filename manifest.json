@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "Z:/Code/AIMP/aimp_dotnet/docs",
+  "source_base_path": "Z:/Services/gitlab/builds/451cc5e0/0/martin211/aimp_dotnet_docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.ActionManager.IAimpAction.yml",
+      "source_relative_path": "source/api/AIMP.SDK.ActionManager.IAimpAction.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.ActionManager.IAimpAction.html",
-          "hash": "3IWKQ8wuSs/qgdbO5AFfzQ=="
+          "hash": "o/D7JnW0Xh1AXaSlKu+ZAg=="
         }
       },
       "is_incremental": false,
@@ -26,11 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.ActionManager.IAimpActionEvent.yml",
+      "source_relative_path": "source/api/AIMP.SDK.ActionManager.IAimpActionEvent.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.ActionManager.IAimpActionEvent.html",
-          "hash": "A3+6d4emrYJbNC+v8SXqug=="
+          "hash": "DopJgMtlvC6bTH93ETxkIQ=="
         }
       },
       "is_incremental": false,
@@ -38,11 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.ActionManager.IAimpServiceActionManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.ActionManager.IAimpServiceActionManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.ActionManager.IAimpServiceActionManager.html",
-          "hash": "bvcvNYNIG6s5+vvrTnuy0A=="
+          "hash": "LyVy8lU5cOpHBPo9IDNPxA=="
         }
       },
       "is_incremental": false,
@@ -50,11 +50,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.ActionManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.ActionManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.ActionManager.html",
-          "hash": "Fv6t84a7GSv3DQdLuzLbUA=="
+          "hash": "qFDqGnlvy28ECFrKrnbq4g=="
         }
       },
       "is_incremental": false,
@@ -62,11 +62,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AimpActionResult.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AimpActionResult.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AimpActionResult.html",
-          "hash": "a966RnD1Svka0xJ3xpTbJA=="
+          "hash": "XpDIVXYM4oBfXmPODlLJng=="
         }
       },
       "is_incremental": false,
@@ -74,11 +74,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AimpDotNetPlugin.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AimpDotNetPlugin.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AimpDotNetPlugin.html",
-          "hash": "yD4iWiqcfQCVIMuwy5JVig=="
+          "hash": "1w5jjoRU66jCP7lyo36xsQ=="
         }
       },
       "is_incremental": false,
@@ -86,11 +86,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AimpEventsDelegate.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AimpErrorArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.AimpErrorArgs.html",
+          "hash": "sThzrDsIQzyEnHXW2fKoYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.AimpEventsDelegate.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AimpEventsDelegate.html",
-          "hash": "lMn6EfFn7z4z9mUED6gZUQ=="
+          "hash": "uCyDS5THW7Ntd0nFYb6Gjg=="
         }
       },
       "is_incremental": false,
@@ -98,11 +110,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AimpMessages.AimpCoreMessageType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AimpMessages.AimpCoreMessageType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AimpMessages.AimpCoreMessageType.html",
-          "hash": "t/5Abv7jFQplSP6o7LLj1g=="
+          "hash": "8HL/8d7iPvw8LyrgXF4WAQ=="
         }
       },
       "is_incremental": false,
@@ -110,11 +122,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AimpMessages.AimpCorePathType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AimpMessages.AimpCorePathType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AimpMessages.AimpCorePathType.html",
-          "hash": "GtREBDBAtb45FESj2vBJkg=="
+          "hash": "iWF2FV+Z6CWDFXYC7/crKQ=="
         }
       },
       "is_incremental": false,
@@ -122,11 +134,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AimpMessages.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AimpMessages.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AimpMessages.html",
-          "hash": "41fovOJY8snINmKlPdk0hQ=="
+          "hash": "cTGc6vqck+JrIcr4OZdHkA=="
         }
       },
       "is_incremental": false,
@@ -134,11 +146,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AimpPlayerState.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AimpPlayerState.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AimpPlayerState.html",
-          "hash": "ydktGtiWxeTIsoAzuNwkUQ=="
+          "hash": "Lx0gVIsK8cuUM/GsZWrd6A=="
         }
       },
       "is_incremental": false,
@@ -146,11 +158,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AimpPlugin.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AimpPlugin.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AimpPlugin.html",
-          "hash": "T3EsBO8mT9fceC7oYmbzsw=="
+          "hash": "BHwlY92oCqV4KVL7zbvoXA=="
         }
       },
       "is_incremental": false,
@@ -158,11 +170,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AimpPluginAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AimpPluginAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AimpPluginAttribute.html",
-          "hash": "XAv7Fp5CxMKZmj6A3y9eqA=="
+          "hash": "Iomz8/n3jOxosi0Su2Qx2A=="
         }
       },
       "is_incremental": false,
@@ -170,11 +182,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AimpPluginType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AimpPluginType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AimpPluginType.html",
-          "hash": "ZJrUq5uKhDhuENDx8/jhpg=="
+          "hash": "Y2MZMt5fKLQxMGIp/gJtRw=="
         }
       },
       "is_incremental": false,
@@ -182,11 +194,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AlbumArtManager.AimpAlbumArtProviderCategory.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AlbumArtManager.AimpAlbumArtProviderCategory.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AlbumArtManager.AimpAlbumArtProviderCategory.html",
-          "hash": "2JVWSKxR1S+vfL2sZT+phQ=="
+          "hash": "sYttdnkQB+63HUreRvp4xg=="
         }
       },
       "is_incremental": false,
@@ -194,11 +206,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AlbumArtManager.AimpFindCovertArtType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AlbumArtManager.AimpFindCovertArtType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AlbumArtManager.AimpFindCovertArtType.html",
-          "hash": "K/Kp0MGe8Y5RYdvyWHzz/Q=="
+          "hash": "djaB/32dzIPc4DQUmfNdqw=="
         }
       },
       "is_incremental": false,
@@ -206,11 +218,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AlbumArtManager.AimpGetAlbumArtEventArgs.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AlbumArtManager.AimpGetAlbumArtEventArgs.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AlbumArtManager.AimpGetAlbumArtEventArgs.html",
-          "hash": "qXzYJvc9gdgybQCQvJUBEw=="
+          "hash": "BT2gJrFy0MuwT61DnLS/ww=="
         }
       },
       "is_incremental": false,
@@ -218,11 +230,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AlbumArtManager.IAimpAlbumArtManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AlbumArtManager.IAimpAlbumArtManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AlbumArtManager.IAimpAlbumArtManager.html",
-          "hash": "gGUnvDMJTU8efWqiJaKTZQ=="
+          "hash": "PgvAPOwxQrSdpaBZZiRTLg=="
         }
       },
       "is_incremental": false,
@@ -230,11 +242,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AlbumArtManager.IAimpAlbumArtSearchOptions.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AlbumArtManager.IAimpAlbumArtSearchOptions.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AlbumArtManager.IAimpAlbumArtSearchOptions.html",
-          "hash": "H0M5NPjJzQatIOiwQIF5uA=="
+          "hash": "Z0wY0eXt9nNBZmwoUnDU3w=="
         }
       },
       "is_incremental": false,
@@ -242,11 +254,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.html",
-          "hash": "9VLRgFlEYdGvs1P0SCIWSA=="
+          "hash": "+mzelHN2e0WhhAJVFB4OCQ=="
         }
       },
       "is_incremental": false,
@@ -254,11 +266,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog2.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog2.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog2.html",
-          "hash": "MmLux5heKw51yW8n8c6u2A=="
+          "hash": "jTULahoRo8y9H6zVYWnP6A=="
         }
       },
       "is_incremental": false,
@@ -266,11 +278,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtProvider.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtProvider.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtProvider.html",
-          "hash": "A8iDS5gj1e9Fn6yTORhe5Q=="
+          "hash": "mkQ3Ribpp1rQGuy4NBuXOg=="
         }
       },
       "is_incremental": false,
@@ -278,11 +290,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtProvider2.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtProvider2.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtProvider2.html",
-          "hash": "jRELTt0bMpa9soRlz556Eg=="
+          "hash": "v7rPPJ5AHqFbxNZVZSh+4g=="
         }
       },
       "is_incremental": false,
@@ -290,11 +302,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AlbumArtManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AlbumArtManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AlbumArtManager.html",
-          "hash": "Dq433b9NPMewjv5wS/CLIw=="
+          "hash": "z8EGaGTjkIz8odezJmRLfw=="
         }
       },
       "is_incremental": false,
@@ -302,11 +314,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspChildControlTypeAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspChildControlTypeAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspChildControlTypeAttribute.html",
-          "hash": "VHFCJHqDeBb7b2hm8GIW8w=="
+          "hash": "7VF1BEdsFtkM23aks1MG3w=="
         }
       },
       "is_incremental": false,
@@ -314,11 +326,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspDataFieldAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspDataFieldAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspDataFieldAttribute.html",
-          "hash": "99h0bxTf9se/2PcyKTbBuQ=="
+          "hash": "C3DQ0+hGAmNc6+Cfu9kcVw=="
         }
       },
       "is_incremental": false,
@@ -326,11 +338,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspDataFieldsAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspDataFieldsAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspDataFieldsAttribute.html",
-          "hash": "qk7sWpkDHFZ7BLydh9ylzw=="
+          "hash": "RW1KOdkCdbypUeqEUYdkxA=="
         }
       },
       "is_incremental": false,
@@ -338,11 +350,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMethodPropertyAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMethodPropertyAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMethodPropertyAttribute.html",
-          "hash": "y8hU3dv/cVeFT1UibtaKlA=="
+          "hash": "I3QeJx/UXbO8vVIu1p2FvQ=="
         }
       },
       "is_incremental": false,
@@ -350,11 +362,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcActionAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcActionAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcActionAttribute.html",
-          "hash": "w4kB7eXqqTqu3+kYOlVB3w=="
+          "hash": "+LFX4VqiuxK5A7q1TAuLaw=="
         }
       },
       "is_incremental": false,
@@ -362,11 +374,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcActionSelectorAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcActionSelectorAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcActionSelectorAttribute.html",
-          "hash": "1emt3c1KdqDOJvj5aFojVg=="
+          "hash": "D8LsB7Sacsn8jwjHMIM8sg=="
         }
       },
       "is_incremental": false,
@@ -374,11 +386,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcAreaAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcAreaAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcAreaAttribute.html",
-          "hash": "dSTBx6WIMBKd5l70AYslGA=="
+          "hash": "GTc+l21kUbr+pUViE2cx1Q=="
         }
       },
       "is_incremental": false,
@@ -386,11 +398,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcAreaMasterLocationFormatAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcAreaMasterLocationFormatAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcAreaMasterLocationFormatAttribute.html",
-          "hash": "b0LjGixXXCCrZl/oYjMXiA=="
+          "hash": "m3+nN1KFDHeEtKBDS41HDg=="
         }
       },
       "is_incremental": false,
@@ -398,11 +410,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcAreaPartialViewLocationFormatAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcAreaPartialViewLocationFormatAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcAreaPartialViewLocationFormatAttribute.html",
-          "hash": "sTPxi1HimJtWOIyHQXM6IQ=="
+          "hash": "2b5XSzw0xQu6DycjMNO40Q=="
         }
       },
       "is_incremental": false,
@@ -410,11 +422,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcAreaViewLocationFormatAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcAreaViewLocationFormatAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcAreaViewLocationFormatAttribute.html",
-          "hash": "8eV960TbwmVZ8gEcR87WDA=="
+          "hash": "HMDp3KoDbsOhCORqClPylw=="
         }
       },
       "is_incremental": false,
@@ -422,11 +434,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcControllerAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcControllerAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcControllerAttribute.html",
-          "hash": "lGDrn0YEqKAqzZ5nO6ij5A=="
+          "hash": "41g0bBmStOOCE0A3CVWjhw=="
         }
       },
       "is_incremental": false,
@@ -434,11 +446,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcDisplayTemplateAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcDisplayTemplateAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcDisplayTemplateAttribute.html",
-          "hash": "0yior1QXhzOpOyIczNbnYg=="
+          "hash": "AvDW5hW0EEwgeLT9Jx2Fgw=="
         }
       },
       "is_incremental": false,
@@ -446,11 +458,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcEditorTemplateAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcEditorTemplateAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcEditorTemplateAttribute.html",
-          "hash": "lxH85PXkxvKBZXI0pW/ymQ=="
+          "hash": "sGAbSIEVkFQAeFU9MUpeAg=="
         }
       },
       "is_incremental": false,
@@ -458,11 +470,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcMasterAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcMasterAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcMasterAttribute.html",
-          "hash": "Ye02945OQyISE+ulcaQp6w=="
+          "hash": "HeDEj3FyEGBySZM1EvONbg=="
         }
       },
       "is_incremental": false,
@@ -470,11 +482,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcMasterLocationFormatAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcMasterLocationFormatAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcMasterLocationFormatAttribute.html",
-          "hash": "J3kcGkJLz/J6OGJROA9LCw=="
+          "hash": "kUzatu/fWmwURVTorbMXEA=="
         }
       },
       "is_incremental": false,
@@ -482,11 +494,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcModelTypeAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcModelTypeAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcModelTypeAttribute.html",
-          "hash": "GfRG0qaSIWFCbD6ySJOuRQ=="
+          "hash": "yVAGyilzwLJkK7eGB9tflQ=="
         }
       },
       "is_incremental": false,
@@ -494,11 +506,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcPartialViewAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcPartialViewAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcPartialViewAttribute.html",
-          "hash": "rnqlGepPGKoM5OIdtV5nzg=="
+          "hash": "r1wzwUgVSoc2uQKcK5GOVA=="
         }
       },
       "is_incremental": false,
@@ -506,11 +518,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcPartialViewLocationFormatAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcPartialViewLocationFormatAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcPartialViewLocationFormatAttribute.html",
-          "hash": "j+YjtB77iBztn1fchd5DqA=="
+          "hash": "lFPrO05wwS5FTLg4xedc3g=="
         }
       },
       "is_incremental": false,
@@ -518,11 +530,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcSupressViewErrorAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcSupressViewErrorAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcSupressViewErrorAttribute.html",
-          "hash": "yA4lcIqKKTExvZTLIR10Rw=="
+          "hash": "o+8/VXz/dEnqCmgcXV8z7Q=="
         }
       },
       "is_incremental": false,
@@ -530,11 +542,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcTemplateAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcTemplateAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcTemplateAttribute.html",
-          "hash": "VucSAgNxLzGFfMpZJ835jw=="
+          "hash": "MVEX0kKqVv+MsgKhdLnFcg=="
         }
       },
       "is_incremental": false,
@@ -542,11 +554,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcViewAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcViewAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcViewAttribute.html",
-          "hash": "RBacX/Bboi4uNB2RdAvk4g=="
+          "hash": "LIUlOFkuX1fBPVNNOnlgZQ=="
         }
       },
       "is_incremental": false,
@@ -554,11 +566,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspMvcViewLocationFormatAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspMvcViewLocationFormatAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspMvcViewLocationFormatAttribute.html",
-          "hash": "CBq+tBK5booMp11qSElaOQ=="
+          "hash": "It9aCarxczAZqWSQn8qJNw=="
         }
       },
       "is_incremental": false,
@@ -566,11 +578,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspRequiredAttributeAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspRequiredAttributeAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspRequiredAttributeAttribute.html",
-          "hash": "K5o2AkzvSgkZdgR9MDLMZQ=="
+          "hash": "MeO3JOF76NGbG2hfCG4NWg=="
         }
       },
       "is_incremental": false,
@@ -578,11 +590,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AspTypePropertyAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AspTypePropertyAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AspTypePropertyAttribute.html",
-          "hash": "gdQKPWolPJ8Es/hpUrvwbA=="
+          "hash": "0Do7/RGOmBYtKDylQyv++A=="
         }
       },
       "is_incremental": false,
@@ -590,11 +602,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AssertionConditionAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AssertionConditionAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AssertionConditionAttribute.html",
-          "hash": "hFUG2g6JofuCVrJY1YQroA=="
+          "hash": "PwO28Z/k6pCdyMCStrw59Q=="
         }
       },
       "is_incremental": false,
@@ -602,11 +614,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AssertionConditionType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AssertionConditionType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AssertionConditionType.html",
-          "hash": "XP6sSDQ+CAXFCLz98DCMsw=="
+          "hash": "z3ESPtqugEU2vdiWz4NRnA=="
         }
       },
       "is_incremental": false,
@@ -614,11 +626,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.AssertionMethodAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.AssertionMethodAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.AssertionMethodAttribute.html",
-          "hash": "sHlzs3og6bU1TDeOqClD5A=="
+          "hash": "e4CMjxVml/nVmIEmQ6dVrQ=="
         }
       },
       "is_incremental": false,
@@ -626,11 +638,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.BaseTypeRequiredAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.BaseTypeRequiredAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.BaseTypeRequiredAttribute.html",
-          "hash": "IPdC2tlI/AdOI65cwOMFlQ=="
+          "hash": "3gfnUXb2ZpgUN9a/zC4xYQ=="
         }
       },
       "is_incremental": false,
@@ -638,11 +650,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.CanBeNullAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.CanBeNullAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.CanBeNullAttribute.html",
-          "hash": "XSNU7xcP2+O/rYPiYoq7Zg=="
+          "hash": "jiUnuSoFAbwfy/P5O7yXRw=="
         }
       },
       "is_incremental": false,
@@ -650,11 +662,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.CannotApplyEqualityOperatorAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.CannotApplyEqualityOperatorAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.CannotApplyEqualityOperatorAttribute.html",
-          "hash": "2mNlVd/bOvY9rCQdfaPrjA=="
+          "hash": "Gtmfc0QqBLsmlaqAaF6d5A=="
         }
       },
       "is_incremental": false,
@@ -662,11 +674,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.CollectionAccessAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.CollectionAccessAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.CollectionAccessAttribute.html",
-          "hash": "b8Ojw065Gr112HzYHv1m4w=="
+          "hash": "UM63Vtqa3uszFaJo0Ocdog=="
         }
       },
       "is_incremental": false,
@@ -674,11 +686,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.CollectionAccessType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.CollectionAccessType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.CollectionAccessType.html",
-          "hash": "GtIIHPEGZ4zqkxCEpsNUCw=="
+          "hash": "PIRXf6BOZW2NYf5EPJgaEQ=="
         }
       },
       "is_incremental": false,
@@ -686,11 +698,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.ContractAnnotationAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.ContractAnnotationAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.ContractAnnotationAttribute.html",
-          "hash": "4E1r5v0cRzlPqCJO5BtW7Q=="
+          "hash": "LQbs93xmvoMkgxQBfF82iw=="
         }
       },
       "is_incremental": false,
@@ -698,11 +710,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.HtmlAttributeValueAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.HtmlAttributeValueAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.HtmlAttributeValueAttribute.html",
-          "hash": "DgtAcvjzpW+EvdQgwIBXzg=="
+          "hash": "SmQBsx6OaziuXdvqdf+XkQ=="
         }
       },
       "is_incremental": false,
@@ -710,11 +722,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.HtmlElementAttributesAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.HtmlElementAttributesAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.HtmlElementAttributesAttribute.html",
-          "hash": "l8FETKhiA6nBtZTe1/1vvA=="
+          "hash": "TnpFr+CZzSFj989tv294BA=="
         }
       },
       "is_incremental": false,
@@ -722,11 +734,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.ImplicitUseKindFlags.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.ImplicitUseKindFlags.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.ImplicitUseKindFlags.html",
-          "hash": "zO/AmnJV2l/yADrwNwpgEA=="
+          "hash": "gObAMFS/pa83Q5csXpKEpA=="
         }
       },
       "is_incremental": false,
@@ -734,11 +746,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.ImplicitUseTargetFlags.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.ImplicitUseTargetFlags.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.ImplicitUseTargetFlags.html",
-          "hash": "JNMD/S0KXvElbN/2FQoWKQ=="
+          "hash": "tf6tNENJcOWQ+I4R8YR2/Q=="
         }
       },
       "is_incremental": false,
@@ -746,11 +758,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.InstantHandleAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.InstantHandleAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.InstantHandleAttribute.html",
-          "hash": "hLu5ap/0cdd61ynulKUdUw=="
+          "hash": "re9vLs4DL8p90Va9JS5Xqg=="
         }
       },
       "is_incremental": false,
@@ -758,11 +770,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.InvokerParameterNameAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.InvokerParameterNameAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.InvokerParameterNameAttribute.html",
-          "hash": "gUoG6OATyqSPRbnjU1twnA=="
+          "hash": "yRlASrzvzOyTXBMQN0NhSw=="
         }
       },
       "is_incremental": false,
@@ -770,11 +782,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.ItemCanBeNullAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.ItemCanBeNullAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.ItemCanBeNullAttribute.html",
-          "hash": "R++Q+LxUjRhY1iTf/+alrA=="
+          "hash": "pvaM+WlJmkVphc0SXyxwPQ=="
         }
       },
       "is_incremental": false,
@@ -782,11 +794,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.ItemNotNullAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.ItemNotNullAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.ItemNotNullAttribute.html",
-          "hash": "+R7/kGk/52Q7adSv/cZHUA=="
+          "hash": "tkfwcj4RbrW8qhfI8F0mGg=="
         }
       },
       "is_incremental": false,
@@ -794,11 +806,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.LinqTunnelAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.LinqTunnelAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.LinqTunnelAttribute.html",
-          "hash": "NOPXG3gLxZs9BoDusnlGWA=="
+          "hash": "2e90CFPHFBiHh0LPWt7AoA=="
         }
       },
       "is_incremental": false,
@@ -806,11 +818,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.LocalizationRequiredAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.LocalizationRequiredAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.LocalizationRequiredAttribute.html",
-          "hash": "ERuxeqIsT0ZRYntt40rgtw=="
+          "hash": "nRRqFwYMBjBEiaLpdkVJqA=="
         }
       },
       "is_incremental": false,
@@ -818,11 +830,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.MeansImplicitUseAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.MeansImplicitUseAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.MeansImplicitUseAttribute.html",
-          "hash": "7z9IJ03UUrpEb6PPGn6K0w=="
+          "hash": "wUCMnI0ieolPEVfQHnSP1w=="
         }
       },
       "is_incremental": false,
@@ -830,11 +842,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.NoEnumerationAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.NoEnumerationAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.NoEnumerationAttribute.html",
-          "hash": "0cQNwWlU+h4WDf8GUYPNcQ=="
+          "hash": "WLgfUZAkiLWhiWvcGGvG2w=="
         }
       },
       "is_incremental": false,
@@ -842,11 +854,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.NoReorder.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.NoReorder.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.NoReorder.html",
-          "hash": "e7PeFBX9jH3kFVcP/YsftA=="
+          "hash": "Ysj83yuOcbuau/yoDXXs5Q=="
         }
       },
       "is_incremental": false,
@@ -854,11 +866,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.NotNullAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.NotNullAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.NotNullAttribute.html",
-          "hash": "1aogzq2mO6MddNYJUPgfuw=="
+          "hash": "pqCde0rr+3v6mpu/41Ncsw=="
         }
       },
       "is_incremental": false,
@@ -866,11 +878,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.NotifyPropertyChangedInvocatorAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.NotifyPropertyChangedInvocatorAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.NotifyPropertyChangedInvocatorAttribute.html",
-          "hash": "OeXoSXLbP127BvkAvzOhRg=="
+          "hash": "wq4+FSqTb+iH2UhnnLFBew=="
         }
       },
       "is_incremental": false,
@@ -878,11 +890,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.PathReferenceAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.PathReferenceAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.PathReferenceAttribute.html",
-          "hash": "3dRnlxBfMPuaPq40IueGIg=="
+          "hash": "S7+Z75CPtUyGiiEmFelm0Q=="
         }
       },
       "is_incremental": false,
@@ -890,11 +902,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.PublicAPIAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.PublicAPIAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.PublicAPIAttribute.html",
-          "hash": "BfTTFpca2etgEog2Z9Nyyg=="
+          "hash": "qLTCHJesddu/vEFP2Jnpgw=="
         }
       },
       "is_incremental": false,
@@ -902,11 +914,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.PureAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.PureAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.PureAttribute.html",
-          "hash": "CpYf+WlquTdG+YOtrlxbnw=="
+          "hash": "x4vVOXA7P1CjhdXNGjm89w=="
         }
       },
       "is_incremental": false,
@@ -914,11 +926,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.RazorHelperCommonAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.RazorHelperCommonAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.RazorHelperCommonAttribute.html",
-          "hash": "rEeiSHjRxzOL47hkbOjmFg=="
+          "hash": "WBX9IFWsl2W8Z7BgSLOCEA=="
         }
       },
       "is_incremental": false,
@@ -926,11 +938,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.RazorImportNamespaceAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.RazorImportNamespaceAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.RazorImportNamespaceAttribute.html",
-          "hash": "I14U4ZyUdHOWtnRAlWTBwA=="
+          "hash": "UPY4DXKjJsE8nn/TuZVoVQ=="
         }
       },
       "is_incremental": false,
@@ -938,11 +950,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.RazorInjectionAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.RazorInjectionAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.RazorInjectionAttribute.html",
-          "hash": "X0BPqvnFBd/m2uyOVtsXog=="
+          "hash": "b1lAxkRJCRqzOhhS9o1F+A=="
         }
       },
       "is_incremental": false,
@@ -950,11 +962,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.RazorLayoutAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.RazorLayoutAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.RazorLayoutAttribute.html",
-          "hash": "TY8pFWLt6FX1QfuaZqNgwg=="
+          "hash": "g0hM19R0ZQun5nn2mFsctw=="
         }
       },
       "is_incremental": false,
@@ -962,11 +974,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.RazorSectionAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.RazorSectionAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.RazorSectionAttribute.html",
-          "hash": "AtUmxGJPfQ4cP8J/B6xF/Q=="
+          "hash": "kXEvlGNr9WBwQy9EirktYw=="
         }
       },
       "is_incremental": false,
@@ -974,11 +986,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.RazorWriteLiteralMethodAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.RazorWriteLiteralMethodAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.RazorWriteLiteralMethodAttribute.html",
-          "hash": "P4tBz+3xfl7hFonPyFr2Ow=="
+          "hash": "5vJ0UU9vPCkeS7D0gtnSpw=="
         }
       },
       "is_incremental": false,
@@ -986,11 +998,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.RazorWriteMethodAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.RazorWriteMethodAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.RazorWriteMethodAttribute.html",
-          "hash": "iRwxtHg/Dd3mxDjW1+bZeQ=="
+          "hash": "0RyS2aPBpBu0GwnnVgvJhg=="
         }
       },
       "is_incremental": false,
@@ -998,11 +1010,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.RazorWriteMethodParameterAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.RazorWriteMethodParameterAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.RazorWriteMethodParameterAttribute.html",
-          "hash": "brJ08mhNNaZoa8npRmBiXw=="
+          "hash": "hdPGbPi+30V/OBcohkRiSg=="
         }
       },
       "is_incremental": false,
@@ -1010,11 +1022,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.RegexPatternAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.RegexPatternAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.RegexPatternAttribute.html",
-          "hash": "w1j0eaeJageUohCPEoektw=="
+          "hash": "HOcy5dsRoooVa4tUCxD1lw=="
         }
       },
       "is_incremental": false,
@@ -1022,11 +1034,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.StringFormatMethodAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.StringFormatMethodAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.StringFormatMethodAttribute.html",
-          "hash": "m3gnaZ1DjybGVGCRxCjEzA=="
+          "hash": "pp7QiOWcuckhoWzGJH0d0g=="
         }
       },
       "is_incremental": false,
@@ -1034,11 +1046,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.TerminatesProgramAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.TerminatesProgramAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.TerminatesProgramAttribute.html",
-          "hash": "7Pi7OUasnTb657ioX3OxCg=="
+          "hash": "K9nnj1w7mvGgnaOppk1zpg=="
         }
       },
       "is_incremental": false,
@@ -1046,11 +1058,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.UsedImplicitlyAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.UsedImplicitlyAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.UsedImplicitlyAttribute.html",
-          "hash": "2Bi4xvAbJiL/GA0Kp4Qn7A=="
+          "hash": "AiLDozxh6p2arUj/7kKKqw=="
         }
       },
       "is_incremental": false,
@@ -1058,11 +1070,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.ValueProviderAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.ValueProviderAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.ValueProviderAttribute.html",
-          "hash": "v4FXZsa9d4gEwMT0ZsUQLA=="
+          "hash": "1uPhpW8Wc0dkUB5Ggz54PA=="
         }
       },
       "is_incremental": false,
@@ -1070,11 +1082,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.XamlItemBindingOfItemsControlAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.XamlItemBindingOfItemsControlAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.XamlItemBindingOfItemsControlAttribute.html",
-          "hash": "yiXRX5z81Q4jBwxQKBlEqg=="
+          "hash": "t2e9lkgTK4ciz/bpWMyViQ=="
         }
       },
       "is_incremental": false,
@@ -1082,11 +1094,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.XamlItemsControlAttribute.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.XamlItemsControlAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.XamlItemsControlAttribute.html",
-          "hash": "SypK0/SFVbg+U0Z1sB0uUA=="
+          "hash": "fXMnlpvWIvEVpxtOC/7Hog=="
         }
       },
       "is_incremental": false,
@@ -1094,11 +1106,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Annotations.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Annotations.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Annotations.html",
-          "hash": "iGGJGQANmliQaNb2wv9pWQ=="
+          "hash": "6c3mq1YQ/FWk7FCb1PoIfQ=="
         }
       },
       "is_incremental": false,
@@ -1106,11 +1118,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.AssemblyScanPluginLoadStrategy.yml",
+      "source_relative_path": "source/api/AIMP.SDK.AssemblyScanPluginLoadStrategy.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.AssemblyScanPluginLoadStrategy.html",
-          "hash": "IG/SQ0gt+MsI/aDqrscIAA=="
+          "hash": "PqALM344qdqAdZF8jfcixg=="
         }
       },
       "is_incremental": false,
@@ -1118,11 +1130,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.ConfigurationManager.IAimpConfigurationManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.ConfigurationManager.IAimpServiceConfig.yml",
       "output": {
         ".html": {
-          "relative_path": "api/AIMP.SDK.ConfigurationManager.IAimpConfigurationManager.html",
-          "hash": "x5hLqsPfQq+Xqq/nyXHy3A=="
+          "relative_path": "api/AIMP.SDK.ConfigurationManager.IAimpServiceConfig.html",
+          "hash": "RolXzHWBcAcaR2wAE59rhA=="
         }
       },
       "is_incremental": false,
@@ -1130,11 +1142,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.ConfigurationManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.ConfigurationManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.ConfigurationManager.html",
-          "hash": "sDI3seftT6CuZJS9/e8I6Q=="
+          "hash": "csqXZ7PO60DqcuZhLkgNFw=="
         }
       },
       "is_incremental": false,
@@ -1142,11 +1154,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.CustomAssemblyResolver.yml",
+      "source_relative_path": "source/api/AIMP.SDK.CustomAssemblyResolver.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.CustomAssemblyResolver.html",
-          "hash": "3xelUYkoHexEYWpuj/JXdg=="
+          "hash": "DwbEejei1ewI3mqnMB4A2w=="
         }
       },
       "is_incremental": false,
@@ -1154,11 +1166,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.DotNetPluginInfo.yml",
+      "source_relative_path": "source/api/AIMP.SDK.DotNetPluginInfo.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.DotNetPluginInfo.html",
-          "hash": "tvajb7h4y8dWWwFRYuZ92w=="
+          "hash": "a/RJ6XoX+G7qmS6o4VT4sw=="
         }
       },
       "is_incremental": false,
@@ -1166,11 +1178,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.AimpFileAttributes.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.AimpFileAttributes.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.AimpFileAttributes.html",
-          "hash": "Td4VRuYCvG7CsmWyHSnXXw=="
+          "hash": "KhEX9lT8B6MgOg2skENdKA=="
         }
       },
       "is_incremental": false,
@@ -1178,11 +1190,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand.html",
-          "hash": "0ofWA89zr9fi2Q6t5mE5OA=="
+          "hash": "KMQOW2ugpRLrvirXRzYi9g=="
         }
       },
       "is_incremental": false,
@@ -1190,11 +1202,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandCopyToClipboard.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandCopyToClipboard.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandCopyToClipboard.html",
-          "hash": "d2oywe5EOJw6ahB+fob/eg=="
+          "hash": "ImGRQp7gQ/il7VvXDElY8A=="
         }
       },
       "is_incremental": false,
@@ -1202,11 +1214,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.html",
-          "hash": "TfmlmCPCx2ZbdFhkmCAJUw=="
+          "hash": "aGzJBkWuElzxjNRC+6t3Hg=="
         }
       },
       "is_incremental": false,
@@ -1214,11 +1226,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.html",
-          "hash": "FTDNHp/fJrpE9ZonlIbcyw=="
+          "hash": "GrY7AHIG+2YeerDPHFacBg=="
         }
       },
       "is_incremental": false,
@@ -1226,11 +1238,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html",
-          "hash": "suW7ymzEKwhZMirEebJSNg=="
+          "hash": "7Gqr/4oq2I4I4cKctwkIYA=="
         }
       },
       "is_incremental": false,
@@ -1238,11 +1250,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandOpenFileFolder.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandOpenFileFolder.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandOpenFileFolder.html",
-          "hash": "qDYOZKODelgJh0Ck7bYriQ=="
+          "hash": "JOJtlD8H/OqpdVNpktfCTw=="
         }
       },
       "is_incremental": false,
@@ -1250,11 +1262,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.html",
-          "hash": "2GbNArTxfQykYmLTY5tqXw=="
+          "hash": "HmMsEKizZoUwrp/1k8jlFw=="
         }
       },
       "is_incremental": false,
@@ -1262,11 +1274,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Commands.IAimpFileSystemCustomFileCommand.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCustomFileCommand.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCustomFileCommand.html",
-          "hash": "tgYMJV7+MHUVwP5yiiBrPQ=="
+          "hash": "qFdbhlsw9c+i2golfOUU4w=="
         }
       },
       "is_incremental": false,
@@ -1274,11 +1286,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Commands.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Commands.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Commands.html",
-          "hash": "rojwO4i4EZ7U+J9wvThZCw=="
+          "hash": "FiwVitxhdjVzIDb9ztxTew=="
         }
       },
       "is_incremental": false,
@@ -1286,11 +1298,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Extensions.FileFormatsCategoryTypes.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Extensions.FileFormatsCategoryTypes.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Extensions.FileFormatsCategoryTypes.html",
-          "hash": "lLC6O8Ydum/n7SaFBcqvcQ=="
+          "hash": "EkkSz20XnMAaxr6yXr11gw=="
         }
       },
       "is_incremental": false,
@@ -1298,11 +1310,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileExpander.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileExpander.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileExpander.html",
-          "hash": "FG6USFEyK/6vlFKOs1i7uw=="
+          "hash": "jsOXEPZKyjGUu2+Y1cXW+Q=="
         }
       },
       "is_incremental": false,
@@ -1310,11 +1322,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileFormat.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileFormat.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileFormat.html",
-          "hash": "2GM/zUK/uebERriqYuzrLQ=="
+          "hash": "S+63TPe98TZfEdQSQeSnDQ=="
         }
       },
       "is_incremental": false,
@@ -1322,11 +1334,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.html",
-          "hash": "/M4eyQ6M8NIZwge5cLba7g=="
+          "hash": "FiAU+INFWlpOaXrCMW1/dQ=="
         }
       },
       "is_incremental": false,
@@ -1334,11 +1346,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileSystem.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileSystem.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileSystem.html",
-          "hash": "/2ugzd7eYw/zB/YxnXmiJQ=="
+          "hash": "0UjqEhS7b+3524h7Jm+Z4w=="
         }
       },
       "is_incremental": false,
@@ -1346,11 +1358,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.Extensions.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.Extensions.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.Extensions.html",
-          "hash": "mM1hzUYTlldOyBS9/jbQbw=="
+          "hash": "mFS58GPdqwShkbqiMBm+tg=="
         }
       },
       "is_incremental": false,
@@ -1358,11 +1370,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.FileFormats.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.FileFormats.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.FileFormats.html",
-          "hash": "P3JVKk3c46p7iHEX1OrHVg=="
+          "hash": "NWyv9GPB5B+MYuY+fvbO0Q=="
         }
       },
       "is_incremental": false,
@@ -1370,11 +1382,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.FileStreamingType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.FileStreamingType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.FileStreamingType.html",
-          "hash": "jAeB1GSFUPc7I6W7SmcFDg=="
+          "hash": "Y9/FV6h8f1Q9Z8Tnf/Eo8A=="
         }
       },
       "is_incremental": false,
@@ -1382,11 +1394,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.IAimpFileInfo.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.IAimpFileInfo.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.IAimpFileInfo.html",
-          "hash": "V8w//tNaY/f2x3GTIDXUfg=="
+          "hash": "2r3BJhLcIbJhriD+Xswdug=="
         }
       },
       "is_incremental": false,
@@ -1394,11 +1406,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.IAimpServiceFileFormats.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.IAimpServiceFileFormats.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.IAimpServiceFileFormats.html",
-          "hash": "+jSCWIBm+EbtjPc6ZysVoA=="
+          "hash": "XLwi+lUawdLIU8ry2f0qzg=="
         }
       },
       "is_incremental": false,
@@ -1406,11 +1418,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.IAimpServiceFileInfo.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.IAimpServiceFileInfo.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.IAimpServiceFileInfo.html",
-          "hash": "nS5I+6fCnH3V9pM8UcTu3Q=="
+          "hash": "GzItIsjR0DWXQj0K1t1Hdw=="
         }
       },
       "is_incremental": false,
@@ -1418,11 +1430,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.IAimpServiceFileInfoFormatter.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.IAimpServiceFileInfoFormatter.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.IAimpServiceFileInfoFormatter.html",
-          "hash": "yxE7Q0ahhyKAx2zqAtAT7Q=="
+          "hash": "IB3hxAoobLELlRtJgUdNqw=="
         }
       },
       "is_incremental": false,
@@ -1430,11 +1442,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.IAimpServiceFileInfoFormatterUtils.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.IAimpServiceFileInfoFormatterUtils.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.IAimpServiceFileInfoFormatterUtils.html",
-          "hash": "LGIh9rSI2zvehE9c/jC/ww=="
+          "hash": "9HnPbItWcZCs2B4SQNCcBQ=="
         }
       },
       "is_incremental": false,
@@ -1442,11 +1454,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.IAimpServiceFileManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.IAimpServiceFileManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.IAimpServiceFileManager.html",
-          "hash": "BmpRroi4j5v+FuqxSSNgcA=="
+          "hash": "ovO02Y7oq185Z/FBmB083g=="
         }
       },
       "is_incremental": false,
@@ -1454,11 +1466,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.IAimpServiceFileStreaming.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.IAimpServiceFileStreaming.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.IAimpServiceFileStreaming.html",
-          "hash": "IW1YFNGJUTk7QBOld70RQg=="
+          "hash": "Zv5j0gbSSh74w9hXwruPmg=="
         }
       },
       "is_incremental": false,
@@ -1466,11 +1478,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.IAimpServiceFileSystems.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.IAimpServiceFileSystems.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.IAimpServiceFileSystems.html",
-          "hash": "TEJipY765pw0vDMoWLqRJA=="
+          "hash": "2rcXzvLTU25qOI5STh6vgA=="
         }
       },
       "is_incremental": false,
@@ -1478,11 +1490,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.IAimpVirtualFile.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.IAimpVirtualFile.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.IAimpVirtualFile.html",
-          "hash": "Los3XcDxZXLv2lIU+JmoIQ=="
+          "hash": "pJm8DP9qBptLToEHaKdaHw=="
         }
       },
       "is_incremental": false,
@@ -1490,11 +1502,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.ServiceFileInfoFlags.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.ServiceFileInfoFlags.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.ServiceFileInfoFlags.html",
-          "hash": "jHnvq7pR4gU5zavujNw3kA=="
+          "hash": "cMa+ctkZbyaA50I56T1WqA=="
         }
       },
       "is_incremental": false,
@@ -1502,11 +1514,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.FileManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.FileManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.FileManager.html",
-          "hash": "m+5A0vCC5YKz3oyvRoua/w=="
+          "hash": "7zmobzmbI8rYMuMIUKMqBQ=="
         }
       },
       "is_incremental": false,
@@ -1514,11 +1526,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.IAimpConfig.yml",
+      "source_relative_path": "source/api/AIMP.SDK.IAimpConfig.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.IAimpConfig.html",
-          "hash": "93pguiA4c/jRjR+Fff/VNg=="
+          "hash": "dW7FxVaPPS8eh84WK1wIKw=="
         }
       },
       "is_incremental": false,
@@ -1526,11 +1538,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.IAimpCore.yml",
+      "source_relative_path": "source/api/AIMP.SDK.IAimpCore.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.IAimpCore.html",
-          "hash": "YQoK2FH82dsMk7LVk8iNRg=="
+          "hash": "wx9fY/9baex8klWAvqYqdQ=="
         }
       },
       "is_incremental": false,
@@ -1538,11 +1550,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.IAimpExtension.yml",
+      "source_relative_path": "source/api/AIMP.SDK.IAimpExtension.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.IAimpExtension.html",
-          "hash": "4+6qNCpX0meMxc1cSByBWQ=="
+          "hash": "s8NUWl5pjw8vWaTwvVQ9LQ=="
         }
       },
       "is_incremental": false,
@@ -1550,11 +1562,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.IAimpExternalSettingsDialog.yml",
+      "source_relative_path": "source/api/AIMP.SDK.IAimpExternalSettingsDialog.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.IAimpExternalSettingsDialog.html",
-          "hash": "pARvXdgctqfRJPkZciYI0g=="
+          "hash": "MN54C6EF8tpq0tIRPqSHcg=="
         }
       },
       "is_incremental": false,
@@ -1562,11 +1574,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.IAimpObjectList-1.yml",
+      "source_relative_path": "source/api/AIMP.SDK.IAimpObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.IAimpObject.html",
+          "hash": "GX7xMIN02QXKtCoENEM68w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.IAimpObjectList-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.IAimpObjectList-1.html",
-          "hash": "n5OlD0qagJSIvl0rf8rpsg=="
+          "hash": "EE2krcefW7Zv5kTH4ldaQA=="
         }
       },
       "is_incremental": false,
@@ -1574,11 +1598,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.IAimpPlugin.yml",
+      "source_relative_path": "source/api/AIMP.SDK.IAimpObjectList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.IAimpObjectList.html",
+          "hash": "HbQK6s6u3eV9yFp6J+A1Cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.IAimpPlugin.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.IAimpPlugin.html",
-          "hash": "2pUaqWVeQCDREnz2zhfm6A=="
+          "hash": "rQ4cFQrQ6PxJk/oFojZukQ=="
         }
       },
       "is_incremental": false,
@@ -1586,11 +1622,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.IAimpStream.yml",
+      "source_relative_path": "source/api/AIMP.SDK.IAimpStream.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.IAimpStream.html",
-          "hash": "Y1aHA1o1rvEzuXBflJUuHw=="
+          "hash": "PJ9gGGzH52zJBS+pbqrgzg=="
         }
       },
       "is_incremental": false,
@@ -1598,11 +1634,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Logger.ILogger.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Logger.ILogger.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Logger.ILogger.html",
-          "hash": "2lC1xu5yKNtoZE3RNlGDaw=="
+          "hash": "vvZtojomSzfkMONuXxbqIQ=="
         }
       },
       "is_incremental": false,
@@ -1610,11 +1646,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Logger.Logger.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Logger.Logger.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Logger.Logger.html",
-          "hash": "+tY298zy20usSSP6sgor1Q=="
+          "hash": "k9zV0Y6kXVaaLTyg2GLZ4g=="
         }
       },
       "is_incremental": false,
@@ -1622,11 +1658,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Logger.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Logger.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Logger.html",
-          "hash": "lfqy7SVVI8kL3bkZ0C3SUA=="
+          "hash": "OXwDVbPZhF9XgtNZOW8qJw=="
         }
       },
       "is_incremental": false,
@@ -1634,11 +1670,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MUIManager.IAimpMUIManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MUIManager.IAimpMUIManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MUIManager.IAimpMUIManager.html",
-          "hash": "LExGsqvpmMnecica9u89xQ=="
+          "hash": "4xqEg5G0dt7ANmJUatw4FA=="
         }
       },
       "is_incremental": false,
@@ -1646,11 +1682,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MUIManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MUIManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MUIManager.html",
-          "hash": "eNZRlXb2vztBlvsrt0W6Cg=="
+          "hash": "/jysWiA7ZIQLdvnJ/zxPrw=="
         }
       },
       "is_incremental": false,
@@ -1658,11 +1694,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MenuManager.AimpMenuItemStyle.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MenuManager.AimpMenuItemStyle.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MenuManager.AimpMenuItemStyle.html",
-          "hash": "MIuimGbxSas3ZEwA1AH0nA=="
+          "hash": "gDXoyRhhwP+q8ZbqKZ4pnQ=="
         }
       },
       "is_incremental": false,
@@ -1670,11 +1706,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MenuManager.IAimpMenuItem.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MenuManager.IAimpMenuItem.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MenuManager.IAimpMenuItem.html",
-          "hash": "19WkpNW91mfeXJtOjTpVGQ=="
+          "hash": "2q2+3dx8TxoRTa6slrb9oQ=="
         }
       },
       "is_incremental": false,
@@ -1682,11 +1718,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MenuManager.IAimpServiceMenuManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MenuManager.IAimpServiceMenuManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MenuManager.IAimpServiceMenuManager.html",
-          "hash": "FFNLT4Gv0s1h+TM6JgCRCQ=="
+          "hash": "xCBwXI/M9lk7azsmk9JPxg=="
         }
       },
       "is_incremental": false,
@@ -1694,11 +1730,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MenuManager.MenuItemPropertyType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MenuManager.MenuItemPropertyType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MenuManager.MenuItemPropertyType.html",
-          "hash": "BGMfVakzFKvaan0dvZkL3Q=="
+          "hash": "pHsKnJ9lH79l9y7yPPrt7g=="
         }
       },
       "is_incremental": false,
@@ -1706,11 +1742,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MenuManager.MenuItemStyleType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MenuManager.MenuItemStyleType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MenuManager.MenuItemStyleType.html",
-          "hash": "tNniQAEcgbTvnrD672y9DA=="
+          "hash": "z8V46K18Ipq8wp/ySoHsww=="
         }
       },
       "is_incremental": false,
@@ -1718,11 +1754,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MenuManager.ParentMenuType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MenuManager.ParentMenuType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MenuManager.ParentMenuType.html",
-          "hash": "edYpft8KL4LQyFG6FVkzgQ=="
+          "hash": "ukWZX1Z2FYwm1wCIJuzViQ=="
         }
       },
       "is_incremental": false,
@@ -1730,11 +1766,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MenuManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MenuManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MenuManager.html",
-          "hash": "5gnXJPnLroPfqr2iGaKGww=="
+          "hash": "dVKSadjWtI8QUWQ4bvicng=="
         }
       },
       "is_incremental": false,
@@ -1742,11 +1778,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataFilter.FieldFilterOperationType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataFilter.FieldFilterOperationType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataFilter.FieldFilterOperationType.html",
-          "hash": "WAOWdGk2vZkrRdqGtGA18g=="
+          "hash": "xbWtxd7XEgiJ9E6AR+42PQ=="
         }
       },
       "is_incremental": false,
@@ -1754,11 +1790,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataFilter.FilterGroupOperationType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataFilter.FilterGroupOperationType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataFilter.FilterGroupOperationType.html",
-          "hash": "ZdpQTGl4nP24ssANa8+ggA=="
+          "hash": "4I2qZyy60wDHavtzZcZzkQ=="
         }
       },
       "is_incremental": false,
@@ -1766,11 +1802,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilter.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilter.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilter.html",
-          "hash": "cFU91h/Yc8PGgs0RQeBZ7Q=="
+          "hash": "X3hEqeQ8MV7KAwpWjjNDEA=="
         }
       },
       "is_incremental": false,
@@ -1778,11 +1814,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilterByArray.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilterByArray.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilterByArray.html",
-          "hash": "rEeOLjpaZdn9xZbRD2A/8A=="
+          "hash": "y5RgUYtA1VaYrVmnRfAa1A=="
         }
       },
       "is_incremental": false,
@@ -1790,11 +1826,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFilterGroup.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFilterGroup.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFilterGroup.html",
-          "hash": "5wrwLT6cB1guR85gEqCgew=="
+          "hash": "CB3d6WZfClLg25BGL134rw=="
         }
       },
       "is_incremental": false,
@@ -1802,11 +1838,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataFilter.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataFilter.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataFilter.html",
-          "hash": "C8nKrxqlcJgQ+qU63vodrw=="
+          "hash": "Zew0D1N418nyzPALpyiFMQ=="
         }
       },
       "is_incremental": false,
@@ -1814,11 +1850,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.AimpDataField.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.AimpDataField.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.AimpDataField.html",
-          "hash": "tdPCDlA9oval7c3UWzs84A=="
+          "hash": "m36PX7EvPXcnLrLHVEY+8A=="
         }
       },
       "is_incremental": false,
@@ -1826,11 +1862,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.AimpDataFieldFlagsType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.AimpDataFieldFlagsType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.AimpDataFieldFlagsType.html",
-          "hash": "YQEpPRXlDk1w6oa2ZoOHcw=="
+          "hash": "uiIFJXgHjZcZfC1Un6j1iQ=="
         }
       },
       "is_incremental": false,
@@ -1838,11 +1874,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.AimpDataFieldType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.AimpDataFieldType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.AimpDataFieldType.html",
-          "hash": "cpR/38zLkJiSG285tovGZg=="
+          "hash": "SWUYaqGwrMqmPij5VSVa0Q=="
         }
       },
       "is_incremental": false,
@@ -1850,11 +1886,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.CapabilitiesFlags.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.CapabilitiesFlags.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.CapabilitiesFlags.html",
-          "hash": "c9LU/LWnoChq/YPmAzp37g=="
+          "hash": "VDRfRJae8CgMWjDgowj0Aw=="
         }
       },
       "is_incremental": false,
@@ -1862,11 +1898,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.FieldImageIndex.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.FieldImageIndex.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.FieldImageIndex.html",
-          "hash": "M1iOcQOlHZth7+Pmu9lOUw=="
+          "hash": "xni31cw0KqopIKPOA8RhdA=="
         }
       },
       "is_incremental": false,
@@ -1874,11 +1910,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.GroupingTreeNodeFlags.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.GroupingTreeNodeFlags.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.GroupingTreeNodeFlags.html",
-          "hash": "8GN2aEQRBC5wYXfS3yLhag=="
+          "hash": "ZhFYgoahCZ9sQgqrrbfkOg=="
         }
       },
       "is_incremental": false,
@@ -1886,11 +1922,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.IAimpDataField.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.IAimpDataField.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.IAimpDataField.html",
-          "hash": "1FKHRqcHbw61XaJ+5LLEBQ=="
+          "hash": "pgu2URYlFHP4SKl1RQzaQg=="
         }
       },
       "is_incremental": false,
@@ -1898,11 +1934,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.IAimpDataProvider.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.IAimpDataFieldDisplayValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.IAimpDataFieldDisplayValue.html",
+          "hash": "vWzDQ86RX05Sl+Xio3BPyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.IAimpDataProvider.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.IAimpDataProvider.html",
-          "hash": "ChOMUkhcEFgTB34jmnf5kA=="
+          "hash": "mtXRLY3wjDiHm48s82fvrA=="
         }
       },
       "is_incremental": false,
@@ -1910,11 +1958,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.IAimpDataStorage.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.IAimpDataStorage.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.IAimpDataStorage.html",
-          "hash": "meH6Hwr/lRfwE5z2zZB/ow=="
+          "hash": "mlWxUxQCZpVGFuFjYaS9Mg=="
         }
       },
       "is_incremental": false,
@@ -1922,11 +1970,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.html",
-          "hash": "fKN05KQiTmHLY+rWHJznoQ=="
+          "hash": "Oxwd9c1gyX+IQZdd4ObCvw=="
         }
       },
       "is_incremental": false,
@@ -1934,11 +1982,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProviderSelection.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProviderSelection.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProviderSelection.html",
-          "hash": "i3ShwXM7hgdYCMijenTj1Q=="
+          "hash": "jlMC2Z8oKz90dJrRRaQ/0g=="
         }
       },
       "is_incremental": false,
@@ -1946,11 +1994,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeSelection.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeSelection.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeSelection.html",
-          "hash": "I+EHlKshXg4qp1PXSUNlnQ=="
+          "hash": "Gg8NXT7h0MDBg0j+iwvU4g=="
         }
       },
       "is_incremental": false,
@@ -1958,11 +2006,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.ImageType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.ImageType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.ImageType.html",
-          "hash": "RtfAWhOUsNwKRhuv+1lmTg=="
+          "hash": "8KKSCVLqscfTGIYNl5VulA=="
         }
       },
       "is_incremental": false,
@@ -1970,11 +2018,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.DataStorage.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.DataStorage.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.DataStorage.html",
-          "hash": "AvV6XMnY1Bc0h03Q/cqvnA=="
+          "hash": "BRhE6lstP1GQCMnIhiBgJQ=="
         }
       },
       "is_incremental": false,
@@ -1982,11 +2030,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.CapabilitiesType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.CapabilitiesType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.CapabilitiesType.html",
-          "hash": "kDb9WQGbDA3QVCXXH3BPsQ=="
+          "hash": "n/1ZB3jKa6NSrqrT5vvbzw=="
         }
       },
       "is_incremental": false,
@@ -1994,11 +2042,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandAddFiles.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandAddFiles.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandAddFiles.html",
-          "hash": "G1q1CH9NDC8gqW6OKymWtA=="
+          "hash": "SXBieSfzTyV8MWhqIotDhQ=="
         }
       },
       "is_incremental": false,
@@ -2006,11 +2054,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandAddFilesDialog.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandAddFilesDialog.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandAddFilesDialog.html",
-          "hash": "Wlrl650OsUD+pFv4sYH5qA=="
+          "hash": "Z2JjTyhyz1/JpqucF1x54Q=="
         }
       },
       "is_incremental": false,
@@ -2018,11 +2066,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandDeleteFiles.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandDeleteFiles.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandDeleteFiles.html",
-          "hash": "inVUIgN0IffaABdvMyXK7A=="
+          "hash": "9iWJSfJLSj7ACkOhbaQDGg=="
         }
       },
       "is_incremental": false,
@@ -2030,11 +2078,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandDropData.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandDropData.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandDropData.html",
-          "hash": "0zOOckioMaht1aHC7M/vGg=="
+          "hash": "UAcXQNf+e/ViRaHo0QxrEg=="
         }
       },
       "is_incremental": false,
@@ -2042,11 +2090,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandReloadTags.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandReloadTags.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandReloadTags.html",
-          "hash": "C43/i5PFAaq703SPR1K11w=="
+          "hash": "FUxvmIMOlAra6MkmQxev+A=="
         }
       },
       "is_incremental": false,
@@ -2054,11 +2102,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandReportDialog.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandReportDialog.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandReportDialog.html",
-          "hash": "Jd+wmxWFksMXWvNbZwiESw=="
+          "hash": "+koJppQeDaz/s9Ayh/je9w=="
         }
       },
       "is_incremental": false,
@@ -2066,11 +2114,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandUserMark.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandUserMark.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandUserMark.html",
-          "hash": "QVBZtcpwxreRPUsem2Wf9A=="
+          "hash": "Dodw8haq7CnVKpVfbhluLg=="
         }
       },
       "is_incremental": false,
@@ -2078,11 +2126,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.Command.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.Command.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.Command.html",
-          "hash": "beE0mlY5LGZekHQ9TBhZDQ=="
+          "hash": "iX2ONFTYgDvF+sRi0B9AiQ=="
         }
       },
       "is_incremental": false,
@@ -2090,11 +2138,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.GroupingPresetsSchemaType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.GroupingPresetsSchemaType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.GroupingPresetsSchemaType.html",
-          "hash": "dlC+pnGjCceA+mICdVhH/Q=="
+          "hash": "6jmw55gGO17MNoDhvFO5ig=="
         }
       },
       "is_incremental": false,
@@ -2102,11 +2150,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.html",
-          "hash": "MuBktq9d1N49+2F4yNIMxQ=="
+          "hash": "GWhPLeBhpSrO6ndDis2aCA=="
         }
       },
       "is_incremental": false,
@@ -2114,11 +2162,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.SchemaType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.SchemaType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.SchemaType.html",
-          "hash": "52BnvISpewxoZEd7Wvf88Q=="
+          "hash": "p3Gg3hmo51XzoPbA2ZKy9Q=="
         }
       },
       "is_incremental": false,
@@ -2126,11 +2174,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Extension.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Extension.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Extension.html",
-          "hash": "NytiM5YltRrJHPqJ/ZmtlA=="
+          "hash": "rIxHu9z6vdAandBSQX9YnA=="
         }
       },
       "is_incremental": false,
@@ -2138,11 +2186,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.FilesType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.FilesType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.FilesType.html",
-          "hash": "pxiEClqItDjsrYZzGwXqIw=="
+          "hash": "rQ6vyl9Dmn+TU8LlBqPf2A=="
         }
       },
       "is_incremental": false,
@@ -2150,11 +2198,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.IAimpDataFilter.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.IAimpDataFilter.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.IAimpDataFilter.html",
-          "hash": "bYPK1o7c2Lxqgr3r7OS2zw=="
+          "hash": "SXeQoFT1hEL91+wblKt1tQ=="
         }
       },
       "is_incremental": false,
@@ -2162,11 +2210,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.IAimpDataProviderSelection.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.IAimpDataProviderSelection.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.IAimpDataProviderSelection.html",
-          "hash": "4Q1UcHmJjpPzaYgbqIyzRA=="
+          "hash": "H9nNYdMv4xmhnrtpkX1Irg=="
         }
       },
       "is_incremental": false,
@@ -2174,11 +2222,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.IAimpDataStorageManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.IAimpDataStorageManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.IAimpDataStorageManager.html",
-          "hash": "Xmr3uHlp6PIVzqE+xnsCSQ=="
+          "hash": "he+n1wOlDwKPJlCs3jYjzA=="
         }
       },
       "is_incremental": false,
@@ -2186,11 +2234,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.IAimpFileList.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.IAimpFileList.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.IAimpFileList.html",
-          "hash": "HbL3wRYD7xb0j+szeHvisA=="
+          "hash": "Ojp3/GBAjevPc5gLAmbcYA=="
         }
       },
       "is_incremental": false,
@@ -2198,11 +2246,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.IAimpServiceMusicLibrary.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage.html",
+          "hash": "Ua7pQttgKMk+G06kCzsmdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.IAimpServiceMusicLibrary.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.IAimpServiceMusicLibrary.html",
-          "hash": "gNnc7Q/ZA00HU4ZrmLZtig=="
+          "hash": "ks6Z+DEl5jeqd1Orr+Zlug=="
         }
       },
       "is_incremental": false,
@@ -2210,11 +2270,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.IAimpServiceMusicLibraryUI.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.IAimpServiceMusicLibraryUI.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.IAimpServiceMusicLibraryUI.html",
-          "hash": "OHkHquEMF+lU5FoR/btHzw=="
+          "hash": "m6iq/9MZQlvBFgTR65YO0w=="
         }
       },
       "is_incremental": false,
@@ -2222,11 +2282,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPreset.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPreset.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPreset.html",
-          "hash": "TO5YQkfSQqIMTvHEzkHDzQ=="
+          "hash": "xMyXSKGSlB7cGg4vivoXrQ=="
         }
       },
       "is_incremental": false,
@@ -2234,11 +2294,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresetStandard.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresetStandard.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresetStandard.html",
-          "hash": "77YZwJvponc4GJfyfMR6/w=="
+          "hash": "1EI9nB/xWkJ+NybcKXiQkA=="
         }
       },
       "is_incremental": false,
@@ -2246,11 +2306,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresets.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresets.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresets.html",
-          "hash": "ovcact0Z2jDEIwMwYWRfYg=="
+          "hash": "i7Mh4tSpzoRYKRzyK+bpaQ=="
         }
       },
       "is_incremental": false,
@@ -2258,11 +2318,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.Presets.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.Presets.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.Presets.html",
-          "hash": "ynKsYuRrrxZ+V4+jt6+rxQ=="
+          "hash": "NbV8HSR5MRAAtqAO+l88Qg=="
         }
       },
       "is_incremental": false,
@@ -2270,11 +2330,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.SortDirectionType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.SortDirectionType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.SortDirectionType.html",
-          "hash": "Muh8vNVeXwKjSsbIQdW+0Q=="
+          "hash": "JVfU8UzrnecFO6cPbRrw6A=="
         }
       },
       "is_incremental": false,
@@ -2282,11 +2342,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.MusicLibrary.yml",
+      "source_relative_path": "source/api/AIMP.SDK.MusicLibrary.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.MusicLibrary.html",
-          "hash": "3bhAQMgAyqdnS7bI8pTzQg=="
+          "hash": "225uPVPKZTLzt8V14/bv2Q=="
         }
       },
       "is_incremental": false,
@@ -2294,11 +2354,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Options.IAimpOptionsDialogFrame.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Options.IAimpOptionsDialogFrame.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Options.IAimpOptionsDialogFrame.html",
-          "hash": "bc8ifyqXVCCI4IRWAdVA6w=="
+          "hash": "MIunyfRiXLpJc0wt/rh2rw=="
         }
       },
       "is_incremental": false,
@@ -2306,11 +2366,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Options.IAimpOptionsDialogFrameKeyboardHelper.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Options.IAimpOptionsDialogFrameKeyboardHelper.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Options.IAimpOptionsDialogFrameKeyboardHelper.html",
-          "hash": "5wTDWoZbJGn9okR/448C5Q=="
+          "hash": "1IhOD7Mei5RxjShFtF7P6w=="
         }
       },
       "is_incremental": false,
@@ -2318,11 +2378,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Options.IAimpServiceOptionsDialog.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Options.IAimpServiceOptionsDialog.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Options.IAimpServiceOptionsDialog.html",
-          "hash": "uc5hwq/tCIbdzo/6cHhZBA=="
+          "hash": "jRu7LpSVXiQTmmNl2dJlQw=="
         }
       },
       "is_incremental": false,
@@ -2330,11 +2390,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Options.OptionsDialogFrameNotificationType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Options.OptionsDialogFrameNotificationType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Options.OptionsDialogFrameNotificationType.html",
-          "hash": "Hvy8G/o2X0zKpzbHFoV72Q=="
+          "hash": "rOp2j7g4+wCKQtiGmzPP0g=="
         }
       },
       "is_incremental": false,
@@ -2342,11 +2402,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Options.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Options.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Options.html",
-          "hash": "xCzZVM1lMHP2By9tRREw2g=="
+          "hash": "bd6nDaR42xG5uOx3ZOuZOw=="
         }
       },
       "is_incremental": false,
@@ -2354,11 +2414,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playback.AimpCheckUrl.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playback.AimpCheckUrl.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playback.AimpCheckUrl.html",
-          "hash": "h0kBE7G4n1XUEKSux/jpPw=="
+          "hash": "q63qx41W+thepJ6Y2hGywA=="
         }
       },
       "is_incremental": false,
@@ -2366,11 +2426,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playback.IAimpExtensionPlayerHook.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playback.IAimpExtensionPlayerHook.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playback.IAimpExtensionPlayerHook.html",
-          "hash": "7vdm3f/q/Oio7Jy1+muz2Q=="
+          "hash": "GImfLAWtXgvEcUPYONjrGA=="
         }
       },
       "is_incremental": false,
@@ -2378,11 +2438,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playback.IAimpPlaybackQueueItem.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playback.IAimpPlaybackQueueItem.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playback.IAimpPlaybackQueueItem.html",
-          "hash": "34J3QAoYSBIV5kxTd4E7Xw=="
+          "hash": "1o52H0NyjV0+M6tVrea4Qg=="
         }
       },
       "is_incremental": false,
@@ -2390,11 +2450,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playback.IAimpPlaybackQueueService.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playback.IAimpPlaybackQueueService.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playback.IAimpPlaybackQueueService.html",
-          "hash": "hNQijCD4HcYZuxw0cx3+3Q=="
+          "hash": "YdgTmgQAlGj/08UzbGYpHg=="
         }
       },
       "is_incremental": false,
@@ -2402,11 +2462,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playback.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playback.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playback.html",
-          "hash": "KeuD6D4aqGcngPaikcGeFA=="
+          "hash": "8RZfDVKGc5qMVGGny/1qWw=="
         }
       },
       "is_incremental": false,
@@ -2414,11 +2474,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Player.IAimpPlayer.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Player.IAimpPlayer.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Player.IAimpPlayer.html",
-          "hash": "lxILGRfVH68VcCMot41OxA=="
+          "hash": "WRjw5sl6LUM+TxEwsbUscA=="
         }
       },
       "is_incremental": false,
@@ -2426,11 +2486,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Player.StateChangedEventArgs.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Player.StateChangedEventArgs.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Player.StateChangedEventArgs.html",
-          "hash": "AZ3CzUr2RmHo89lG+s6GwQ=="
+          "hash": "G+w4RyIykEVxFc0+fIXPGA=="
         }
       },
       "is_incremental": false,
@@ -2438,11 +2498,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Player.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Player.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Player.html",
-          "hash": "TaXyQ/WGM8arUApyjdaTPQ=="
+          "hash": "/OH54RYw+8VZgnJGUseGpg=="
         }
       },
       "is_incremental": false,
@@ -2450,11 +2510,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.AimpPlayListHandler-1.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.AimpPlayListHandler-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.AimpPlayListHandler-1.html",
-          "hash": "97x7ukBIWhHGaX44WFY3hA=="
+          "hash": "QA6ndCt4I00uwEI7/Gh+gQ=="
         }
       },
       "is_incremental": false,
@@ -2462,11 +2522,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.AimpPlayListHandler.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.AimpPlayListHandler.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.AimpPlayListHandler.html",
-          "hash": "Q5lTD1nGADhYJHfZRB5BYw=="
+          "hash": "zFi/qra2Bf80XifjMgIjnQ=="
         }
       },
       "is_incremental": false,
@@ -2474,11 +2534,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.AimpPlaylistEventArgs.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.AimpPlaylistEventArgs.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.AimpPlaylistEventArgs.html",
-          "hash": "ITyQD+bHG2juDBT1kzUWng=="
+          "hash": "kcIZ7KDPbL0kCVNxcENVPw=="
         }
       },
       "is_incremental": false,
@@ -2486,11 +2546,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.AimpPlaylistPreimageListenerHandler.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.AimpPlaylistPreimageListenerHandler.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.AimpPlaylistPreimageListenerHandler.html",
-          "hash": "RnXMXHrHb564XrOvNG4yoA=="
+          "hash": "oHJ45LkRUyZgpWhxub4qLw=="
         }
       },
       "is_incremental": false,
@@ -2498,11 +2558,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.AimpPlaylistQueueListenerHandler.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.AimpPlaylistQueueListenerHandler.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.AimpPlaylistQueueListenerHandler.html",
-          "hash": "5nTPQDNbegaq9GIyuFJ0Ng=="
+          "hash": "OCwxGYYwCCTJ7spIp+Lr3g=="
         }
       },
       "is_incremental": false,
@@ -2510,11 +2570,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.IAimpExtensionPlaylistManagerListener.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.Constants.PreimageFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.Playlist.Constants.PreimageFactory.html",
+          "hash": "Y+8LTGApaBnmNKCHPXNiIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.Playlist.Constants.html",
+          "hash": "h/r9yCyZ5T20e47YHq47zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpExtensionPlaylistManagerListener.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.IAimpExtensionPlaylistManagerListener.html",
-          "hash": "dyPDH53oFqYRvy6YMZUwLg=="
+          "hash": "B/EqZjtOQPEqjyBdAl/Q/w=="
         }
       },
       "is_incremental": false,
@@ -2522,11 +2606,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.IAimpPlaylist.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpExtensionPlaylistPreimageFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.Playlist.IAimpExtensionPlaylistPreimageFactory.html",
+          "hash": "s63wF8va6Uz7UgtB5bVAxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylist.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylist.html",
-          "hash": "GAC0LX4QyBjsOR21SEZ27g=="
+          "hash": "tSvdfkLnN4QRcyXXhpem3Q=="
         }
       },
       "is_incremental": false,
@@ -2534,11 +2630,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.IAimpPlaylistGroup.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylistGroup.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylistGroup.html",
-          "hash": "Mk6O8ktsyra7AhP0rBMCMA=="
+          "hash": "8R/FAq9u4rSaARjTHKyyjA=="
         }
       },
       "is_incremental": false,
@@ -2546,11 +2642,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.IAimpPlaylistItem.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylistItem.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylistItem.html",
-          "hash": "3W0RcBrmKKS0mWidYJt7xw=="
+          "hash": "QdTSQ8Ly4a+/Qni6U7IL2Q=="
         }
       },
       "is_incremental": false,
@@ -2558,11 +2654,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.IAimpPlaylistListener.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylistListener.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylistListener.html",
-          "hash": "TD2BKdYD5vt7KVIKbPrK3A=="
+          "hash": "WtBfoMs4JBQpE2Tjs85p0g=="
         }
       },
       "is_incremental": false,
@@ -2570,11 +2666,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.IAimpPlaylistManager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylistManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylistManager.html",
-          "hash": "AaQhhM2aFTmjTzDnOdxmOg=="
+          "hash": "pxIWFoQvrj2YuJVfjQ3AeA=="
         }
       },
       "is_incremental": false,
@@ -2582,11 +2678,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.IAimpPlaylistPreimage.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylistManager2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylistManager2.html",
+          "hash": "JmJF0XVqbWgKwEqywvhXBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylistPreimage.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylistPreimage.html",
-          "hash": "UJTQA3jksRjI8MOhBa07fw=="
+          "hash": "4tovd+ZwqAJe86X4ROELDQ=="
         }
       },
       "is_incremental": false,
@@ -2594,11 +2702,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylistPreimageDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylistPreimageDataProvider.html",
+          "hash": "wwnHyF8TcomynxOQvMD+uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylistPreimageFolders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylistPreimageFolders.html",
+          "hash": "zdk/AS1ewGAj9ljPnVHQ8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.html",
-          "hash": "9gbc7xdTd3HL7FzenWpJuw=="
+          "hash": "Ix88cz87pXa0Dl2wi9WHoQ=="
         }
       },
       "is_incremental": false,
@@ -2606,11 +2738,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.IAimpPlaylistQueue.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylistQueue.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylistQueue.html",
-          "hash": "110mmYNIVojEwLtGIHt4sA=="
+          "hash": "xc3n40v4UoGoygQbGcpeow=="
         }
       },
       "is_incremental": false,
@@ -2618,11 +2750,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.IAimpPlaylistQueueListener.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.IAimpPlaylistQueueListener.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.IAimpPlaylistQueueListener.html",
-          "hash": "0qds9a2FV9vAp66UKbGAZw=="
+          "hash": "Fe/patP+9tUyCPgpDhoLtw=="
         }
       },
       "is_incremental": false,
@@ -2630,11 +2762,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.PlayListChangedHandler.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PlayListChangedHandler.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.PlayListChangedHandler.html",
-          "hash": "8JO31TFxJU4tMhfy599/zA=="
+          "hash": "tWHHD0oCiNYaVK8cGJ50fA=="
         }
       },
       "is_incremental": false,
@@ -2642,11 +2774,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.PlayListHandler.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PlayListHandler.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.PlayListHandler.html",
-          "hash": "qlYwehpr9gBI9/XfhMlsZQ=="
+          "hash": "8F5wy2UCdM7js5Ttb+8FDg=="
         }
       },
       "is_incremental": false,
@@ -2654,11 +2786,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.PlaylistCloseFlag.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PlaylistCloseFlag.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.PlaylistCloseFlag.html",
-          "hash": "CnJYbT1agjX43IVzFF2pxQ=="
+          "hash": "+jM9xz4LRjCdKrpZ9qM6vg=="
         }
       },
       "is_incremental": false,
@@ -2666,11 +2798,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.PlaylistDeleteFlags.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PlaylistDeleteFlags.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.PlaylistDeleteFlags.html",
-          "hash": "LB4NnlLw+CfZGn1EBoR1Rw=="
+          "hash": "wfjp1KSm0o59ftMM68S87g=="
         }
       },
       "is_incremental": false,
@@ -2678,11 +2810,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.PlaylistFilePosition.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PlaylistFilePosition.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.PlaylistFilePosition.html",
-          "hash": "CdTXXZPJ5NmI6sxs4J9s5Q=="
+          "hash": "UIbLs5qjI4CUZm+AQ+rfaQ=="
         }
       },
       "is_incremental": false,
@@ -2690,11 +2822,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.PlaylistFlags.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PlaylistFlags.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.PlaylistFlags.html",
-          "hash": "GwE2l9YijpNmnpZPULFQgQ=="
+          "hash": "WIXR3yu6AmDzts5x2VfwfA=="
         }
       },
       "is_incremental": false,
@@ -2702,11 +2834,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.PlaylistGetFilesFlag.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PlaylistGetFilesFlag.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.PlaylistGetFilesFlag.html",
-          "hash": "yMgnaphwp6mSzTil454SGA=="
+          "hash": "9YtehzlQQSstwxom+RtvIg=="
         }
       },
       "is_incremental": false,
@@ -2714,11 +2846,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.PlaylistNotifyType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PlaylistNotifyType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.PlaylistNotifyType.html",
-          "hash": "NqVYFsEleq1Vwf5TnB4+bg=="
+          "hash": "lcaRAiYpfEhjW+bRjttF5A=="
         }
       },
       "is_incremental": false,
@@ -2726,11 +2858,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.PlaylistSort.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PlaylistSort.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.PlaylistSort.html",
-          "hash": "jvlivxDFtvN7TRGGDT+QPQ=="
+          "hash": "0dvLQJIEDyju2Q6+5U0KHw=="
         }
       },
       "is_incremental": false,
@@ -2738,11 +2870,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.PlaylistSortComapreResult.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PlaylistSortComapreResult.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.PlaylistSortComapreResult.html",
-          "hash": "0IQYfBK2ypoHhgDtmkPNdg=="
+          "hash": "g9UnCnQKW1H/xMhzEtJPiw=="
         }
       },
       "is_incremental": false,
@@ -2750,11 +2882,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.ReloadInfoFlags.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PreimageFactoryFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.Playlist.PreimageFactoryFlags.html",
+          "hash": "Hx4/dFZNfykGOV52T5Slvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.PreimageFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AIMP.SDK.Playlist.PreimageFlags.html",
+          "hash": "622/Bs0VrZ+664GCeP2a8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.ReloadInfoFlags.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.ReloadInfoFlags.html",
-          "hash": "ZG0kKFlyzl2rjaib2uyI8Q=="
+          "hash": "gDM70LYrg70qZhyGZ8vgrw=="
         }
       },
       "is_incremental": false,
@@ -2762,11 +2918,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.ScanningEndEventArgs.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.ScanningEndEventArgs.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.ScanningEndEventArgs.html",
-          "hash": "H9laeqBj9J51kCO0nPXNsg=="
+          "hash": "++yRW1ToVJR993iQAPQ5zw=="
         }
       },
       "is_incremental": false,
@@ -2774,11 +2930,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.ScanningProgressEventArgs.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.ScanningProgressEventArgs.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.ScanningProgressEventArgs.html",
-          "hash": "PjvnEifHR46HUo/9yFwxuA=="
+          "hash": "zttRAtOOBoxT/2eNNZB54w=="
         }
       },
       "is_incremental": false,
@@ -2786,11 +2942,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Playlist.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Playlist.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Playlist.html",
-          "hash": "BzKsw7Q45D0QvDAa9frZfw=="
+          "hash": "SdCIbLz112WYLIuC5ojCKA=="
         }
       },
       "is_incremental": false,
@@ -2798,11 +2954,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.PluginInfoLoader.yml",
+      "source_relative_path": "source/api/AIMP.SDK.PluginInfoLoader.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.PluginInfoLoader.html",
-          "hash": "A6+a7eZb5e78mVs1eNrCTg=="
+          "hash": "GOjENK02OYW1TAZozyPrsw=="
         }
       },
       "is_incremental": false,
@@ -2810,11 +2966,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.PluginInformation.yml",
+      "source_relative_path": "source/api/AIMP.SDK.PluginInformation.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.PluginInformation.html",
-          "hash": "3GN8e9/Beh1YIdmwVQrzBA=="
+          "hash": "5WE2C87fDPeD8hXlwye6+g=="
         }
       },
       "is_incremental": false,
@@ -2822,11 +2978,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.PluginLoadUnloadEvent.yml",
+      "source_relative_path": "source/api/AIMP.SDK.PluginLoadUnloadEvent.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.PluginLoadUnloadEvent.html",
-          "hash": "H/ybnN9f584fDzQDEw/xMg=="
+          "hash": "a2S8boQj0MG+xxokTGBm8w=="
         }
       },
       "is_incremental": false,
@@ -2834,11 +2990,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.PluginLoadingStrategy.yml",
+      "source_relative_path": "source/api/AIMP.SDK.PluginLoadingStrategy.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.PluginLoadingStrategy.html",
-          "hash": "bCqS6u5xrYJkLiRQ7ByyvA=="
+          "hash": "M8CoviXJngKfBZESkFO8Kw=="
         }
       },
       "is_incremental": false,
@@ -2846,11 +3002,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.PluginShortInfoForLoad.yml",
+      "source_relative_path": "source/api/AIMP.SDK.PluginShortInfoForLoad.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.PluginShortInfoForLoad.html",
-          "hash": "2HfbyPH0t+E01/zZPmHTUQ=="
+          "hash": "h6WZFz/NZiamCQdmC31RAg=="
         }
       },
       "is_incremental": false,
@@ -2858,11 +3014,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Threading.AimpServiceThreadPoolType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Threading.AimpServiceThreadPoolType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Threading.AimpServiceThreadPoolType.html",
-          "hash": "3RjP1yLbyFe4EMdhfTY4rQ=="
+          "hash": "hZsm7XcfQ1LECjFThGQ/XA=="
         }
       },
       "is_incremental": false,
@@ -2870,11 +3026,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Threading.AimpTaskPriority.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Threading.AimpTaskPriority.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Threading.AimpTaskPriority.html",
-          "hash": "abFmAP4WH+ExcbC0c22ORw=="
+          "hash": "pgtjw5KtCpfOVmBaMUfAqw=="
         }
       },
       "is_incremental": false,
@@ -2882,11 +3038,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Threading.IAimpServiceSynchronizer.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Threading.IAimpServiceSynchronizer.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Threading.IAimpServiceSynchronizer.html",
-          "hash": "Hc67N0DWuMmiJCCBgfhAqA=="
+          "hash": "UfW+9993xycnadi50RYT6Q=="
         }
       },
       "is_incremental": false,
@@ -2894,11 +3050,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Threading.IAimpServiceThreadPool.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Threading.IAimpServiceThreadPool.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Threading.IAimpServiceThreadPool.html",
-          "hash": "NEU3pqPIPQJs7yCmCSmIvg=="
+          "hash": "3N8LO7B4l/a8Ct0hZsCt7g=="
         }
       },
       "is_incremental": false,
@@ -2906,11 +3062,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Threading.IAimpTask.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Threading.IAimpTask.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Threading.IAimpTask.html",
-          "hash": "x6tvljeoD6m5nDjjXzqQ3A=="
+          "hash": "LiQCvKG0vGbXR9Lx+ICPHw=="
         }
       },
       "is_incremental": false,
@@ -2918,11 +3074,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Threading.IAimpTaskOwner.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Threading.IAimpTaskOwner.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Threading.IAimpTaskOwner.html",
-          "hash": "NXdiH1XWJkvCC5OJwXw6yQ=="
+          "hash": "XP/vMXAdeVwCwxgechPoYQ=="
         }
       },
       "is_incremental": false,
@@ -2930,11 +3086,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Threading.IAimpTaskPriority.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Threading.IAimpTaskPriority.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Threading.IAimpTaskPriority.html",
-          "hash": "+NtbpBomu7fmnvm4flV6Bg=="
+          "hash": "9A4+0eTcpiaBL5HUmyRihg=="
         }
       },
       "is_incremental": false,
@@ -2942,11 +3098,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Threading.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Threading.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Threading.html",
-          "hash": "p1W5qi8FKj4NdgassqHK4Q=="
+          "hash": "yHQ4vExnXtYg+QJH1qtjQg=="
         }
       },
       "is_incremental": false,
@@ -2954,11 +3110,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Visuals.AimpVisualClickButtonType.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Visuals.AimpVisualClickButtonType.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Visuals.AimpVisualClickButtonType.html",
-          "hash": "7oI9P3ZW00K+I3Jbpm0rsg=="
+          "hash": "mgo+CKTDsyxLsoJgdmxaIA=="
         }
       },
       "is_incremental": false,
@@ -2966,11 +3122,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Visuals.AimpVisualData.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Visuals.AimpVisualData.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Visuals.AimpVisualData.html",
-          "hash": "lPh5oEQm9f9rDe3rN5Ewsg=="
+          "hash": "xEBHYd5dwlwAv6yk+ICmgg=="
         }
       },
       "is_incremental": false,
@@ -2978,11 +3134,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Visuals.AimpVisualFlags.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Visuals.AimpVisualFlags.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Visuals.AimpVisualFlags.html",
-          "hash": "xnnQni7O0NCaf1UlwvvZPw=="
+          "hash": "ie2CTJwxgFDH7+if76ln+Q=="
         }
       },
       "is_incremental": false,
@@ -2990,11 +3146,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Visuals.IAimpExtensionCustomVisualization.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Visuals.IAimpExtensionCustomVisualization.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Visuals.IAimpExtensionCustomVisualization.html",
-          "hash": "ti8Mo0IWSXzPh8pr/5iU5Q=="
+          "hash": "0AKJ7XfgP4WtWNZxCDbZyg=="
         }
       },
       "is_incremental": false,
@@ -3002,11 +3158,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.html",
-          "hash": "tJIChCSJI1ofW8XcW1leNw=="
+          "hash": "0aLlOR+7AwYerir/KUe6Zw=="
         }
       },
       "is_incremental": false,
@@ -3014,11 +3170,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Visuals.IAimpServiceVisualizations.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Visuals.IAimpServiceVisualizations.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Visuals.IAimpServiceVisualizations.html",
-          "hash": "XzpeJGM0CgLZ0oMCkyc7JQ=="
+          "hash": "RWzrVNGt+obCej12sx8I5g=="
         }
       },
       "is_incremental": false,
@@ -3026,11 +3182,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Visuals.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Visuals.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Visuals.html",
-          "hash": "UOZswGF90AkT65pRh06G6Q=="
+          "hash": "57/EuPZtXIK9p98IdP3VGg=="
         }
       },
       "is_incremental": false,
@@ -3038,11 +3194,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Win32.IWin32Manager.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Win32.IWin32Manager.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Win32.IWin32Manager.html",
-          "hash": "pIv4y9cN6pr2jZ3q3tH8Mw=="
+          "hash": "ZPBpd+eY+JqLzsbeDQRc9w=="
         }
       },
       "is_incremental": false,
@@ -3050,11 +3206,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.Win32.yml",
+      "source_relative_path": "source/api/AIMP.SDK.Win32.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.Win32.html",
-          "hash": "SzXmoyGLNzFG8mchaNEkZQ=="
+          "hash": "yMvjiUMR+mEoa8FNf5tYTA=="
         }
       },
       "is_incremental": false,
@@ -3062,11 +3218,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "apidoc/AIMP.SDK.yml",
+      "source_relative_path": "source/api/AIMP.SDK.yml",
       "output": {
         ".html": {
           "relative_path": "api/AIMP.SDK.html",
-          "hash": "olJo+x1uMfjrkk9gmSI2DQ=="
+          "hash": "oRUOFpcPsBAOrqRqbLYgqg=="
         }
       },
       "is_incremental": false,
@@ -3074,11 +3230,23 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "apidoc/toc.yml",
+      "source_relative_path": "source/api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "abBDFzk0yijGf6UMMRdhrA=="
+          "hash": "61evy7pf7rf/8/lblI5hwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "source/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html",
+          "hash": "xXrrwxESWSCGizogwodFag=="
         }
       },
       "is_incremental": false,
@@ -3089,11 +3257,23 @@
         "InvalidFileLink"
       ],
       "type": "index",
-      "source_relative_path": "index.md",
+      "source_relative_path": "source/index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "T0WTqmEYWviFM2kkH0bX6A=="
+          "hash": "tNQb5Lis3DpNy1m9oc0WjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "source/links.md",
+      "output": {
+        ".html": {
+          "relative_path": "links.html",
+          "hash": "1yC6NZtTz5h8D+P4XhyYDA=="
         }
       },
       "is_incremental": false,
@@ -3104,35 +3284,11 @@
         "InvalidFileLink"
       ],
       "type": "Toc",
-      "source_relative_path": "toc.yml",
+      "source_relative_path": "source/toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "ep+5GewG5gCVSfTo8F6lEQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "tutorial/gettingstarted.md",
-      "output": {
-        ".html": {
-          "relative_path": "tutorial/gettingstarted.html",
-          "hash": "CgoXOJ+ayV0OL9ri2RVeZQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "tutorial/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tutorial/toc.html",
-          "hash": "395uPRG7hUO8xS2tgTcNEQ=="
+          "hash": "J5wqo+LCnpjx6MhM+3J+uQ=="
         }
       },
       "is_incremental": false,
@@ -3142,27 +3298,16 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "RestApiDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "TocDocumentProcessor": {
