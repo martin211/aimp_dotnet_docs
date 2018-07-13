@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IAimpFileSystemCommandFileInfo
+    <title>Interface IAimpFileTagEditor
    | AIMP DotNet SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IAimpFileSystemCommandFileInfo
+    <meta name="title" content="Interface IAimpFileTagEditor
    | AIMP DotNet SDK ">
     <meta name="generator" content="docfx 2.33.0.0">
     
@@ -68,34 +68,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo">
+            <article class="content wrap" id="_content" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor">
   
   
-  <h1 id="AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo" data-uid="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo" class="text-break">Interface IAimpFileSystemCommandFileInfo
+  <h1 id="AIMP_SDK_TagEditor_IAimpFileTagEditor" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor" class="text-break">Interface IAimpFileTagEditor
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Provide ability to get access to tag editor.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.FileManager.Commands.html">AIMP.SDK.FileManager.Commands</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.TagEditor.html">AIMP.SDK.TagEditor</a></h6>
   <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
-  <h5 id="AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_syntax">Syntax</h5>
+  <h5 id="AIMP_SDK_TagEditor_IAimpFileTagEditor_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAimpFileSystemCommandFileInfo : IAimpFileSystemCommand</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IAimpFileTagEditor</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/FileManager/Commands/IAimpFileSystemCommandFileInfo.cs/#L23">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/TagEditor/IAimpFileTagEditor.cs/#L14">View Source</a>
   </span>
-  <a id="AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_GetFileAttrs_" data-uid="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs*"></a>
-  <h4 id="AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_GetFileAttrs_AIMP_SDK_Objects_IAimpString_AIMP_SDK_FileManager_AimpFileAttributes__" data-uid="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs(AIMP.SDK.Objects.IAimpString,AIMP.SDK.FileManager.AimpFileAttributes@)">GetFileAttrs(IAimpString, out AimpFileAttributes)</h4>
-  <div class="markdown level1 summary"><p>Gets the file attributes.</p>
+  <a id="AIMP_SDK_TagEditor_IAimpFileTagEditor_GetMixedInfo_" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor.GetMixedInfo*"></a>
+  <h4 id="AIMP_SDK_TagEditor_IAimpFileTagEditor_GetMixedInfo_AIMP_SDK_FileManager_IAimpFileInfo__" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor.GetMixedInfo(AIMP.SDK.FileManager.IAimpFileInfo@)">GetMixedInfo(out IAimpFileInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets the mixed information from all tags and returns it as a <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IAimpFileInfo</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="div-decalaration">
   	<h5 class="decalaration">Declaration</h5>
   	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult GetFileAttrs(IAimpString fileName, out AimpFileAttributes attr)</code></pre>
+  	<pre><code class="lang-csharp hljs">AimpActionResult GetMixedInfo(out IAimpFileInfo fileInfo)</code></pre>
   	</div>
   </div>
   <div class="div-decalaration">
@@ -110,33 +111,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AIMP.SDK.Objects.IAimpString.html">IAimpString</a></td>
-        <td><span class="parametername">fileName</span></td>
-        <td><p>Name of the file.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.FileManager.AimpFileAttributes.html">AimpFileAttributes</a></td>
-        <td><span class="parametername">attr</span></td>
-        <td><p>The attribute.</p>
+        <td><a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IAimpFileInfo</a></td>
+        <td><span class="parametername">fileInfo</span></td>
+        <td><p>The file information.</p>
 </td>
       </tr>
     </tbody>
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/FileManager/Commands/IAimpFileSystemCommandFileInfo.cs/#L30">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/TagEditor/IAimpFileTagEditor.cs/#L21">View Source</a>
   </span>
-  <a id="AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_GetFileSize_" data-uid="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize*"></a>
-  <h4 id="AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_GetFileSize_AIMP_SDK_Objects_IAimpString_System_Int64__" data-uid="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize(AIMP.SDK.Objects.IAimpString,System.Int64@)">GetFileSize(IAimpString, out Int64)</h4>
-  <div class="markdown level1 summary"><p>Gets the size of the file.</p>
+  <a id="AIMP_SDK_TagEditor_IAimpFileTagEditor_GetTag_" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTag*"></a>
+  <h4 id="AIMP_SDK_TagEditor_IAimpFileTagEditor_GetTag_System_Int32_AIMP_SDK_TagEditor_IAimpFileTag__" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTag(System.Int32,AIMP.SDK.TagEditor.IAimpFileTag@)">GetTag(Int32, out IAimpFileTag)</h4>
+  <div class="markdown level1 summary"><p>Gets the tag.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="div-decalaration">
   	<h5 class="decalaration">Declaration</h5>
   	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult GetFileSize(IAimpString file, out long size)</code></pre>
+  	<pre><code class="lang-csharp hljs">AimpActionResult GetTag(int index, out IAimpFileTag fileTag)</code></pre>
   	</div>
   </div>
   <div class="div-decalaration">
@@ -151,33 +146,63 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AIMP.SDK.Objects.IAimpString.html">IAimpString</a></td>
-        <td><span class="parametername">file</span></td>
-        <td><p>The file.</p>
+        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int64(v=vs.110).aspx">Int64</a></td>
-        <td><span class="parametername">size</span></td>
-        <td><p>The size.</p>
+        <td><a class="xref" href="AIMP.SDK.TagEditor.IAimpFileTag.html">IAimpFileTag</a></td>
+        <td><span class="parametername">fileTag</span></td>
+        <td><p>The file tag.</p>
 </td>
       </tr>
     </tbody>
   </table>
   </div>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/FileManager/Commands/IAimpFileSystemCommandFileInfo.cs/#L36">View Source</a>
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/TagEditor/IAimpFileTagEditor.cs/#L26">View Source</a>
   </span>
-  <a id="AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_IsFileExists_" data-uid="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.IsFileExists*"></a>
-  <h4 id="AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_IsFileExists_AIMP_SDK_Objects_IAimpString_" data-uid="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.IsFileExists(AIMP.SDK.Objects.IAimpString)">IsFileExists(IAimpString)</h4>
-  <div class="markdown level1 summary"><p>Determines whether [is file exists] [the specified file].</p>
+  <a id="AIMP_SDK_TagEditor_IAimpFileTagEditor_GetTagCount_" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTagCount*"></a>
+  <h4 id="AIMP_SDK_TagEditor_IAimpFileTagEditor_GetTagCount" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTagCount">GetTagCount()</h4>
+  <div class="markdown level1 summary"><p>Gets the tag count.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="div-decalaration">
   	<h5 class="decalaration">Declaration</h5>
   	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult IsFileExists(IAimpString file)</code></pre>
+  	<pre><code class="lang-csharp hljs">int GetTagCount()</code></pre>
+  	</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/TagEditor/IAimpFileTagEditor.cs/#L37">View Source</a>
+  </span>
+  <a id="AIMP_SDK_TagEditor_IAimpFileTagEditor_Save_" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor.Save*"></a>
+  <h4 id="AIMP_SDK_TagEditor_IAimpFileTagEditor_Save" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor.Save">Save()</h4>
+  <div class="markdown level1 summary"><p>Saves all changes to file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult Save()</code></pre>
+  	</div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/TagEditor/IAimpFileTagEditor.cs/#L32">View Source</a>
+  </span>
+  <a id="AIMP_SDK_TagEditor_IAimpFileTagEditor_SetToAll_" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor.SetToAll*"></a>
+  <h4 id="AIMP_SDK_TagEditor_IAimpFileTagEditor_SetToAll_AIMP_SDK_FileManager_IAimpFileInfo_" data-uid="AIMP.SDK.TagEditor.IAimpFileTagEditor.SetToAll(AIMP.SDK.FileManager.IAimpFileInfo)">SetToAll(IAimpFileInfo)</h4>
+  <div class="markdown level1 summary"><p>Sets value to all tags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult SetToAll(IAimpFileInfo fileInfo)</code></pre>
   	</div>
   </div>
   <div class="div-decalaration">
@@ -192,9 +217,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AIMP.SDK.Objects.IAimpString.html">IAimpString</a></td>
-        <td><span class="parametername">file</span></td>
-        <td><p>The file.</p>
+        <td><a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IAimpFileInfo</a></td>
+        <td><span class="parametername">fileInfo</span></td>
+        <td><p>The file information.</p>
 </td>
       </tr>
     </tbody>
@@ -208,10 +233,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo.md&amp;value=---%0Auid%3A%20AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_TagEditor_IAimpFileTagEditor.md&amp;value=---%0Auid%3A%20AIMP.SDK.TagEditor.IAimpFileTagEditor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/FileManager/Commands/IAimpFileSystemCommandFileInfo.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/TagEditor/IAimpFileTagEditor.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

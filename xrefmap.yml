@@ -1135,6 +1135,49 @@ references:
   commentId: F:AIMP.SDK.AimpMessages.AimpCorePathType.AIMP_CORE_PATH_SKINS_COMMON
   fullName: AIMP.SDK.AimpMessages.AimpCorePathType.AIMP_CORE_PATH_SKINS_COMMON
   nameWithType: AimpMessages.AimpCorePathType.AIMP_CORE_PATH_SKINS_COMMON
+- uid: AIMP.SDK.AimpObjectHelper
+  name: AimpObjectHelper
+  href: api/AIMP.SDK.AimpObjectHelper.html
+  commentId: T:AIMP.SDK.AimpObjectHelper
+  fullName: AIMP.SDK.AimpObjectHelper
+  nameWithType: AimpObjectHelper
+- uid: AIMP.SDK.AimpObjectHelper.AimpObject
+  name: AimpObjectHelper.AimpObject
+  href: api/AIMP.SDK.AimpObjectHelper.AimpObject.html
+  commentId: T:AIMP.SDK.AimpObjectHelper.AimpObject
+  fullName: AIMP.SDK.AimpObjectHelper.AimpObject
+  nameWithType: AimpObjectHelper.AimpObject
+- uid: AIMP.SDK.AimpObjectHelper.AimpObject.AimpString
+  name: AimpString
+  href: api/AIMP.SDK.AimpObjectHelper.AimpObject.html#AIMP_SDK_AimpObjectHelper_AimpObject_AimpString
+  commentId: F:AIMP.SDK.AimpObjectHelper.AimpObject.AimpString
+  fullName: AIMP.SDK.AimpObjectHelper.AimpObject.AimpString
+  nameWithType: AimpObjectHelper.AimpObject.AimpString
+- uid: AIMP.SDK.AimpObjectHelper.GetObject*
+  name: GetObject
+  href: api/AIMP.SDK.AimpObjectHelper.html#AIMP_SDK_AimpObjectHelper_GetObject_
+  commentId: Overload:AIMP.SDK.AimpObjectHelper.GetObject
+  isSpec: "True"
+  fullName: AIMP.SDK.AimpObjectHelper.GetObject
+  nameWithType: AimpObjectHelper.GetObject
+- uid: AIMP.SDK.AimpObjectHelper.GetObject``1(AIMP.SDK.IAimpCore)
+  name: GetObject<TObject>(IAimpCore)
+  href: api/AIMP.SDK.AimpObjectHelper.html#AIMP_SDK_AimpObjectHelper_GetObject__1_AIMP_SDK_IAimpCore_
+  commentId: M:AIMP.SDK.AimpObjectHelper.GetObject``1(AIMP.SDK.IAimpCore)
+  name.vb: GetObject(Of TObject)(IAimpCore)
+  fullName: AIMP.SDK.AimpObjectHelper.GetObject<TObject>(AIMP.SDK.IAimpCore)
+  fullName.vb: AIMP.SDK.AimpObjectHelper.GetObject(Of TObject)(AIMP.SDK.IAimpCore)
+  nameWithType: AimpObjectHelper.GetObject<TObject>(IAimpCore)
+  nameWithType.vb: AimpObjectHelper.GetObject(Of TObject)(IAimpCore)
+- uid: AIMP.SDK.AimpObjectHelper.GetObject``1(System.IntPtr)
+  name: GetObject<TObject>(IntPtr)
+  href: api/AIMP.SDK.AimpObjectHelper.html#AIMP_SDK_AimpObjectHelper_GetObject__1_System_IntPtr_
+  commentId: M:AIMP.SDK.AimpObjectHelper.GetObject``1(System.IntPtr)
+  name.vb: GetObject(Of TObject)(IntPtr)
+  fullName: AIMP.SDK.AimpObjectHelper.GetObject<TObject>(System.IntPtr)
+  fullName.vb: AIMP.SDK.AimpObjectHelper.GetObject(Of TObject)(System.IntPtr)
+  nameWithType: AimpObjectHelper.GetObject<TObject>(IntPtr)
+  nameWithType.vb: AimpObjectHelper.GetObject(Of TObject)(IntPtr)
 - uid: AIMP.SDK.AimpPlayerState
   name: AimpPlayerState
   href: api/AIMP.SDK.AimpPlayerState.html
@@ -1376,6 +1419,42 @@ references:
   commentId: F:AIMP.SDK.AimpPluginType.Visuals
   fullName: AIMP.SDK.AimpPluginType.Visuals
   nameWithType: AimpPluginType.Visuals
+- uid: AIMP.SDK.AimpWindowHandleTypes
+  name: AimpWindowHandleTypes
+  href: api/AIMP.SDK.AimpWindowHandleTypes.html
+  commentId: T:AIMP.SDK.AimpWindowHandleTypes
+  fullName: AIMP.SDK.AimpWindowHandleTypes
+  nameWithType: AimpWindowHandleTypes
+- uid: AIMP.SDK.AimpWindowHandleTypes.Application
+  name: Application
+  href: api/AIMP.SDK.AimpWindowHandleTypes.html#AIMP_SDK_AimpWindowHandleTypes_Application
+  commentId: F:AIMP.SDK.AimpWindowHandleTypes.Application
+  fullName: AIMP.SDK.AimpWindowHandleTypes.Application
+  nameWithType: AimpWindowHandleTypes.Application
+- uid: AIMP.SDK.AimpWindowHandleTypes.EqualizerForm
+  name: EqualizerForm
+  href: api/AIMP.SDK.AimpWindowHandleTypes.html#AIMP_SDK_AimpWindowHandleTypes_EqualizerForm
+  commentId: F:AIMP.SDK.AimpWindowHandleTypes.EqualizerForm
+  fullName: AIMP.SDK.AimpWindowHandleTypes.EqualizerForm
+  nameWithType: AimpWindowHandleTypes.EqualizerForm
+- uid: AIMP.SDK.AimpWindowHandleTypes.MainForm
+  name: MainForm
+  href: api/AIMP.SDK.AimpWindowHandleTypes.html#AIMP_SDK_AimpWindowHandleTypes_MainForm
+  commentId: F:AIMP.SDK.AimpWindowHandleTypes.MainForm
+  fullName: AIMP.SDK.AimpWindowHandleTypes.MainForm
+  nameWithType: AimpWindowHandleTypes.MainForm
+- uid: AIMP.SDK.AimpWindowHandleTypes.PlaylistForm
+  name: PlaylistForm
+  href: api/AIMP.SDK.AimpWindowHandleTypes.html#AIMP_SDK_AimpWindowHandleTypes_PlaylistForm
+  commentId: F:AIMP.SDK.AimpWindowHandleTypes.PlaylistForm
+  fullName: AIMP.SDK.AimpWindowHandleTypes.PlaylistForm
+  nameWithType: AimpWindowHandleTypes.PlaylistForm
+- uid: AIMP.SDK.AimpWindowHandleTypes.TrayControl
+  name: TrayControl
+  href: api/AIMP.SDK.AimpWindowHandleTypes.html#AIMP_SDK_AimpWindowHandleTypes_TrayControl
+  commentId: F:AIMP.SDK.AimpWindowHandleTypes.TrayControl
+  fullName: AIMP.SDK.AimpWindowHandleTypes.TrayControl
+  nameWithType: AimpWindowHandleTypes.TrayControl
 - uid: AIMP.SDK.AlbumArtManager
   name: AIMP.SDK.AlbumArtManager
   href: api/AIMP.SDK.AlbumArtManager.html
@@ -3473,18 +3552,31 @@ references:
   commentId: T:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete
   fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete
   nameWithType: IAimpFileSystemCommandDelete
+- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.CanDelete(System.String)
+  name: CanDelete(String)
+  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandDelete_CanDelete_System_String_
+  commentId: M:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.CanDelete(System.String)
+  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.CanDelete(System.String)
+  nameWithType: IAimpFileSystemCommandDelete.CanDelete(String)
+- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.CanDelete*
+  name: CanDelete
+  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandDelete_CanDelete_
+  commentId: Overload:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.CanDelete
+  isSpec: "True"
+  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.CanDelete
+  nameWithType: IAimpFileSystemCommandDelete.CanDelete
 - uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource
   name: IAimpFileSystemCommandDropSource
   href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.html
   commentId: T:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource
   fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource
   nameWithType: IAimpFileSystemCommandDropSource
-- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.CreateStream(System.String,AIMP.SDK.IAimpStream)
-  name: CreateStream(String, IAimpStream)
-  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandDropSource_CreateStream_System_String_AIMP_SDK_IAimpStream_
-  commentId: M:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.CreateStream(System.String,AIMP.SDK.IAimpStream)
-  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.CreateStream(System.String, AIMP.SDK.IAimpStream)
-  nameWithType: IAimpFileSystemCommandDropSource.CreateStream(String, IAimpStream)
+- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.CreateStream(AIMP.SDK.Objects.IAimpString)
+  name: CreateStream(IAimpString)
+  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandDropSource_CreateStream_AIMP_SDK_Objects_IAimpString_
+  commentId: M:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.CreateStream(AIMP.SDK.Objects.IAimpString)
+  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.CreateStream(AIMP.SDK.Objects.IAimpString)
+  nameWithType: IAimpFileSystemCommandDropSource.CreateStream(IAimpString)
 - uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.CreateStream*
   name: CreateStream
   href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandDropSource_CreateStream_
@@ -3498,15 +3590,15 @@ references:
   commentId: T:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo
   fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo
   nameWithType: IAimpFileSystemCommandFileInfo
-- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs(System.String,AIMP.SDK.FileManager.AimpFileAttributes@)
-  name: GetFileAttrs(String, out AimpFileAttributes)
-  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_GetFileAttrs_System_String_AIMP_SDK_FileManager_AimpFileAttributes__
-  commentId: M:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs(System.String,AIMP.SDK.FileManager.AimpFileAttributes@)
-  name.vb: GetFileAttrs(String, ByRef AimpFileAttributes)
-  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs(System.String, out AIMP.SDK.FileManager.AimpFileAttributes)
-  fullName.vb: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs(System.String, ByRef AIMP.SDK.FileManager.AimpFileAttributes)
-  nameWithType: IAimpFileSystemCommandFileInfo.GetFileAttrs(String, out AimpFileAttributes)
-  nameWithType.vb: IAimpFileSystemCommandFileInfo.GetFileAttrs(String, ByRef AimpFileAttributes)
+- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs(AIMP.SDK.Objects.IAimpString,AIMP.SDK.FileManager.AimpFileAttributes@)
+  name: GetFileAttrs(IAimpString, out AimpFileAttributes)
+  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_GetFileAttrs_AIMP_SDK_Objects_IAimpString_AIMP_SDK_FileManager_AimpFileAttributes__
+  commentId: M:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs(AIMP.SDK.Objects.IAimpString,AIMP.SDK.FileManager.AimpFileAttributes@)
+  name.vb: GetFileAttrs(IAimpString, ByRef AimpFileAttributes)
+  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs(AIMP.SDK.Objects.IAimpString, out AIMP.SDK.FileManager.AimpFileAttributes)
+  fullName.vb: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs(AIMP.SDK.Objects.IAimpString, ByRef AIMP.SDK.FileManager.AimpFileAttributes)
+  nameWithType: IAimpFileSystemCommandFileInfo.GetFileAttrs(IAimpString, out AimpFileAttributes)
+  nameWithType.vb: IAimpFileSystemCommandFileInfo.GetFileAttrs(IAimpString, ByRef AimpFileAttributes)
 - uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs*
   name: GetFileAttrs
   href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_GetFileAttrs_
@@ -3514,15 +3606,15 @@ references:
   isSpec: "True"
   fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileAttrs
   nameWithType: IAimpFileSystemCommandFileInfo.GetFileAttrs
-- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize(System.String,System.Int64@)
-  name: GetFileSize(String, out Int64)
-  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_GetFileSize_System_String_System_Int64__
-  commentId: M:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize(System.String,System.Int64@)
-  name.vb: GetFileSize(String, ByRef Int64)
-  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize(System.String, out System.Int64)
-  fullName.vb: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize(System.String, ByRef System.Int64)
-  nameWithType: IAimpFileSystemCommandFileInfo.GetFileSize(String, out Int64)
-  nameWithType.vb: IAimpFileSystemCommandFileInfo.GetFileSize(String, ByRef Int64)
+- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize(AIMP.SDK.Objects.IAimpString,System.Int64@)
+  name: GetFileSize(IAimpString, out Int64)
+  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_GetFileSize_AIMP_SDK_Objects_IAimpString_System_Int64__
+  commentId: M:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize(AIMP.SDK.Objects.IAimpString,System.Int64@)
+  name.vb: GetFileSize(IAimpString, ByRef Int64)
+  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize(AIMP.SDK.Objects.IAimpString, out System.Int64)
+  fullName.vb: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize(AIMP.SDK.Objects.IAimpString, ByRef System.Int64)
+  nameWithType: IAimpFileSystemCommandFileInfo.GetFileSize(IAimpString, out Int64)
+  nameWithType.vb: IAimpFileSystemCommandFileInfo.GetFileSize(IAimpString, ByRef Int64)
 - uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize*
   name: GetFileSize
   href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_GetFileSize_
@@ -3530,12 +3622,12 @@ references:
   isSpec: "True"
   fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.GetFileSize
   nameWithType: IAimpFileSystemCommandFileInfo.GetFileSize
-- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.IsFileExists(System.String)
-  name: IsFileExists(String)
-  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_IsFileExists_System_String_
-  commentId: M:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.IsFileExists(System.String)
-  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.IsFileExists(System.String)
-  nameWithType: IAimpFileSystemCommandFileInfo.IsFileExists(String)
+- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.IsFileExists(AIMP.SDK.Objects.IAimpString)
+  name: IsFileExists(IAimpString)
+  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_IsFileExists_AIMP_SDK_Objects_IAimpString_
+  commentId: M:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.IsFileExists(AIMP.SDK.Objects.IAimpString)
+  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.IsFileExists(AIMP.SDK.Objects.IAimpString)
+  nameWithType: IAimpFileSystemCommandFileInfo.IsFileExists(IAimpString)
 - uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.IsFileExists*
   name: IsFileExists
   href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandFileInfo_IsFileExists_
@@ -3555,15 +3647,12 @@ references:
   commentId: T:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming
   fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming
   nameWithType: IAimpFileSystemCommandStreaming
-- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.CreateStream(System.String,AIMP.SDK.FileManager.FileStreamingType,System.Int64,System.Int64,AIMP.SDK.IAimpStream@)
-  name: CreateStream(String, FileStreamingType, Int64, Int64, out IAimpStream)
-  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandStreaming_CreateStream_System_String_AIMP_SDK_FileManager_FileStreamingType_System_Int64_System_Int64_AIMP_SDK_IAimpStream__
-  commentId: M:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.CreateStream(System.String,AIMP.SDK.FileManager.FileStreamingType,System.Int64,System.Int64,AIMP.SDK.IAimpStream@)
-  name.vb: CreateStream(String, FileStreamingType, Int64, Int64, ByRef IAimpStream)
-  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.CreateStream(System.String, AIMP.SDK.FileManager.FileStreamingType, System.Int64, System.Int64, out AIMP.SDK.IAimpStream)
-  fullName.vb: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.CreateStream(System.String, AIMP.SDK.FileManager.FileStreamingType, System.Int64, System.Int64, ByRef AIMP.SDK.IAimpStream)
-  nameWithType: IAimpFileSystemCommandStreaming.CreateStream(String, FileStreamingType, Int64, Int64, out IAimpStream)
-  nameWithType.vb: IAimpFileSystemCommandStreaming.CreateStream(String, FileStreamingType, Int64, Int64, ByRef IAimpStream)
+- uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.CreateStream(System.String,AIMP.SDK.FileManager.FileStreamingType,System.Int64,System.Int64)
+  name: CreateStream(String, FileStreamingType, Int64, Int64)
+  href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandStreaming_CreateStream_System_String_AIMP_SDK_FileManager_FileStreamingType_System_Int64_System_Int64_
+  commentId: M:AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.CreateStream(System.String,AIMP.SDK.FileManager.FileStreamingType,System.Int64,System.Int64)
+  fullName: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.CreateStream(System.String, AIMP.SDK.FileManager.FileStreamingType, System.Int64, System.Int64)
+  nameWithType: IAimpFileSystemCommandStreaming.CreateStream(String, FileStreamingType, Int64, Int64)
 - uid: AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.CreateStream*
   name: CreateStream
   href: api/AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.html#AIMP_SDK_FileManager_Commands_IAimpFileSystemCommandStreaming_CreateStream_
@@ -3703,6 +3792,15 @@ references:
   commentId: T:AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider
   fullName: AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider
   nameWithType: IAimpExtensionFileInfoProvider
+- uid: AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(AIMP.SDK.Objects.IAimpString,AIMP.SDK.FileManager.IAimpFileInfo@)
+  name: GetFileInfo(IAimpString, ref IAimpFileInfo)
+  href: api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.html#AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_AIMP_SDK_Objects_IAimpString_AIMP_SDK_FileManager_IAimpFileInfo__
+  commentId: M:AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(AIMP.SDK.Objects.IAimpString,AIMP.SDK.FileManager.IAimpFileInfo@)
+  name.vb: GetFileInfo(IAimpString, ByRef IAimpFileInfo)
+  fullName: AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(AIMP.SDK.Objects.IAimpString, ref AIMP.SDK.FileManager.IAimpFileInfo)
+  fullName.vb: AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(AIMP.SDK.Objects.IAimpString, ByRef AIMP.SDK.FileManager.IAimpFileInfo)
+  nameWithType: IAimpExtensionFileInfoProvider.GetFileInfo(IAimpString, ref IAimpFileInfo)
+  nameWithType.vb: IAimpExtensionFileInfoProvider.GetFileInfo(IAimpString, ByRef IAimpFileInfo)
 - uid: AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(System.IO.Stream,AIMP.SDK.FileManager.IAimpFileInfo@)
   name: GetFileInfo(Stream, ref IAimpFileInfo)
   href: api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.html#AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_System_IO_Stream_AIMP_SDK_FileManager_IAimpFileInfo__
@@ -3712,15 +3810,6 @@ references:
   fullName.vb: AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(System.IO.Stream, ByRef AIMP.SDK.FileManager.IAimpFileInfo)
   nameWithType: IAimpExtensionFileInfoProvider.GetFileInfo(Stream, ref IAimpFileInfo)
   nameWithType.vb: IAimpExtensionFileInfoProvider.GetFileInfo(Stream, ByRef IAimpFileInfo)
-- uid: AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(System.String,AIMP.SDK.FileManager.IAimpFileInfo@)
-  name: GetFileInfo(String, ref IAimpFileInfo)
-  href: api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.html#AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_System_String_AIMP_SDK_FileManager_IAimpFileInfo__
-  commentId: M:AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(System.String,AIMP.SDK.FileManager.IAimpFileInfo@)
-  name.vb: GetFileInfo(String, ByRef IAimpFileInfo)
-  fullName: AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(System.String, ref AIMP.SDK.FileManager.IAimpFileInfo)
-  fullName.vb: AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo(System.String, ByRef AIMP.SDK.FileManager.IAimpFileInfo)
-  nameWithType: IAimpExtensionFileInfoProvider.GetFileInfo(String, ref IAimpFileInfo)
-  nameWithType.vb: IAimpExtensionFileInfoProvider.GetFileInfo(String, ByRef IAimpFileInfo)
 - uid: AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.GetFileInfo*
   name: GetFileInfo
   href: api/AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.html#AIMP_SDK_FileManager_Extensions_IAimpExtensionFileInfoProvider_GetFileInfo_
@@ -4508,15 +4597,15 @@ references:
   isSpec: "True"
   fullName: AIMP.SDK.FileManager.IAimpServiceFileSystems.Get
   nameWithType: IAimpServiceFileSystems.Get
-- uid: AIMP.SDK.FileManager.IAimpServiceFileSystems.Get``1(System.String,AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand@)
-  name: Get<TCommand>(String, out IAimpFileSystemCommand)
-  href: api/AIMP.SDK.FileManager.IAimpServiceFileSystems.html#AIMP_SDK_FileManager_IAimpServiceFileSystems_Get__1_System_String_AIMP_SDK_FileManager_Commands_IAimpFileSystemCommand__
-  commentId: M:AIMP.SDK.FileManager.IAimpServiceFileSystems.Get``1(System.String,AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand@)
-  name.vb: Get(Of TCommand)(String, ByRef IAimpFileSystemCommand)
-  fullName: AIMP.SDK.FileManager.IAimpServiceFileSystems.Get<TCommand>(System.String, out AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand)
-  fullName.vb: AIMP.SDK.FileManager.IAimpServiceFileSystems.Get(Of TCommand)(System.String, ByRef AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand)
-  nameWithType: IAimpServiceFileSystems.Get<TCommand>(String, out IAimpFileSystemCommand)
-  nameWithType.vb: IAimpServiceFileSystems.Get(Of TCommand)(String, ByRef IAimpFileSystemCommand)
+- uid: AIMP.SDK.FileManager.IAimpServiceFileSystems.Get``1(System.String,``0@)
+  name: Get<TCommand>(String, out TCommand)
+  href: api/AIMP.SDK.FileManager.IAimpServiceFileSystems.html#AIMP_SDK_FileManager_IAimpServiceFileSystems_Get__1_System_String___0__
+  commentId: M:AIMP.SDK.FileManager.IAimpServiceFileSystems.Get``1(System.String,``0@)
+  name.vb: Get(Of TCommand)(String, ByRef TCommand)
+  fullName: AIMP.SDK.FileManager.IAimpServiceFileSystems.Get<TCommand>(System.String, out TCommand)
+  fullName.vb: AIMP.SDK.FileManager.IAimpServiceFileSystems.Get(Of TCommand)(System.String, ByRef TCommand)
+  nameWithType: IAimpServiceFileSystems.Get<TCommand>(String, out TCommand)
+  nameWithType.vb: IAimpServiceFileSystems.Get(Of TCommand)(String, ByRef TCommand)
 - uid: AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault*
   name: GetDefault
   href: api/AIMP.SDK.FileManager.IAimpServiceFileSystems.html#AIMP_SDK_FileManager_IAimpServiceFileSystems_GetDefault_
@@ -4524,15 +4613,15 @@ references:
   isSpec: "True"
   fullName: AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault
   nameWithType: IAimpServiceFileSystems.GetDefault
-- uid: AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault``1(AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand@)
-  name: GetDefault<TCommand>(out IAimpFileSystemCommand)
-  href: api/AIMP.SDK.FileManager.IAimpServiceFileSystems.html#AIMP_SDK_FileManager_IAimpServiceFileSystems_GetDefault__1_AIMP_SDK_FileManager_Commands_IAimpFileSystemCommand__
-  commentId: M:AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault``1(AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand@)
-  name.vb: GetDefault(Of TCommand)(ByRef IAimpFileSystemCommand)
-  fullName: AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault<TCommand>(out AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand)
-  fullName.vb: AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault(Of TCommand)(ByRef AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand)
-  nameWithType: IAimpServiceFileSystems.GetDefault<TCommand>(out IAimpFileSystemCommand)
-  nameWithType.vb: IAimpServiceFileSystems.GetDefault(Of TCommand)(ByRef IAimpFileSystemCommand)
+- uid: AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault``1(``0@)
+  name: GetDefault<TCommand>(out TCommand)
+  href: api/AIMP.SDK.FileManager.IAimpServiceFileSystems.html#AIMP_SDK_FileManager_IAimpServiceFileSystems_GetDefault__1___0__
+  commentId: M:AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault``1(``0@)
+  name.vb: GetDefault(Of TCommand)(ByRef TCommand)
+  fullName: AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault<TCommand>(out TCommand)
+  fullName.vb: AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault(Of TCommand)(ByRef TCommand)
+  nameWithType: IAimpServiceFileSystems.GetDefault<TCommand>(out TCommand)
+  nameWithType.vb: IAimpServiceFileSystems.GetDefault(Of TCommand)(ByRef TCommand)
 - uid: AIMP.SDK.FileManager.IAimpVirtualFile
   name: IAimpVirtualFile
   href: api/AIMP.SDK.FileManager.IAimpVirtualFile.html
@@ -4861,6 +4950,22 @@ references:
   commentId: E:AIMP.SDK.IAimpCore.CoreMessage
   fullName: AIMP.SDK.IAimpCore.CoreMessage
   nameWithType: IAimpCore.CoreMessage
+- uid: AIMP.SDK.IAimpCore.CreateObject(System.Guid@)
+  name: CreateObject(ref Guid)
+  href: api/AIMP.SDK.IAimpCore.html#AIMP_SDK_IAimpCore_CreateObject_System_Guid__
+  commentId: M:AIMP.SDK.IAimpCore.CreateObject(System.Guid@)
+  name.vb: CreateObject(ByRef Guid)
+  fullName: AIMP.SDK.IAimpCore.CreateObject(ref System.Guid)
+  fullName.vb: AIMP.SDK.IAimpCore.CreateObject(ByRef System.Guid)
+  nameWithType: IAimpCore.CreateObject(ref Guid)
+  nameWithType.vb: IAimpCore.CreateObject(ByRef Guid)
+- uid: AIMP.SDK.IAimpCore.CreateObject*
+  name: CreateObject
+  href: api/AIMP.SDK.IAimpCore.html#AIMP_SDK_IAimpCore_CreateObject_
+  commentId: Overload:AIMP.SDK.IAimpCore.CreateObject
+  isSpec: "True"
+  fullName: AIMP.SDK.IAimpCore.CreateObject
+  nameWithType: IAimpCore.CreateObject
 - uid: AIMP.SDK.IAimpCore.CreateStream
   name: CreateStream()
   href: api/AIMP.SDK.IAimpCore.html#AIMP_SDK_IAimpCore_CreateStream
@@ -6019,6 +6124,107 @@ references:
   commentId: F:AIMP.SDK.MenuManager.ParentMenuType.AIMP_MENUID_PLAYER_TRAY
   fullName: AIMP.SDK.MenuManager.ParentMenuType.AIMP_MENUID_PLAYER_TRAY
   nameWithType: ParentMenuType.AIMP_MENUID_PLAYER_TRAY
+- uid: AIMP.SDK.MessageDispatcher
+  name: AIMP.SDK.MessageDispatcher
+  href: api/AIMP.SDK.MessageDispatcher.html
+  commentId: N:AIMP.SDK.MessageDispatcher
+  fullName: AIMP.SDK.MessageDispatcher
+  nameWithType: AIMP.SDK.MessageDispatcher
+- uid: AIMP.SDK.MessageDispatcher.IAimpMessageHook
+  name: IAimpMessageHook
+  href: api/AIMP.SDK.MessageDispatcher.IAimpMessageHook.html
+  commentId: T:AIMP.SDK.MessageDispatcher.IAimpMessageHook
+  fullName: AIMP.SDK.MessageDispatcher.IAimpMessageHook
+  nameWithType: IAimpMessageHook
+- uid: AIMP.SDK.MessageDispatcher.IAimpMessageHook.CoreMessage(AIMP.SDK.AimpMessages.AimpCoreMessageType,System.Int32,System.Int32)
+  name: CoreMessage(AimpMessages.AimpCoreMessageType, Int32, Int32)
+  href: api/AIMP.SDK.MessageDispatcher.IAimpMessageHook.html#AIMP_SDK_MessageDispatcher_IAimpMessageHook_CoreMessage_AIMP_SDK_AimpMessages_AimpCoreMessageType_System_Int32_System_Int32_
+  commentId: M:AIMP.SDK.MessageDispatcher.IAimpMessageHook.CoreMessage(AIMP.SDK.AimpMessages.AimpCoreMessageType,System.Int32,System.Int32)
+  fullName: AIMP.SDK.MessageDispatcher.IAimpMessageHook.CoreMessage(AIMP.SDK.AimpMessages.AimpCoreMessageType, System.Int32, System.Int32)
+  nameWithType: IAimpMessageHook.CoreMessage(AimpMessages.AimpCoreMessageType, Int32, Int32)
+- uid: AIMP.SDK.MessageDispatcher.IAimpMessageHook.CoreMessage*
+  name: CoreMessage
+  href: api/AIMP.SDK.MessageDispatcher.IAimpMessageHook.html#AIMP_SDK_MessageDispatcher_IAimpMessageHook_CoreMessage_
+  commentId: Overload:AIMP.SDK.MessageDispatcher.IAimpMessageHook.CoreMessage
+  isSpec: "True"
+  fullName: AIMP.SDK.MessageDispatcher.IAimpMessageHook.CoreMessage
+  nameWithType: IAimpMessageHook.CoreMessage
+- uid: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher
+  name: IAimpServiceMessageDispatcher
+  href: api/AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html
+  commentId: T:AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher
+  fullName: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher
+  nameWithType: IAimpServiceMessageDispatcher
+- uid: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Hook(AIMP.SDK.MessageDispatcher.IAimpMessageHook)
+  name: Hook(IAimpMessageHook)
+  href: api/AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html#AIMP_SDK_MessageDispatcher_IAimpServiceMessageDispatcher_Hook_AIMP_SDK_MessageDispatcher_IAimpMessageHook_
+  commentId: M:AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Hook(AIMP.SDK.MessageDispatcher.IAimpMessageHook)
+  fullName: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Hook(AIMP.SDK.MessageDispatcher.IAimpMessageHook)
+  nameWithType: IAimpServiceMessageDispatcher.Hook(IAimpMessageHook)
+- uid: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Hook*
+  name: Hook
+  href: api/AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html#AIMP_SDK_MessageDispatcher_IAimpServiceMessageDispatcher_Hook_
+  commentId: Overload:AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Hook
+  isSpec: "True"
+  fullName: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Hook
+  nameWithType: IAimpServiceMessageDispatcher.Hook
+- uid: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Register(System.String)
+  name: Register(String)
+  href: api/AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html#AIMP_SDK_MessageDispatcher_IAimpServiceMessageDispatcher_Register_System_String_
+  commentId: M:AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Register(System.String)
+  fullName: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Register(System.String)
+  nameWithType: IAimpServiceMessageDispatcher.Register(String)
+- uid: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Register*
+  name: Register
+  href: api/AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html#AIMP_SDK_MessageDispatcher_IAimpServiceMessageDispatcher_Register_
+  commentId: Overload:AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Register
+  isSpec: "True"
+  fullName: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Register
+  nameWithType: IAimpServiceMessageDispatcher.Register
+- uid: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Send(System.Int32,System.Int32,System.IntPtr)
+  name: Send(Int32, Int32, IntPtr)
+  href: api/AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html#AIMP_SDK_MessageDispatcher_IAimpServiceMessageDispatcher_Send_System_Int32_System_Int32_System_IntPtr_
+  commentId: M:AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Send(System.Int32,System.Int32,System.IntPtr)
+  fullName: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Send(System.Int32, System.Int32, System.IntPtr)
+  nameWithType: IAimpServiceMessageDispatcher.Send(Int32, Int32, IntPtr)
+- uid: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Send*
+  name: Send
+  href: api/AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html#AIMP_SDK_MessageDispatcher_IAimpServiceMessageDispatcher_Send_
+  commentId: Overload:AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Send
+  isSpec: "True"
+  fullName: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Send
+  nameWithType: IAimpServiceMessageDispatcher.Send
+- uid: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Unhook(AIMP.SDK.MessageDispatcher.IAimpMessageHook)
+  name: Unhook(IAimpMessageHook)
+  href: api/AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html#AIMP_SDK_MessageDispatcher_IAimpServiceMessageDispatcher_Unhook_AIMP_SDK_MessageDispatcher_IAimpMessageHook_
+  commentId: M:AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Unhook(AIMP.SDK.MessageDispatcher.IAimpMessageHook)
+  fullName: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Unhook(AIMP.SDK.MessageDispatcher.IAimpMessageHook)
+  nameWithType: IAimpServiceMessageDispatcher.Unhook(IAimpMessageHook)
+- uid: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Unhook*
+  name: Unhook
+  href: api/AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html#AIMP_SDK_MessageDispatcher_IAimpServiceMessageDispatcher_Unhook_
+  commentId: Overload:AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Unhook
+  isSpec: "True"
+  fullName: AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.Unhook
+  nameWithType: IAimpServiceMessageDispatcher.Unhook
+- uid: AIMP.SDK.MessageDispatcher.MessageDirectionType
+  name: MessageDirectionType
+  href: api/AIMP.SDK.MessageDispatcher.MessageDirectionType.html
+  commentId: T:AIMP.SDK.MessageDispatcher.MessageDirectionType
+  fullName: AIMP.SDK.MessageDispatcher.MessageDirectionType
+  nameWithType: MessageDirectionType
+- uid: AIMP.SDK.MessageDispatcher.MessageDirectionType.Get
+  name: Get
+  href: api/AIMP.SDK.MessageDispatcher.MessageDirectionType.html#AIMP_SDK_MessageDispatcher_MessageDirectionType_Get
+  commentId: F:AIMP.SDK.MessageDispatcher.MessageDirectionType.Get
+  fullName: AIMP.SDK.MessageDispatcher.MessageDirectionType.Get
+  nameWithType: MessageDirectionType.Get
+- uid: AIMP.SDK.MessageDispatcher.MessageDirectionType.Set
+  name: Set
+  href: api/AIMP.SDK.MessageDispatcher.MessageDirectionType.html#AIMP_SDK_MessageDispatcher_MessageDirectionType_Set
+  commentId: F:AIMP.SDK.MessageDispatcher.MessageDirectionType.Set
+  fullName: AIMP.SDK.MessageDispatcher.MessageDirectionType.Set
+  nameWithType: MessageDirectionType.Set
 - uid: AIMP.SDK.MUIManager
   name: AIMP.SDK.MUIManager
   href: api/AIMP.SDK.MUIManager.html
@@ -8421,6 +8627,415 @@ references:
   commentId: F:AIMP.SDK.MusicLibrary.SortDirectionType.AIMPML_FILTER_SORTDIRECTION_DESCENDING
   fullName: AIMP.SDK.MusicLibrary.SortDirectionType.AIMPML_FILTER_SORTDIRECTION_DESCENDING
   nameWithType: SortDirectionType.AIMPML_FILTER_SORTDIRECTION_DESCENDING
+- uid: AIMP.SDK.Objects
+  name: AIMP.SDK.Objects
+  href: api/AIMP.SDK.Objects.html
+  commentId: N:AIMP.SDK.Objects
+  fullName: AIMP.SDK.Objects
+  nameWithType: AIMP.SDK.Objects
+- uid: AIMP.SDK.Objects.AIMPStringCase
+  name: AIMPStringCase
+  href: api/AIMP.SDK.Objects.AIMPStringCase.html
+  commentId: T:AIMP.SDK.Objects.AIMPStringCase
+  fullName: AIMP.SDK.Objects.AIMPStringCase
+  nameWithType: AIMPStringCase
+- uid: AIMP.SDK.Objects.AIMPStringCase.AllWordsWithCapicalLetter
+  name: AllWordsWithCapicalLetter
+  href: api/AIMP.SDK.Objects.AIMPStringCase.html#AIMP_SDK_Objects_AIMPStringCase_AllWordsWithCapicalLetter
+  commentId: F:AIMP.SDK.Objects.AIMPStringCase.AllWordsWithCapicalLetter
+  fullName: AIMP.SDK.Objects.AIMPStringCase.AllWordsWithCapicalLetter
+  nameWithType: AIMPStringCase.AllWordsWithCapicalLetter
+- uid: AIMP.SDK.Objects.AIMPStringCase.Default
+  name: Default
+  href: api/AIMP.SDK.Objects.AIMPStringCase.html#AIMP_SDK_Objects_AIMPStringCase_Default
+  commentId: F:AIMP.SDK.Objects.AIMPStringCase.Default
+  fullName: AIMP.SDK.Objects.AIMPStringCase.Default
+  nameWithType: AIMPStringCase.Default
+- uid: AIMP.SDK.Objects.AIMPStringCase.FirstWordWithCapicalLetter
+  name: FirstWordWithCapicalLetter
+  href: api/AIMP.SDK.Objects.AIMPStringCase.html#AIMP_SDK_Objects_AIMPStringCase_FirstWordWithCapicalLetter
+  commentId: F:AIMP.SDK.Objects.AIMPStringCase.FirstWordWithCapicalLetter
+  fullName: AIMP.SDK.Objects.AIMPStringCase.FirstWordWithCapicalLetter
+  nameWithType: AIMPStringCase.FirstWordWithCapicalLetter
+- uid: AIMP.SDK.Objects.AIMPStringCase.Lower
+  name: Lower
+  href: api/AIMP.SDK.Objects.AIMPStringCase.html#AIMP_SDK_Objects_AIMPStringCase_Lower
+  commentId: F:AIMP.SDK.Objects.AIMPStringCase.Lower
+  fullName: AIMP.SDK.Objects.AIMPStringCase.Lower
+  nameWithType: AIMPStringCase.Lower
+- uid: AIMP.SDK.Objects.AIMPStringCase.Upper
+  name: Upper
+  href: api/AIMP.SDK.Objects.AIMPStringCase.html#AIMP_SDK_Objects_AIMPStringCase_Upper
+  commentId: F:AIMP.SDK.Objects.AIMPStringCase.Upper
+  fullName: AIMP.SDK.Objects.AIMPStringCase.Upper
+  nameWithType: AIMPStringCase.Upper
+- uid: AIMP.SDK.Objects.AIMPStringFindFlags
+  name: AIMPStringFindFlags
+  href: api/AIMP.SDK.Objects.AIMPStringFindFlags.html
+  commentId: T:AIMP.SDK.Objects.AIMPStringFindFlags
+  fullName: AIMP.SDK.Objects.AIMPStringFindFlags
+  nameWithType: AIMPStringFindFlags
+- uid: AIMP.SDK.Objects.AIMPStringFindFlags.IgnoreCase
+  name: IgnoreCase
+  href: api/AIMP.SDK.Objects.AIMPStringFindFlags.html#AIMP_SDK_Objects_AIMPStringFindFlags_IgnoreCase
+  commentId: F:AIMP.SDK.Objects.AIMPStringFindFlags.IgnoreCase
+  fullName: AIMP.SDK.Objects.AIMPStringFindFlags.IgnoreCase
+  nameWithType: AIMPStringFindFlags.IgnoreCase
+- uid: AIMP.SDK.Objects.AIMPStringFindFlags.WholeWord
+  name: WholeWord
+  href: api/AIMP.SDK.Objects.AIMPStringFindFlags.html#AIMP_SDK_Objects_AIMPStringFindFlags_WholeWord
+  commentId: F:AIMP.SDK.Objects.AIMPStringFindFlags.WholeWord
+  fullName: AIMP.SDK.Objects.AIMPStringFindFlags.WholeWord
+  nameWithType: AIMPStringFindFlags.WholeWord
+- uid: AIMP.SDK.Objects.IAimpString
+  name: IAimpString
+  href: api/AIMP.SDK.Objects.IAimpString.html
+  commentId: T:AIMP.SDK.Objects.IAimpString
+  fullName: AIMP.SDK.Objects.IAimpString
+  nameWithType: IAimpString
+- uid: AIMP.SDK.Objects.IAimpString.Add(AIMP.SDK.Objects.IAimpString)
+  name: Add(IAimpString)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Add_AIMP_SDK_Objects_IAimpString_
+  commentId: M:AIMP.SDK.Objects.IAimpString.Add(AIMP.SDK.Objects.IAimpString)
+  fullName: AIMP.SDK.Objects.IAimpString.Add(AIMP.SDK.Objects.IAimpString)
+  nameWithType: IAimpString.Add(IAimpString)
+- uid: AIMP.SDK.Objects.IAimpString.Add(System.String,System.Int32)
+  name: Add(String, Int32)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Add_System_String_System_Int32_
+  commentId: M:AIMP.SDK.Objects.IAimpString.Add(System.String,System.Int32)
+  fullName: AIMP.SDK.Objects.IAimpString.Add(System.String, System.Int32)
+  nameWithType: IAimpString.Add(String, Int32)
+- uid: AIMP.SDK.Objects.IAimpString.Add*
+  name: Add
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Add_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.Add
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.Add
+  nameWithType: IAimpString.Add
+- uid: AIMP.SDK.Objects.IAimpString.ChangeCase(AIMP.SDK.Objects.AIMPStringCase)
+  name: ChangeCase(AIMPStringCase)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_ChangeCase_AIMP_SDK_Objects_AIMPStringCase_
+  commentId: M:AIMP.SDK.Objects.IAimpString.ChangeCase(AIMP.SDK.Objects.AIMPStringCase)
+  fullName: AIMP.SDK.Objects.IAimpString.ChangeCase(AIMP.SDK.Objects.AIMPStringCase)
+  nameWithType: IAimpString.ChangeCase(AIMPStringCase)
+- uid: AIMP.SDK.Objects.IAimpString.ChangeCase*
+  name: ChangeCase
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_ChangeCase_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.ChangeCase
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.ChangeCase
+  nameWithType: IAimpString.ChangeCase
+- uid: AIMP.SDK.Objects.IAimpString.Clone(AIMP.SDK.Objects.IAimpString@)
+  name: Clone(out IAimpString)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Clone_AIMP_SDK_Objects_IAimpString__
+  commentId: M:AIMP.SDK.Objects.IAimpString.Clone(AIMP.SDK.Objects.IAimpString@)
+  name.vb: Clone(ByRef IAimpString)
+  fullName: AIMP.SDK.Objects.IAimpString.Clone(out AIMP.SDK.Objects.IAimpString)
+  fullName.vb: AIMP.SDK.Objects.IAimpString.Clone(ByRef AIMP.SDK.Objects.IAimpString)
+  nameWithType: IAimpString.Clone(out IAimpString)
+  nameWithType.vb: IAimpString.Clone(ByRef IAimpString)
+- uid: AIMP.SDK.Objects.IAimpString.Clone*
+  name: Clone
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Clone_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.Clone
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.Clone
+  nameWithType: IAimpString.Clone
+- uid: AIMP.SDK.Objects.IAimpString.Compare(AIMP.SDK.Objects.IAimpString,System.Int32@,System.Boolean)
+  name: Compare(IAimpString, out Int32, Boolean)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Compare_AIMP_SDK_Objects_IAimpString_System_Int32__System_Boolean_
+  commentId: M:AIMP.SDK.Objects.IAimpString.Compare(AIMP.SDK.Objects.IAimpString,System.Int32@,System.Boolean)
+  name.vb: Compare(IAimpString, ByRef Int32, Boolean)
+  fullName: AIMP.SDK.Objects.IAimpString.Compare(AIMP.SDK.Objects.IAimpString, out System.Int32, System.Boolean)
+  fullName.vb: AIMP.SDK.Objects.IAimpString.Compare(AIMP.SDK.Objects.IAimpString, ByRef System.Int32, System.Boolean)
+  nameWithType: IAimpString.Compare(IAimpString, out Int32, Boolean)
+  nameWithType.vb: IAimpString.Compare(IAimpString, ByRef Int32, Boolean)
+- uid: AIMP.SDK.Objects.IAimpString.Compare(System.String,System.Int32,System.Int32@,System.Boolean)
+  name: Compare(String, Int32, out Int32, Boolean)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Compare_System_String_System_Int32_System_Int32__System_Boolean_
+  commentId: M:AIMP.SDK.Objects.IAimpString.Compare(System.String,System.Int32,System.Int32@,System.Boolean)
+  name.vb: Compare(String, Int32, ByRef Int32, Boolean)
+  fullName: AIMP.SDK.Objects.IAimpString.Compare(System.String, System.Int32, out System.Int32, System.Boolean)
+  fullName.vb: AIMP.SDK.Objects.IAimpString.Compare(System.String, System.Int32, ByRef System.Int32, System.Boolean)
+  nameWithType: IAimpString.Compare(String, Int32, out Int32, Boolean)
+  nameWithType.vb: IAimpString.Compare(String, Int32, ByRef Int32, Boolean)
+- uid: AIMP.SDK.Objects.IAimpString.Compare*
+  name: Compare
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Compare_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.Compare
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.Compare
+  nameWithType: IAimpString.Compare
+- uid: AIMP.SDK.Objects.IAimpString.Delete(System.Int32,System.Int32)
+  name: Delete(Int32, Int32)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Delete_System_Int32_System_Int32_
+  commentId: M:AIMP.SDK.Objects.IAimpString.Delete(System.Int32,System.Int32)
+  fullName: AIMP.SDK.Objects.IAimpString.Delete(System.Int32, System.Int32)
+  nameWithType: IAimpString.Delete(Int32, Int32)
+- uid: AIMP.SDK.Objects.IAimpString.Delete*
+  name: Delete
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Delete_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.Delete
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.Delete
+  nameWithType: IAimpString.Delete
+- uid: AIMP.SDK.Objects.IAimpString.Find(AIMP.SDK.Objects.IAimpString,System.Int32@,AIMP.SDK.Objects.AIMPStringFindFlags,System.Int32)
+  name: Find(IAimpString, out Int32, AIMPStringFindFlags, Int32)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Find_AIMP_SDK_Objects_IAimpString_System_Int32__AIMP_SDK_Objects_AIMPStringFindFlags_System_Int32_
+  commentId: M:AIMP.SDK.Objects.IAimpString.Find(AIMP.SDK.Objects.IAimpString,System.Int32@,AIMP.SDK.Objects.AIMPStringFindFlags,System.Int32)
+  name.vb: Find(IAimpString, ByRef Int32, AIMPStringFindFlags, Int32)
+  fullName: AIMP.SDK.Objects.IAimpString.Find(AIMP.SDK.Objects.IAimpString, out System.Int32, AIMP.SDK.Objects.AIMPStringFindFlags, System.Int32)
+  fullName.vb: AIMP.SDK.Objects.IAimpString.Find(AIMP.SDK.Objects.IAimpString, ByRef System.Int32, AIMP.SDK.Objects.AIMPStringFindFlags, System.Int32)
+  nameWithType: IAimpString.Find(IAimpString, out Int32, AIMPStringFindFlags, Int32)
+  nameWithType.vb: IAimpString.Find(IAimpString, ByRef Int32, AIMPStringFindFlags, Int32)
+- uid: AIMP.SDK.Objects.IAimpString.Find(System.String,System.Int32,System.Int32@,AIMP.SDK.Objects.AIMPStringFindFlags,System.Int32)
+  name: Find(String, Int32, out Int32, AIMPStringFindFlags, Int32)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Find_System_String_System_Int32_System_Int32__AIMP_SDK_Objects_AIMPStringFindFlags_System_Int32_
+  commentId: M:AIMP.SDK.Objects.IAimpString.Find(System.String,System.Int32,System.Int32@,AIMP.SDK.Objects.AIMPStringFindFlags,System.Int32)
+  name.vb: Find(String, Int32, ByRef Int32, AIMPStringFindFlags, Int32)
+  fullName: AIMP.SDK.Objects.IAimpString.Find(System.String, System.Int32, out System.Int32, AIMP.SDK.Objects.AIMPStringFindFlags, System.Int32)
+  fullName.vb: AIMP.SDK.Objects.IAimpString.Find(System.String, System.Int32, ByRef System.Int32, AIMP.SDK.Objects.AIMPStringFindFlags, System.Int32)
+  nameWithType: IAimpString.Find(String, Int32, out Int32, AIMPStringFindFlags, Int32)
+  nameWithType.vb: IAimpString.Find(String, Int32, ByRef Int32, AIMPStringFindFlags, Int32)
+- uid: AIMP.SDK.Objects.IAimpString.Find*
+  name: Find
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Find_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.Find
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.Find
+  nameWithType: IAimpString.Find
+- uid: AIMP.SDK.Objects.IAimpString.GetChar(System.Int32,System.Char@)
+  name: GetChar(Int32, out Char)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_GetChar_System_Int32_System_Char__
+  commentId: M:AIMP.SDK.Objects.IAimpString.GetChar(System.Int32,System.Char@)
+  name.vb: GetChar(Int32, ByRef Char)
+  fullName: AIMP.SDK.Objects.IAimpString.GetChar(System.Int32, out System.Char)
+  fullName.vb: AIMP.SDK.Objects.IAimpString.GetChar(System.Int32, ByRef System.Char)
+  nameWithType: IAimpString.GetChar(Int32, out Char)
+  nameWithType.vb: IAimpString.GetChar(Int32, ByRef Char)
+- uid: AIMP.SDK.Objects.IAimpString.GetChar*
+  name: GetChar
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_GetChar_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.GetChar
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.GetChar
+  nameWithType: IAimpString.GetChar
+- uid: AIMP.SDK.Objects.IAimpString.GetData
+  name: GetData()
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_GetData
+  commentId: M:AIMP.SDK.Objects.IAimpString.GetData
+  fullName: AIMP.SDK.Objects.IAimpString.GetData()
+  nameWithType: IAimpString.GetData()
+- uid: AIMP.SDK.Objects.IAimpString.GetData*
+  name: GetData
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_GetData_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.GetData
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.GetData
+  nameWithType: IAimpString.GetData
+- uid: AIMP.SDK.Objects.IAimpString.GetHashCode
+  name: GetHashCode()
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_GetHashCode
+  commentId: M:AIMP.SDK.Objects.IAimpString.GetHashCode
+  fullName: AIMP.SDK.Objects.IAimpString.GetHashCode()
+  nameWithType: IAimpString.GetHashCode()
+- uid: AIMP.SDK.Objects.IAimpString.GetHashCode*
+  name: GetHashCode
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_GetHashCode_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.GetHashCode
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.GetHashCode
+  nameWithType: IAimpString.GetHashCode
+- uid: AIMP.SDK.Objects.IAimpString.GetLength
+  name: GetLength()
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_GetLength
+  commentId: M:AIMP.SDK.Objects.IAimpString.GetLength
+  fullName: AIMP.SDK.Objects.IAimpString.GetLength()
+  nameWithType: IAimpString.GetLength()
+- uid: AIMP.SDK.Objects.IAimpString.GetLength*
+  name: GetLength
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_GetLength_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.GetLength
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.GetLength
+  nameWithType: IAimpString.GetLength
+- uid: AIMP.SDK.Objects.IAimpString.Insert(System.Int32,AIMP.SDK.Objects.IAimpString)
+  name: Insert(Int32, IAimpString)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Insert_System_Int32_AIMP_SDK_Objects_IAimpString_
+  commentId: M:AIMP.SDK.Objects.IAimpString.Insert(System.Int32,AIMP.SDK.Objects.IAimpString)
+  fullName: AIMP.SDK.Objects.IAimpString.Insert(System.Int32, AIMP.SDK.Objects.IAimpString)
+  nameWithType: IAimpString.Insert(Int32, IAimpString)
+- uid: AIMP.SDK.Objects.IAimpString.Insert(System.Int32,System.String,System.Int32)
+  name: Insert(Int32, String, Int32)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Insert_System_Int32_System_String_System_Int32_
+  commentId: M:AIMP.SDK.Objects.IAimpString.Insert(System.Int32,System.String,System.Int32)
+  fullName: AIMP.SDK.Objects.IAimpString.Insert(System.Int32, System.String, System.Int32)
+  nameWithType: IAimpString.Insert(Int32, String, Int32)
+- uid: AIMP.SDK.Objects.IAimpString.Insert*
+  name: Insert
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Insert_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.Insert
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.Insert
+  nameWithType: IAimpString.Insert
+- uid: AIMP.SDK.Objects.IAimpString.Replace(AIMP.SDK.Objects.IAimpString,AIMP.SDK.Objects.IAimpString,System.Int32)
+  name: Replace(IAimpString, IAimpString, Int32)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Replace_AIMP_SDK_Objects_IAimpString_AIMP_SDK_Objects_IAimpString_System_Int32_
+  commentId: M:AIMP.SDK.Objects.IAimpString.Replace(AIMP.SDK.Objects.IAimpString,AIMP.SDK.Objects.IAimpString,System.Int32)
+  fullName: AIMP.SDK.Objects.IAimpString.Replace(AIMP.SDK.Objects.IAimpString, AIMP.SDK.Objects.IAimpString, System.Int32)
+  nameWithType: IAimpString.Replace(IAimpString, IAimpString, Int32)
+- uid: AIMP.SDK.Objects.IAimpString.Replace(System.String,System.Int32,System.String,System.Int32,System.Int32)
+  name: Replace(String, Int32, String, Int32, Int32)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Replace_System_String_System_Int32_System_String_System_Int32_System_Int32_
+  commentId: M:AIMP.SDK.Objects.IAimpString.Replace(System.String,System.Int32,System.String,System.Int32,System.Int32)
+  fullName: AIMP.SDK.Objects.IAimpString.Replace(System.String, System.Int32, System.String, System.Int32, System.Int32)
+  nameWithType: IAimpString.Replace(String, Int32, String, Int32, Int32)
+- uid: AIMP.SDK.Objects.IAimpString.Replace*
+  name: Replace
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_Replace_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.Replace
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.Replace
+  nameWithType: IAimpString.Replace
+- uid: AIMP.SDK.Objects.IAimpString.SetChar(System.Int32,System.Char)
+  name: SetChar(Int32, Char)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_SetChar_System_Int32_System_Char_
+  commentId: M:AIMP.SDK.Objects.IAimpString.SetChar(System.Int32,System.Char)
+  fullName: AIMP.SDK.Objects.IAimpString.SetChar(System.Int32, System.Char)
+  nameWithType: IAimpString.SetChar(Int32, Char)
+- uid: AIMP.SDK.Objects.IAimpString.SetChar*
+  name: SetChar
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_SetChar_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.SetChar
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.SetChar
+  nameWithType: IAimpString.SetChar
+- uid: AIMP.SDK.Objects.IAimpString.SetData(System.String,System.Int32)
+  name: SetData(String, Int32)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_SetData_System_String_System_Int32_
+  commentId: M:AIMP.SDK.Objects.IAimpString.SetData(System.String,System.Int32)
+  fullName: AIMP.SDK.Objects.IAimpString.SetData(System.String, System.Int32)
+  nameWithType: IAimpString.SetData(String, Int32)
+- uid: AIMP.SDK.Objects.IAimpString.SetData*
+  name: SetData
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_SetData_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.SetData
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.SetData
+  nameWithType: IAimpString.SetData
+- uid: AIMP.SDK.Objects.IAimpString.SubString(System.Int32,System.Int32,AIMP.SDK.Objects.IAimpString@)
+  name: SubString(Int32, Int32, out IAimpString)
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_SubString_System_Int32_System_Int32_AIMP_SDK_Objects_IAimpString__
+  commentId: M:AIMP.SDK.Objects.IAimpString.SubString(System.Int32,System.Int32,AIMP.SDK.Objects.IAimpString@)
+  name.vb: SubString(Int32, Int32, ByRef IAimpString)
+  fullName: AIMP.SDK.Objects.IAimpString.SubString(System.Int32, System.Int32, out AIMP.SDK.Objects.IAimpString)
+  fullName.vb: AIMP.SDK.Objects.IAimpString.SubString(System.Int32, System.Int32, ByRef AIMP.SDK.Objects.IAimpString)
+  nameWithType: IAimpString.SubString(Int32, Int32, out IAimpString)
+  nameWithType.vb: IAimpString.SubString(Int32, Int32, ByRef IAimpString)
+- uid: AIMP.SDK.Objects.IAimpString.SubString*
+  name: SubString
+  href: api/AIMP.SDK.Objects.IAimpString.html#AIMP_SDK_Objects_IAimpString_SubString_
+  commentId: Overload:AIMP.SDK.Objects.IAimpString.SubString
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.IAimpString.SubString
+  nameWithType: IAimpString.SubString
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni
+  name: MyOwnMarshalPtrToStringUni
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html
+  commentId: T:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni
+  nameWithType: MyOwnMarshalPtrToStringUni
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.#ctor(System.String)
+  name: MyOwnMarshalPtrToStringUni(String)
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni__ctor_System_String_
+  commentId: M:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.#ctor(System.String)
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MyOwnMarshalPtrToStringUni(System.String)
+  nameWithType: MyOwnMarshalPtrToStringUni.MyOwnMarshalPtrToStringUni(String)
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.#ctor*
+  name: MyOwnMarshalPtrToStringUni
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni__ctor_
+  commentId: Overload:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.#ctor
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MyOwnMarshalPtrToStringUni
+  nameWithType: MyOwnMarshalPtrToStringUni.MyOwnMarshalPtrToStringUni
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpManagedData(System.Object)
+  name: CleanUpManagedData(Object)
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_CleanUpManagedData_System_Object_
+  commentId: M:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpManagedData(System.Object)
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpManagedData(System.Object)
+  nameWithType: MyOwnMarshalPtrToStringUni.CleanUpManagedData(Object)
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpManagedData*
+  name: CleanUpManagedData
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_CleanUpManagedData_
+  commentId: Overload:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpManagedData
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpManagedData
+  nameWithType: MyOwnMarshalPtrToStringUni.CleanUpManagedData
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpNativeData(System.IntPtr)
+  name: CleanUpNativeData(IntPtr)
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_CleanUpNativeData_System_IntPtr_
+  commentId: M:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpNativeData(System.IntPtr)
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpNativeData(System.IntPtr)
+  nameWithType: MyOwnMarshalPtrToStringUni.CleanUpNativeData(IntPtr)
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpNativeData*
+  name: CleanUpNativeData
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_CleanUpNativeData_
+  commentId: Overload:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpNativeData
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.CleanUpNativeData
+  nameWithType: MyOwnMarshalPtrToStringUni.CleanUpNativeData
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetInstance(System.String)
+  name: GetInstance(String)
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_GetInstance_System_String_
+  commentId: M:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetInstance(System.String)
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetInstance(System.String)
+  nameWithType: MyOwnMarshalPtrToStringUni.GetInstance(String)
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetInstance*
+  name: GetInstance
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_GetInstance_
+  commentId: Overload:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetInstance
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetInstance
+  nameWithType: MyOwnMarshalPtrToStringUni.GetInstance
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetNativeDataSize
+  name: GetNativeDataSize()
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_GetNativeDataSize
+  commentId: M:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetNativeDataSize
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetNativeDataSize()
+  nameWithType: MyOwnMarshalPtrToStringUni.GetNativeDataSize()
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetNativeDataSize*
+  name: GetNativeDataSize
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_GetNativeDataSize_
+  commentId: Overload:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetNativeDataSize
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.GetNativeDataSize
+  nameWithType: MyOwnMarshalPtrToStringUni.GetNativeDataSize
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalManagedToNative(System.Object)
+  name: MarshalManagedToNative(Object)
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_MarshalManagedToNative_System_Object_
+  commentId: M:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalManagedToNative(System.Object)
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalManagedToNative(System.Object)
+  nameWithType: MyOwnMarshalPtrToStringUni.MarshalManagedToNative(Object)
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalManagedToNative*
+  name: MarshalManagedToNative
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_MarshalManagedToNative_
+  commentId: Overload:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalManagedToNative
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalManagedToNative
+  nameWithType: MyOwnMarshalPtrToStringUni.MarshalManagedToNative
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalNativeToManaged(System.IntPtr)
+  name: MarshalNativeToManaged(IntPtr)
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_MarshalNativeToManaged_System_IntPtr_
+  commentId: M:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalNativeToManaged(System.IntPtr)
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalNativeToManaged(System.IntPtr)
+  nameWithType: MyOwnMarshalPtrToStringUni.MarshalNativeToManaged(IntPtr)
+- uid: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalNativeToManaged*
+  name: MarshalNativeToManaged
+  href: api/AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.html#AIMP_SDK_Objects_MyOwnMarshalPtrToStringUni_MarshalNativeToManaged_
+  commentId: Overload:AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalNativeToManaged
+  isSpec: "True"
+  fullName: AIMP.SDK.Objects.MyOwnMarshalPtrToStringUni.MarshalNativeToManaged
+  nameWithType: MyOwnMarshalPtrToStringUni.MarshalNativeToManaged
 - uid: AIMP.SDK.Options
   name: AIMP.SDK.Options
   href: api/AIMP.SDK.Options.html
@@ -9009,6 +9624,32 @@ references:
   isSpec: "True"
   fullName: AIMP.SDK.Player.IAimpPlayer.ServiceFileSystems
   nameWithType: IAimpPlayer.ServiceFileSystems
+- uid: AIMP.SDK.Player.IAimpPlayer.ServiceFileTagEditor
+  name: ServiceFileTagEditor
+  href: api/AIMP.SDK.Player.IAimpPlayer.html#AIMP_SDK_Player_IAimpPlayer_ServiceFileTagEditor
+  commentId: P:AIMP.SDK.Player.IAimpPlayer.ServiceFileTagEditor
+  fullName: AIMP.SDK.Player.IAimpPlayer.ServiceFileTagEditor
+  nameWithType: IAimpPlayer.ServiceFileTagEditor
+- uid: AIMP.SDK.Player.IAimpPlayer.ServiceFileTagEditor*
+  name: ServiceFileTagEditor
+  href: api/AIMP.SDK.Player.IAimpPlayer.html#AIMP_SDK_Player_IAimpPlayer_ServiceFileTagEditor_
+  commentId: Overload:AIMP.SDK.Player.IAimpPlayer.ServiceFileTagEditor
+  isSpec: "True"
+  fullName: AIMP.SDK.Player.IAimpPlayer.ServiceFileTagEditor
+  nameWithType: IAimpPlayer.ServiceFileTagEditor
+- uid: AIMP.SDK.Player.IAimpPlayer.ServiceMessageDispatcher
+  name: ServiceMessageDispatcher
+  href: api/AIMP.SDK.Player.IAimpPlayer.html#AIMP_SDK_Player_IAimpPlayer_ServiceMessageDispatcher
+  commentId: P:AIMP.SDK.Player.IAimpPlayer.ServiceMessageDispatcher
+  fullName: AIMP.SDK.Player.IAimpPlayer.ServiceMessageDispatcher
+  nameWithType: IAimpPlayer.ServiceMessageDispatcher
+- uid: AIMP.SDK.Player.IAimpPlayer.ServiceMessageDispatcher*
+  name: ServiceMessageDispatcher
+  href: api/AIMP.SDK.Player.IAimpPlayer.html#AIMP_SDK_Player_IAimpPlayer_ServiceMessageDispatcher_
+  commentId: Overload:AIMP.SDK.Player.IAimpPlayer.ServiceMessageDispatcher
+  isSpec: "True"
+  fullName: AIMP.SDK.Player.IAimpPlayer.ServiceMessageDispatcher
+  nameWithType: IAimpPlayer.ServiceMessageDispatcher
 - uid: AIMP.SDK.Player.IAimpPlayer.ServiceMusicLibrary
   name: ServiceMusicLibrary
   href: api/AIMP.SDK.Player.IAimpPlayer.html#AIMP_SDK_Player_IAimpPlayer_ServiceMusicLibrary
@@ -11591,6 +12232,225 @@ references:
   isSpec: "True"
   fullName: AIMP.SDK.PluginShortInfoForLoad.PluginLocInfo
   nameWithType: PluginShortInfoForLoad.PluginLocInfo
+- uid: AIMP.SDK.TagEditor
+  name: AIMP.SDK.TagEditor
+  href: api/AIMP.SDK.TagEditor.html
+  commentId: N:AIMP.SDK.TagEditor
+  fullName: AIMP.SDK.TagEditor
+  nameWithType: AIMP.SDK.TagEditor
+- uid: AIMP.SDK.TagEditor.IAimpFileTag
+  name: IAimpFileTag
+  href: api/AIMP.SDK.TagEditor.IAimpFileTag.html
+  commentId: T:AIMP.SDK.TagEditor.IAimpFileTag
+  fullName: AIMP.SDK.TagEditor.IAimpFileTag
+  nameWithType: IAimpFileTag
+- uid: AIMP.SDK.TagEditor.IAimpFileTag.DeleteOnSaving
+  name: DeleteOnSaving
+  href: api/AIMP.SDK.TagEditor.IAimpFileTag.html#AIMP_SDK_TagEditor_IAimpFileTag_DeleteOnSaving
+  commentId: P:AIMP.SDK.TagEditor.IAimpFileTag.DeleteOnSaving
+  fullName: AIMP.SDK.TagEditor.IAimpFileTag.DeleteOnSaving
+  nameWithType: IAimpFileTag.DeleteOnSaving
+- uid: AIMP.SDK.TagEditor.IAimpFileTag.DeleteOnSaving*
+  name: DeleteOnSaving
+  href: api/AIMP.SDK.TagEditor.IAimpFileTag.html#AIMP_SDK_TagEditor_IAimpFileTag_DeleteOnSaving_
+  commentId: Overload:AIMP.SDK.TagEditor.IAimpFileTag.DeleteOnSaving
+  isSpec: "True"
+  fullName: AIMP.SDK.TagEditor.IAimpFileTag.DeleteOnSaving
+  nameWithType: IAimpFileTag.DeleteOnSaving
+- uid: AIMP.SDK.TagEditor.IAimpFileTag.TagId
+  name: TagId
+  href: api/AIMP.SDK.TagEditor.IAimpFileTag.html#AIMP_SDK_TagEditor_IAimpFileTag_TagId
+  commentId: P:AIMP.SDK.TagEditor.IAimpFileTag.TagId
+  fullName: AIMP.SDK.TagEditor.IAimpFileTag.TagId
+  nameWithType: IAimpFileTag.TagId
+- uid: AIMP.SDK.TagEditor.IAimpFileTag.TagId*
+  name: TagId
+  href: api/AIMP.SDK.TagEditor.IAimpFileTag.html#AIMP_SDK_TagEditor_IAimpFileTag_TagId_
+  commentId: Overload:AIMP.SDK.TagEditor.IAimpFileTag.TagId
+  isSpec: "True"
+  fullName: AIMP.SDK.TagEditor.IAimpFileTag.TagId
+  nameWithType: IAimpFileTag.TagId
+- uid: AIMP.SDK.TagEditor.IAimpFileTagEditor
+  name: IAimpFileTagEditor
+  href: api/AIMP.SDK.TagEditor.IAimpFileTagEditor.html
+  commentId: T:AIMP.SDK.TagEditor.IAimpFileTagEditor
+  fullName: AIMP.SDK.TagEditor.IAimpFileTagEditor
+  nameWithType: IAimpFileTagEditor
+- uid: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetMixedInfo(AIMP.SDK.FileManager.IAimpFileInfo@)
+  name: GetMixedInfo(out IAimpFileInfo)
+  href: api/AIMP.SDK.TagEditor.IAimpFileTagEditor.html#AIMP_SDK_TagEditor_IAimpFileTagEditor_GetMixedInfo_AIMP_SDK_FileManager_IAimpFileInfo__
+  commentId: M:AIMP.SDK.TagEditor.IAimpFileTagEditor.GetMixedInfo(AIMP.SDK.FileManager.IAimpFileInfo@)
+  name.vb: GetMixedInfo(ByRef IAimpFileInfo)
+  fullName: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetMixedInfo(out AIMP.SDK.FileManager.IAimpFileInfo)
+  fullName.vb: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetMixedInfo(ByRef AIMP.SDK.FileManager.IAimpFileInfo)
+  nameWithType: IAimpFileTagEditor.GetMixedInfo(out IAimpFileInfo)
+  nameWithType.vb: IAimpFileTagEditor.GetMixedInfo(ByRef IAimpFileInfo)
+- uid: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetMixedInfo*
+  name: GetMixedInfo
+  href: api/AIMP.SDK.TagEditor.IAimpFileTagEditor.html#AIMP_SDK_TagEditor_IAimpFileTagEditor_GetMixedInfo_
+  commentId: Overload:AIMP.SDK.TagEditor.IAimpFileTagEditor.GetMixedInfo
+  isSpec: "True"
+  fullName: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetMixedInfo
+  nameWithType: IAimpFileTagEditor.GetMixedInfo
+- uid: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTag(System.Int32,AIMP.SDK.TagEditor.IAimpFileTag@)
+  name: GetTag(Int32, out IAimpFileTag)
+  href: api/AIMP.SDK.TagEditor.IAimpFileTagEditor.html#AIMP_SDK_TagEditor_IAimpFileTagEditor_GetTag_System_Int32_AIMP_SDK_TagEditor_IAimpFileTag__
+  commentId: M:AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTag(System.Int32,AIMP.SDK.TagEditor.IAimpFileTag@)
+  name.vb: GetTag(Int32, ByRef IAimpFileTag)
+  fullName: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTag(System.Int32, out AIMP.SDK.TagEditor.IAimpFileTag)
+  fullName.vb: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTag(System.Int32, ByRef AIMP.SDK.TagEditor.IAimpFileTag)
+  nameWithType: IAimpFileTagEditor.GetTag(Int32, out IAimpFileTag)
+  nameWithType.vb: IAimpFileTagEditor.GetTag(Int32, ByRef IAimpFileTag)
+- uid: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTag*
+  name: GetTag
+  href: api/AIMP.SDK.TagEditor.IAimpFileTagEditor.html#AIMP_SDK_TagEditor_IAimpFileTagEditor_GetTag_
+  commentId: Overload:AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTag
+  isSpec: "True"
+  fullName: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTag
+  nameWithType: IAimpFileTagEditor.GetTag
+- uid: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTagCount
+  name: GetTagCount()
+  href: api/AIMP.SDK.TagEditor.IAimpFileTagEditor.html#AIMP_SDK_TagEditor_IAimpFileTagEditor_GetTagCount
+  commentId: M:AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTagCount
+  fullName: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTagCount()
+  nameWithType: IAimpFileTagEditor.GetTagCount()
+- uid: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTagCount*
+  name: GetTagCount
+  href: api/AIMP.SDK.TagEditor.IAimpFileTagEditor.html#AIMP_SDK_TagEditor_IAimpFileTagEditor_GetTagCount_
+  commentId: Overload:AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTagCount
+  isSpec: "True"
+  fullName: AIMP.SDK.TagEditor.IAimpFileTagEditor.GetTagCount
+  nameWithType: IAimpFileTagEditor.GetTagCount
+- uid: AIMP.SDK.TagEditor.IAimpFileTagEditor.Save
+  name: Save()
+  href: api/AIMP.SDK.TagEditor.IAimpFileTagEditor.html#AIMP_SDK_TagEditor_IAimpFileTagEditor_Save
+  commentId: M:AIMP.SDK.TagEditor.IAimpFileTagEditor.Save
+  fullName: AIMP.SDK.TagEditor.IAimpFileTagEditor.Save()
+  nameWithType: IAimpFileTagEditor.Save()
+- uid: AIMP.SDK.TagEditor.IAimpFileTagEditor.Save*
+  name: Save
+  href: api/AIMP.SDK.TagEditor.IAimpFileTagEditor.html#AIMP_SDK_TagEditor_IAimpFileTagEditor_Save_
+  commentId: Overload:AIMP.SDK.TagEditor.IAimpFileTagEditor.Save
+  isSpec: "True"
+  fullName: AIMP.SDK.TagEditor.IAimpFileTagEditor.Save
+  nameWithType: IAimpFileTagEditor.Save
+- uid: AIMP.SDK.TagEditor.IAimpFileTagEditor.SetToAll(AIMP.SDK.FileManager.IAimpFileInfo)
+  name: SetToAll(IAimpFileInfo)
+  href: api/AIMP.SDK.TagEditor.IAimpFileTagEditor.html#AIMP_SDK_TagEditor_IAimpFileTagEditor_SetToAll_AIMP_SDK_FileManager_IAimpFileInfo_
+  commentId: M:AIMP.SDK.TagEditor.IAimpFileTagEditor.SetToAll(AIMP.SDK.FileManager.IAimpFileInfo)
+  fullName: AIMP.SDK.TagEditor.IAimpFileTagEditor.SetToAll(AIMP.SDK.FileManager.IAimpFileInfo)
+  nameWithType: IAimpFileTagEditor.SetToAll(IAimpFileInfo)
+- uid: AIMP.SDK.TagEditor.IAimpFileTagEditor.SetToAll*
+  name: SetToAll
+  href: api/AIMP.SDK.TagEditor.IAimpFileTagEditor.html#AIMP_SDK_TagEditor_IAimpFileTagEditor_SetToAll_
+  commentId: Overload:AIMP.SDK.TagEditor.IAimpFileTagEditor.SetToAll
+  isSpec: "True"
+  fullName: AIMP.SDK.TagEditor.IAimpFileTagEditor.SetToAll
+  nameWithType: IAimpFileTagEditor.SetToAll
+- uid: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor
+  name: IAimpServiceFileTagEditor
+  href: api/AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.html
+  commentId: T:AIMP.SDK.TagEditor.IAimpServiceFileTagEditor
+  fullName: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor
+  nameWithType: IAimpServiceFileTagEditor
+- uid: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditFile(AIMP.SDK.IAimpStream,AIMP.SDK.TagEditor.IAimpFileTagEditor@)
+  name: EditFile(IAimpStream, out IAimpFileTagEditor)
+  href: api/AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.html#AIMP_SDK_TagEditor_IAimpServiceFileTagEditor_EditFile_AIMP_SDK_IAimpStream_AIMP_SDK_TagEditor_IAimpFileTagEditor__
+  commentId: M:AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditFile(AIMP.SDK.IAimpStream,AIMP.SDK.TagEditor.IAimpFileTagEditor@)
+  name.vb: EditFile(IAimpStream, ByRef IAimpFileTagEditor)
+  fullName: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditFile(AIMP.SDK.IAimpStream, out AIMP.SDK.TagEditor.IAimpFileTagEditor)
+  fullName.vb: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditFile(AIMP.SDK.IAimpStream, ByRef AIMP.SDK.TagEditor.IAimpFileTagEditor)
+  nameWithType: IAimpServiceFileTagEditor.EditFile(IAimpStream, out IAimpFileTagEditor)
+  nameWithType.vb: IAimpServiceFileTagEditor.EditFile(IAimpStream, ByRef IAimpFileTagEditor)
+- uid: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditFile(System.String,AIMP.SDK.TagEditor.IAimpFileTagEditor@)
+  name: EditFile(String, out IAimpFileTagEditor)
+  href: api/AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.html#AIMP_SDK_TagEditor_IAimpServiceFileTagEditor_EditFile_System_String_AIMP_SDK_TagEditor_IAimpFileTagEditor__
+  commentId: M:AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditFile(System.String,AIMP.SDK.TagEditor.IAimpFileTagEditor@)
+  name.vb: EditFile(String, ByRef IAimpFileTagEditor)
+  fullName: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditFile(System.String, out AIMP.SDK.TagEditor.IAimpFileTagEditor)
+  fullName.vb: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditFile(System.String, ByRef AIMP.SDK.TagEditor.IAimpFileTagEditor)
+  nameWithType: IAimpServiceFileTagEditor.EditFile(String, out IAimpFileTagEditor)
+  nameWithType.vb: IAimpServiceFileTagEditor.EditFile(String, ByRef IAimpFileTagEditor)
+- uid: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditFile*
+  name: EditFile
+  href: api/AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.html#AIMP_SDK_TagEditor_IAimpServiceFileTagEditor_EditFile_
+  commentId: Overload:AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditFile
+  isSpec: "True"
+  fullName: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditFile
+  nameWithType: IAimpServiceFileTagEditor.EditFile
+- uid: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditTag(AIMP.SDK.IAimpStream,AIMP.SDK.TagEditor.TagType,AIMP.SDK.FileManager.IAimpFileInfo@)
+  name: EditTag(IAimpStream, TagType, out IAimpFileInfo)
+  href: api/AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.html#AIMP_SDK_TagEditor_IAimpServiceFileTagEditor_EditTag_AIMP_SDK_IAimpStream_AIMP_SDK_TagEditor_TagType_AIMP_SDK_FileManager_IAimpFileInfo__
+  commentId: M:AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditTag(AIMP.SDK.IAimpStream,AIMP.SDK.TagEditor.TagType,AIMP.SDK.FileManager.IAimpFileInfo@)
+  name.vb: EditTag(IAimpStream, TagType, ByRef IAimpFileInfo)
+  fullName: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditTag(AIMP.SDK.IAimpStream, AIMP.SDK.TagEditor.TagType, out AIMP.SDK.FileManager.IAimpFileInfo)
+  fullName.vb: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditTag(AIMP.SDK.IAimpStream, AIMP.SDK.TagEditor.TagType, ByRef AIMP.SDK.FileManager.IAimpFileInfo)
+  nameWithType: IAimpServiceFileTagEditor.EditTag(IAimpStream, TagType, out IAimpFileInfo)
+  nameWithType.vb: IAimpServiceFileTagEditor.EditTag(IAimpStream, TagType, ByRef IAimpFileInfo)
+- uid: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditTag(System.String,AIMP.SDK.TagEditor.TagType,AIMP.SDK.FileManager.IAimpFileInfo@)
+  name: EditTag(String, TagType, out IAimpFileInfo)
+  href: api/AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.html#AIMP_SDK_TagEditor_IAimpServiceFileTagEditor_EditTag_System_String_AIMP_SDK_TagEditor_TagType_AIMP_SDK_FileManager_IAimpFileInfo__
+  commentId: M:AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditTag(System.String,AIMP.SDK.TagEditor.TagType,AIMP.SDK.FileManager.IAimpFileInfo@)
+  name.vb: EditTag(String, TagType, ByRef IAimpFileInfo)
+  fullName: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditTag(System.String, AIMP.SDK.TagEditor.TagType, out AIMP.SDK.FileManager.IAimpFileInfo)
+  fullName.vb: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditTag(System.String, AIMP.SDK.TagEditor.TagType, ByRef AIMP.SDK.FileManager.IAimpFileInfo)
+  nameWithType: IAimpServiceFileTagEditor.EditTag(String, TagType, out IAimpFileInfo)
+  nameWithType.vb: IAimpServiceFileTagEditor.EditTag(String, TagType, ByRef IAimpFileInfo)
+- uid: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditTag*
+  name: EditTag
+  href: api/AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.html#AIMP_SDK_TagEditor_IAimpServiceFileTagEditor_EditTag_
+  commentId: Overload:AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditTag
+  isSpec: "True"
+  fullName: AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.EditTag
+  nameWithType: IAimpServiceFileTagEditor.EditTag
+- uid: AIMP.SDK.TagEditor.TagType
+  name: TagType
+  href: api/AIMP.SDK.TagEditor.TagType.html
+  commentId: T:AIMP.SDK.TagEditor.TagType
+  fullName: AIMP.SDK.TagEditor.TagType
+  nameWithType: TagType
+- uid: AIMP.SDK.TagEditor.TagType.ApeV2
+  name: ApeV2
+  href: api/AIMP.SDK.TagEditor.TagType.html#AIMP_SDK_TagEditor_TagType_ApeV2
+  commentId: F:AIMP.SDK.TagEditor.TagType.ApeV2
+  fullName: AIMP.SDK.TagEditor.TagType.ApeV2
+  nameWithType: TagType.ApeV2
+- uid: AIMP.SDK.TagEditor.TagType.Custom
+  name: Custom
+  href: api/AIMP.SDK.TagEditor.TagType.html#AIMP_SDK_TagEditor_TagType_Custom
+  commentId: F:AIMP.SDK.TagEditor.TagType.Custom
+  fullName: AIMP.SDK.TagEditor.TagType.Custom
+  nameWithType: TagType.Custom
+- uid: AIMP.SDK.TagEditor.TagType.ID3v1
+  name: ID3v1
+  href: api/AIMP.SDK.TagEditor.TagType.html#AIMP_SDK_TagEditor_TagType_ID3v1
+  commentId: F:AIMP.SDK.TagEditor.TagType.ID3v1
+  fullName: AIMP.SDK.TagEditor.TagType.ID3v1
+  nameWithType: TagType.ID3v1
+- uid: AIMP.SDK.TagEditor.TagType.ID3v2
+  name: ID3v2
+  href: api/AIMP.SDK.TagEditor.TagType.html#AIMP_SDK_TagEditor_TagType_ID3v2
+  commentId: F:AIMP.SDK.TagEditor.TagType.ID3v2
+  fullName: AIMP.SDK.TagEditor.TagType.ID3v2
+  nameWithType: TagType.ID3v2
+- uid: AIMP.SDK.TagEditor.TagType.M4A
+  name: M4A
+  href: api/AIMP.SDK.TagEditor.TagType.html#AIMP_SDK_TagEditor_TagType_M4A
+  commentId: F:AIMP.SDK.TagEditor.TagType.M4A
+  fullName: AIMP.SDK.TagEditor.TagType.M4A
+  nameWithType: TagType.M4A
+- uid: AIMP.SDK.TagEditor.TagType.Vorbis
+  name: Vorbis
+  href: api/AIMP.SDK.TagEditor.TagType.html#AIMP_SDK_TagEditor_TagType_Vorbis
+  commentId: F:AIMP.SDK.TagEditor.TagType.Vorbis
+  fullName: AIMP.SDK.TagEditor.TagType.Vorbis
+  nameWithType: TagType.Vorbis
+- uid: AIMP.SDK.TagEditor.TagType.WMA
+  name: WMA
+  href: api/AIMP.SDK.TagEditor.TagType.html#AIMP_SDK_TagEditor_TagType_WMA
+  commentId: F:AIMP.SDK.TagEditor.TagType.WMA
+  fullName: AIMP.SDK.TagEditor.TagType.WMA
+  nameWithType: TagType.WMA
 - uid: AIMP.SDK.Threading
   name: AIMP.SDK.Threading
   href: api/AIMP.SDK.Threading.html
