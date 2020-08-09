@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpServiceSynchronizer
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpServiceSynchronizer
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -73,33 +73,35 @@
   
   <h1 id="AIMP_SDK_Threading_IAimpServiceSynchronizer" data-uid="AIMP.SDK.Threading.IAimpServiceSynchronizer" class="text-break">Interface IAimpServiceSynchronizer
   </h1>
-  <div class="markdown level0 summary"><p>This service provides an ability to run specified task in main thread of the application.</p>
+  <div class="markdown level0 summary"><p>This service provides an ability to run specified task in main thread of the application.
+Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AIMP.SDK.IAimpService.html#AIMP_SDK_IAimpService_IsExists">IAimpService.IsExists</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.Threading.html">AIMP.SDK.Threading</a></h6>
   <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
   <h5 id="AIMP_SDK_Threading_IAimpServiceSynchronizer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAimpServiceSynchronizer</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IAimpServiceSynchronizer : IAimpService</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Threading/IAimpServiceSynchronizer.cs/#L26">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_Threading_IAimpServiceSynchronizer_ExecuteInMainThread_" data-uid="AIMP.SDK.Threading.IAimpServiceSynchronizer.ExecuteInMainThread*"></a>
   <h4 id="AIMP_SDK_Threading_IAimpServiceSynchronizer_ExecuteInMainThread_AIMP_SDK_Threading_IAimpTask_System_Boolean_" data-uid="AIMP.SDK.Threading.IAimpServiceSynchronizer.ExecuteInMainThread(AIMP.SDK.Threading.IAimpTask,System.Boolean)">ExecuteInMainThread(IAimpTask, Boolean)</h4>
   <div class="markdown level1 summary"><p>Executes the in main thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult ExecuteInMainThread(IAimpTask task, bool executeNow)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult ExecuteInMainThread(IAimpTask task, bool executeNow)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -117,7 +119,7 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">executeNow</span></td>
         <td><p>True - the method will not return control until operation has been completed (Not recommended).
 Otherwise, task will be queued and executed when main thread is idle. Default value is False.</p>
@@ -125,6 +127,25 @@ Otherwise, task will be queued and executed when main thread is idle. Default va
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></div>
   </div>
 </article>
           </div>
@@ -133,12 +154,6 @@ Otherwise, task will be queued and executed when main thread is idle. Default va
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_Threading_IAimpServiceSynchronizer.md&amp;value=---%0Auid%3A%20AIMP.SDK.Threading.IAimpServiceSynchronizer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Threading/IAimpServiceSynchronizer.cs/#L17" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

@@ -4,6 +4,7 @@
     <div class="sidefilter">
       <form class="toc-filter">
         <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
         <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
       </form>
     </div>
@@ -11,512 +12,631 @@
       <div class="toc" id="toc">
           
           <ul class="nav level1">
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">Objects</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.Objects.IAimpString.html" name="" title="IAimpString">IAimpString</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">Core</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.IAimpConfig.html" name="" title="IAimpConfig">IAimpConfig</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.IAimpExternalSettingsDialog.html" name="" title="IAimpExternalSettingsDialog">IAimpExternalSettingsDialog</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.IAimpObject.html" name="" title="IAimpObject">IAimpObject</a>
-                  </li>
-                  <li>
-                    <a class="SubTopic">IAimpObjectList</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.IAimpObjectList.html" name="" title="IAimpObjectList">IAimpObjectList</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.IAimpStream.html" name="" title="IAimpStream">IAimpStream</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.IAimpExtension.html" name="" title="IAimpExtension">IAimpExtension</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.IAimpCore.html" name="" title="IAimpCore">IAimpCore</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.IAimpPlugin.html" name="" title="IAimpPlugin">IAimpPlugin</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">ActionManager</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.ActionManager.IAimpAction.html" name="" title="IAimpAction">IAimpAction</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.ActionManager.IAimpActionEvent.html" name="" title="IAimpActionEvent">IAimpActionEvent</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.ActionManager.IAimpServiceActionManager.html" name="" title="IAimpServiceActionManager">IAimpServiceActionManager</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">AlbumArtManager</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.AlbumArtManager.IAimpAlbumArtSearchOptions.html" name="" title="IAimpAlbumArtSearchOptions">IAimpAlbumArtSearchOptions</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.html" name="" title="IAimpExtensionAlbumArtCatalog">IAimpExtensionAlbumArtCatalog</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog2.html" name="" title="IAimpExtensionAlbumArtCatalog2">IAimpExtensionAlbumArtCatalog2</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtProvider.html" name="" title="IAimpExtensionAlbumArtProvider">IAimpExtensionAlbumArtProvider</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtProvider2.html" name="" title="IAimpExtensionAlbumArtProvider2">IAimpExtensionAlbumArtProvider2</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.AlbumArtManager.IAimpAlbumArtManager.html" name="" title="IAimpAlbumArtManager">IAimpAlbumArtManager</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">ConfigurationManager</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.ConfigurationManager.IAimpServiceConfig.html" name="" title="IAimpServiceConfig">IAimpServiceConfig</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">FileManager</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.FileManager.IAimpServiceFileFormats.html" name="" title="IAimpServiceFileFormats">IAimpServiceFileFormats</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.FileManager.IAimpServiceFileInfo.html" name="" title="IAimpServiceFileInfo">IAimpServiceFileInfo</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.FileManager.IAimpServiceFileInfoFormatter.html" name="" title="IAimpServiceFileInfoFormatter">IAimpServiceFileInfoFormatter</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.FileManager.IAimpServiceFileInfoFormatterUtils.html" name="" title="IAimpServiceFileInfoFormatterUtils">IAimpServiceFileInfoFormatterUtils</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.FileManager.IAimpServiceFileManager.html" name="" title="IAimpServiceFileManager">IAimpServiceFileManager</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.FileManager.IAimpServiceFileStreaming.html" name="" title="IAimpServiceFileStreaming">IAimpServiceFileStreaming</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.FileManager.IAimpServiceFileSystems.html" name="" title="IAimpServiceFileSystems">IAimpServiceFileSystems</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.FileManager.IAimpVirtualFile.html" name="" title="IAimpVirtualFile">IAimpVirtualFile</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.FileManager.IAimpFileInfo.html" name="" title="IAimpFileInfo">IAimpFileInfo</a>
-                  </li>
-                  <li>
+                <li>
                     <span class="expand-stub"></span>
-                    <a class="SubTopic">Commands</a>
-                      
-                      <ul class="nav level3">
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand.html" name="" title="IAimpFileSystemCommand">IAimpFileSystemCommand</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandCopyToClipboard.html" name="" title="IAimpFileSystemCommandCopyToClipboard">IAimpFileSystemCommandCopyToClipboard</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.html" name="" title="IAimpFileSystemCommandDelete">IAimpFileSystemCommandDelete</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.html" name="" title="IAimpFileSystemCommandDropSource">IAimpFileSystemCommandDropSource</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html" name="" title="IAimpFileSystemCommandFileInfo">IAimpFileSystemCommandFileInfo</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandOpenFileFolder.html" name="" title="IAimpFileSystemCommandOpenFileFolder">IAimpFileSystemCommandOpenFileFolder</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.html" name="" title="IAimpFileSystemCommandStreaming">IAimpFileSystemCommandStreaming</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCustomFileCommand.html" name="" title="IAimpFileSystemCustomFileCommand">IAimpFileSystemCustomFileCommand</a>
-                        </li>
-                      </ul>
-                  </li>
-                  <li>
+                    <a>Actions</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.ActionManager.IAimpAction.html" name="" title="IAimpAction">IAimpAction</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.ActionManager.IAimpActionEvent.html" name="" title="IAimpActionEvent">IAimpActionEvent</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.ActionManager.IAimpServiceActionManager.html" name="" title="IAimpServiceActionManager">IAimpServiceActionManager</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
                     <span class="expand-stub"></span>
-                    <a class="SubTopic">Extensions</a>
-                      
-                      <ul class="nav level3">
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileExpander.html" name="" title="IAimpExtensionFileExpander">IAimpExtensionFileExpander</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileFormat.html" name="" title="IAimpExtensionFileFormat">IAimpExtensionFileFormat</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.html" name="" title="IAimpExtensionFileInfoProvider">IAimpExtensionFileInfoProvider</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileSystem.html" name="" title="IAimpExtensionFileSystem">IAimpExtensionFileSystem</a>
-                        </li>
-                      </ul>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">Logger</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.Logger.ILogger.html" name="" title="ILogger">ILogger</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">MenuManager</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.MenuManager.IAimpMenuItem.html" name="" title="IAimpMenuItem">IAimpMenuItem</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.MenuManager.IAimpServiceMenuManager.html" name="" title="IAimpServiceMenuManager">IAimpServiceMenuManager</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">MessageDispatcher</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.MessageDispatcher.IAimpMessageHook.html" name="" title="IAimpMessageHook">IAimpMessageHook</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html" name="" title="IAimpServiceMessageDispatcher">IAimpServiceMessageDispatcher</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">MUIManager</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.MUIManager.IAimpMUIManager.html" name="" title="IAimpMUIManager">IAimpMUIManager</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">MusicLibrary</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.MusicLibrary.IAimpDataFilter.html" name="" title="IAimpDataFilter">IAimpDataFilter</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.MusicLibrary.IAimpDataProviderSelection.html" name="" title="IAimpDataProviderSelection">IAimpDataProviderSelection</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.MusicLibrary.IAimpDataStorageManager.html" name="" title="IAimpDataStorageManager">IAimpDataStorageManager</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.MusicLibrary.IAimpFileList.html" name="" title="IAimpFileList">IAimpFileList</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage.html" name="" title="IAimpMusicLibraryPlaylistPreimage">IAimpMusicLibraryPlaylistPreimage</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.MusicLibrary.IAimpServiceMusicLibrary.html" name="" title="IAimpServiceMusicLibrary">IAimpServiceMusicLibrary</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.MusicLibrary.IAimpServiceMusicLibraryUI.html" name="" title="IAimpServiceMusicLibraryUI">IAimpServiceMusicLibraryUI</a>
-                  </li>
-                  <li>
+                    <a>AlbumArt</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.AlbumArtManager.IAimpServiceAlbumArtCache.html" name="" title="IAimpServiceAlbumArtCache">IAimpServiceAlbumArtCache</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AlbumArtManager.IAimpAlbumArtSearchOptions.html" name="" title="IAimpAlbumArtSearchOptions">IAimpAlbumArtSearchOptions</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.html" name="" title="IAimpExtensionAlbumArtCatalog">IAimpExtensionAlbumArtCatalog</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog2.html" name="" title="IAimpExtensionAlbumArtCatalog2">IAimpExtensionAlbumArtCatalog2</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AlbumArtManager.AimpAlbumArtProviderCategory.html" name="" title="AimpAlbumArtProviderCategory">AimpAlbumArtProviderCategory</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtProvider.html" name="" title="IAimpExtensionAlbumArtProvider">IAimpExtensionAlbumArtProvider</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtProvider2.html" name="" title="IAimpExtensionAlbumArtProvider2">IAimpExtensionAlbumArtProvider2</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AlbumArtManager.AimpFindCovertArtType.html" name="" title="AimpFindCovertArtType">AimpFindCovertArtType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AlbumArtManager.AimpGetAlbumArtEventArgs.html" name="" title="AimpGetAlbumArtEventArgs">AimpGetAlbumArtEventArgs</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AlbumArtManager.IAimpServiceAlbumArt.html" name="" title="IAimpServiceAlbumArt">IAimpServiceAlbumArt</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
                     <span class="expand-stub"></span>
-                    <a class="SubTopic">DataFilter</a>
-                      
-                      <ul class="nav level3">
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilter.html" name="" title="IAimpDataFieldFilter">IAimpDataFieldFilter</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilterByArray.html" name="" title="IAimpDataFieldFilterByArray">IAimpDataFieldFilterByArray</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFilterGroup.html" name="" title="IAimpDataFilterGroup">IAimpDataFilterGroup</a>
-                        </li>
-                      </ul>
-                  </li>
-                  <li>
+                    <a>Core</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.AimpActionException.html" name="" title="AimpActionException">AimpActionException</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Extensions.html" name="" title="Extensions">Extensions</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.IAimpService.html" name="" title="IAimpService">IAimpService</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.IAimpConfig.html" name="" title="IAimpConfig">IAimpConfig</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.IAimpExternalSettingsDialog.html" name="" title="IAimpExternalSettingsDialog">IAimpExternalSettingsDialog</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AimpErrorArgs.html" name="" title="AimpErrorArgs">AimpErrorArgs</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.IAimpObject.html" name="" title="IAimpObject">IAimpObject</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.IAimpObjectList-1.html" name="" title="IAimpObjectList`1">IAimpObjectList`1</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.IAimpObjectList.html" name="" title="IAimpObjectList">IAimpObjectList</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.IAimpStream.html" name="" title="IAimpStream">IAimpStream</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.ActionResultType.html" name="" title="ActionResultType">ActionResultType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AimpActionResult.html" name="" title="AimpActionResult">AimpActionResult</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AimpActionResult-1.html" name="" title="AimpActionResult`1">AimpActionResult`1</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AimpActionResult-2.html" name="" title="AimpActionResult`2">AimpActionResult`2</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.IAimpExtension.html" name="" title="IAimpExtension">IAimpExtension</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AimpPluginType.html" name="" title="AimpPluginType">AimpPluginType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AimpPluginAttribute.html" name="" title="AimpPluginAttribute">AimpPluginAttribute</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AimpPlayerState.html" name="" title="AimpPlayerState">AimpPlayerState</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AimpWindowHandleTypes.html" name="" title="AimpWindowHandleTypes">AimpWindowHandleTypes</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AimpEventsDelegate.html" name="" title="AimpEventsDelegate">AimpEventsDelegate</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.IAimpCore.html" name="" title="IAimpCore">IAimpCore</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.IAimpPlugin.html" name="" title="IAimpPlugin">IAimpPlugin</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AimpPlugin.html" name="" title="AimpPlugin">AimpPlugin</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.CustomAssemblyResolver.html" name="" title="CustomAssemblyResolver">CustomAssemblyResolver</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.PluginLoadUnloadEvent.html" name="" title="PluginLoadUnloadEvent">PluginLoadUnloadEvent</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.PluginInformation.html" name="" title="PluginInformation">PluginInformation</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.DotNetPluginInfo.html" name="" title="DotNetPluginInfo">DotNetPluginInfo</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.PluginShortInfoForLoad.html" name="" title="PluginShortInfoForLoad">PluginShortInfoForLoad</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.PluginLoadingStrategy.html" name="" title="PluginLoadingStrategy">PluginLoadingStrategy</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AssemblyScanPluginLoadStrategy.html" name="" title="AssemblyScanPluginLoadStrategy">AssemblyScanPluginLoadStrategy</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.PluginInfoLoader.html" name="" title="PluginInfoLoader">PluginInfoLoader</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.AimpDotNetPlugin.html" name="" title="AimpDotNetPlugin">AimpDotNetPlugin</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
                     <span class="expand-stub"></span>
-                    <a class="SubTopic">DataStorage</a>
-                      
-                      <ul class="nav level3">
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpDataField.html" name="" title="IAimpDataField">IAimpDataField</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpDataFieldDisplayValue.html" name="" title="IAimpDataFieldDisplayValue">IAimpDataFieldDisplayValue</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpDataStorage.html" name="" title="IAimpDataStorage">IAimpDataStorage</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.html" name="" title="IAimpGroupingTreeDataProvider">IAimpGroupingTreeDataProvider</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProviderSelection.html" name="" title="IAimpGroupingTreeDataProviderSelection">IAimpGroupingTreeDataProviderSelection</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeSelection.html" name="" title="IAimpGroupingTreeSelection">IAimpGroupingTreeSelection</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpDataProvider.html" name="" title="IAimpDataProvider">IAimpDataProvider</a>
-                        </li>
-                      </ul>
-                  </li>
-                  <li>
+                    <a>File Manager</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>Extensions</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileExpander.html" name="" title="IAimpExtensionFileExpander">IAimpExtensionFileExpander</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Extensions.FileFormatsCategoryTypes.html" name="" title="FileFormatsCategoryTypes">FileFormatsCategoryTypes</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileFormat.html" name="" title="IAimpExtensionFileFormat">IAimpExtensionFileFormat</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileInfoProvider.html" name="" title="IAimpExtensionFileInfoProvider">IAimpExtensionFileInfoProvider</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Extensions.IAimpExtensionFileSystem.html" name="" title="IAimpExtensionFileSystem">IAimpExtensionFileSystem</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>Commands</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand.html" name="" title="IAimpFileSystemCommand">IAimpFileSystemCommand</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandCopyToClipboard.html" name="" title="IAimpFileSystemCommandCopyToClipboard">IAimpFileSystemCommandCopyToClipboard</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDelete.html" name="" title="IAimpFileSystemCommandDelete">IAimpFileSystemCommandDelete</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandDropSource.html" name="" title="IAimpFileSystemCommandDropSource">IAimpFileSystemCommandDropSource</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandFileInfo.html" name="" title="IAimpFileSystemCommandFileInfo">IAimpFileSystemCommandFileInfo</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandOpenFileFolder.html" name="" title="IAimpFileSystemCommandOpenFileFolder">IAimpFileSystemCommandOpenFileFolder</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommandStreaming.html" name="" title="IAimpFileSystemCommandStreaming">IAimpFileSystemCommandStreaming</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCustomFileCommand.html" name="" title="IAimpFileSystemCustomFileCommand">IAimpFileSystemCustomFileCommand</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.FileCommandType.html" name="" title="FileCommandType">FileCommandType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.FileFormats.html" name="" title="FileFormats">FileFormats</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.IAimpServiceFileFormats.html" name="" title="IAimpServiceFileFormats">IAimpServiceFileFormats</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.ServiceFileInfoFlags.html" name="" title="ServiceFileInfoFlags">ServiceFileInfoFlags</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.IAimpServiceFileInfo.html" name="" title="IAimpServiceFileInfo">IAimpServiceFileInfo</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.IAimpServiceFileInfoFormatter.html" name="" title="IAimpServiceFileInfoFormatter">IAimpServiceFileInfoFormatter</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.IAimpServiceFileInfoFormatterUtils.html" name="" title="IAimpServiceFileInfoFormatterUtils">IAimpServiceFileInfoFormatterUtils</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.IAimpServiceFileManager.html" name="" title="IAimpServiceFileManager">IAimpServiceFileManager</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.FileStreamingType.html" name="" title="FileStreamingType">FileStreamingType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.CeateStreamResult.html" name="" title="CeateStreamResult">CeateStreamResult</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.IAimpServiceFileStreaming.html" name="" title="IAimpServiceFileStreaming">IAimpServiceFileStreaming</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.IAimpServiceFileSystems.html" name="" title="IAimpServiceFileSystems">IAimpServiceFileSystems</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.IAimpVirtualFile.html" name="" title="IAimpVirtualFile">IAimpVirtualFile</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.AimpFileAttributes.html" name="" title="AimpFileAttributes">AimpFileAttributes</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.FileManager.IAimpFileInfo.html" name="" title="IAimpFileInfo">IAimpFileInfo</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
                     <span class="expand-stub"></span>
-                    <a class="SubTopic">Extension</a>
-                      
-                      <ul class="nav level3">
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.html" name="" title="IAimpExtensionDataStorage">IAimpExtensionDataStorage</a>
-                        </li>
-                        <li>
-                          <span class="expand-stub"></span>
-                          <a class="SubTopic">Command</a>
-                            
-                            <ul class="nav level4">
-                              <li>
-                                <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandAddFiles.html" name="" title="IAimpDataStorageCommandAddFiles">IAimpDataStorageCommandAddFiles</a>
-                              </li>
-                              <li>
-                                <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandAddFilesDialog.html" name="" title="IAimpDataStorageCommandAddFilesDialog">IAimpDataStorageCommandAddFilesDialog</a>
-                              </li>
-                              <li>
-                                <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandDeleteFiles.html" name="" title="IAimpDataStorageCommandDeleteFiles">IAimpDataStorageCommandDeleteFiles</a>
-                              </li>
-                              <li>
-                                <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandDropData.html" name="" title="IAimpDataStorageCommandDropData">IAimpDataStorageCommandDropData</a>
-                              </li>
-                              <li>
-                                <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandReloadTags.html" name="" title="IAimpDataStorageCommandReloadTags">IAimpDataStorageCommandReloadTags</a>
-                              </li>
-                              <li>
-                                <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandReportDialog.html" name="" title="IAimpDataStorageCommandReportDialog">IAimpDataStorageCommandReportDialog</a>
-                              </li>
-                              <li>
-                                <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandUserMark.html" name="" title="IAimpDataStorageCommandUserMark">IAimpDataStorageCommandUserMark</a>
-                              </li>
-                            </ul>
-                        </li>
-                      </ul>
-                  </li>
-                  <li>
+                    <a>Lyrics</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.Lyrics.LyricsProviderCategory.html" name="" title="LyricsProviderCategory">LyricsProviderCategory</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Lyrics.IAimpExtensionLyricsProvider.html" name="" title="IAimpExtensionLyricsProvider">IAimpExtensionLyricsProvider</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Lyrics.LyricsType.html" name="" title="LyricsType">LyricsType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Lyrics.LyricsFormat.html" name="" title="LyricsFormat">LyricsFormat</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Lyrics.IAimpLyrics.html" name="" title="IAimpLyrics">IAimpLyrics</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Lyrics.LyricsFlags.html" name="" title="LyricsFlags">LyricsFlags</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Lyrics.AimpServiceLyricsReceive.html" name="" title="AimpServiceLyricsReceive">AimpServiceLyricsReceive</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Lyrics.IAimpServiceLyrics.html" name="" title="IAimpServiceLyrics">IAimpServiceLyrics</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
                     <span class="expand-stub"></span>
-                    <a class="SubTopic">Presets</a>
-                      
-                      <ul class="nav level3">
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPreset.html" name="" title="IAimpGroupingPreset">IAimpGroupingPreset</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresets.html" name="" title="IAimpGroupingPresets">IAimpGroupingPresets</a>
-                        </li>
-                        <li>
-                          <a href="AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresetStandard.html" name="" title="IAimpGroupingPresetStandard">IAimpGroupingPresetStandard</a>
-                        </li>
-                      </ul>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">Options</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.Options.IAimpOptionsDialogFrameKeyboardHelper.html" name="" title="IAimpOptionsDialogFrameKeyboardHelper">IAimpOptionsDialogFrameKeyboardHelper</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Options.IAimpServiceOptionsDialog.html" name="" title="IAimpServiceOptionsDialog">IAimpServiceOptionsDialog</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Options.IAimpOptionsDialogFrame.html" name="" title="IAimpOptionsDialogFrame">IAimpOptionsDialogFrame</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">Playback</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.Playback.IAimpPlaybackQueueService.html" name="" title="IAimpPlaybackQueueService">IAimpPlaybackQueueService</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playback.IAimpExtensionPlayerHook.html" name="" title="IAimpExtensionPlayerHook">IAimpExtensionPlayerHook</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playback.IAimpPlaybackQueueItem.html" name="" title="IAimpPlaybackQueueItem">IAimpPlaybackQueueItem</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">Player</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.Player.IAimpPlayer.html" name="" title="IAimpPlayer">IAimpPlayer</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">Playlist</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpExtensionPlaylistPreimageFactory.html" name="" title="IAimpExtensionPlaylistPreimageFactory">IAimpExtensionPlaylistPreimageFactory</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylistListener.html" name="" title="IAimpPlaylistListener">IAimpPlaylistListener</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylistManager2.html" name="" title="IAimpPlaylistManager2">IAimpPlaylistManager2</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylistPreimage.html" name="" title="IAimpPlaylistPreimage">IAimpPlaylistPreimage</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylistPreimageDataProvider.html" name="" title="IAimpPlaylistPreimageDataProvider">IAimpPlaylistPreimageDataProvider</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylistPreimageFolders.html" name="" title="IAimpPlaylistPreimageFolders">IAimpPlaylistPreimageFolders</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.html" name="" title="IAimpPlaylistPreimageListener">IAimpPlaylistPreimageListener</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylistQueueListener.html" name="" title="IAimpPlaylistQueueListener">IAimpPlaylistQueueListener</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpExtensionPlaylistManagerListener.html" name="" title="IAimpExtensionPlaylistManagerListener">IAimpExtensionPlaylistManagerListener</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylistQueue.html" name="" title="IAimpPlaylistQueue">IAimpPlaylistQueue</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylist.html" name="" title="IAimpPlaylist">IAimpPlaylist</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylistGroup.html" name="" title="IAimpPlaylistGroup">IAimpPlaylistGroup</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylistItem.html" name="" title="IAimpPlaylistItem">IAimpPlaylistItem</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Playlist.IAimpPlaylistManager.html" name="" title="IAimpPlaylistManager">IAimpPlaylistManager</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">TagEditor</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.TagEditor.IAimpFileTag.html" name="" title="IAimpFileTag">IAimpFileTag</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.TagEditor.IAimpFileTagEditor.html" name="" title="IAimpFileTagEditor">IAimpFileTagEditor</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.html" name="" title="IAimpServiceFileTagEditor">IAimpServiceFileTagEditor</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">Threading</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.Threading.IAimpTask.html" name="" title="IAimpTask">IAimpTask</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Threading.IAimpTaskOwner.html" name="" title="IAimpTaskOwner">IAimpTaskOwner</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Threading.IAimpServiceSynchronizer.html" name="" title="IAimpServiceSynchronizer">IAimpServiceSynchronizer</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Threading.IAimpServiceThreadPool.html" name="" title="IAimpServiceThreadPool">IAimpServiceThreadPool</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Threading.IAimpTaskPriority.html" name="" title="IAimpTaskPriority">IAimpTaskPriority</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">Visuals</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.Visuals.IAimpExtensionCustomVisualization.html" name="" title="IAimpExtensionCustomVisualization">IAimpExtensionCustomVisualization</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.html" name="" title="IAimpExtensionEmbeddedVisualization">IAimpExtensionEmbeddedVisualization</a>
-                  </li>
-                  <li>
-                    <a href="AIMP.SDK.Visuals.IAimpServiceVisualizations.html" name="" title="IAimpServiceVisualizations">IAimpServiceVisualizations</a>
-                  </li>
-                </ul>
-            </li>
-            <li>
-              <span class="expand-stub"></span>
-              <a class="SubTopic">Win32</a>
-                
-                <ul class="nav level2">
-                  <li>
-                    <a href="AIMP.SDK.Win32.IWin32Manager.html" name="" title="IWin32Manager">IWin32Manager</a>
-                  </li>
-                </ul>
-            </li>
+                    <a>Menu</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.MenuManager.MenuItemStyle.html" name="" title="MenuItemStyle">MenuItemStyle</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MenuManager.IAimpMenuItem.html" name="" title="IAimpMenuItem">IAimpMenuItem</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MenuManager.ParentMenuType.html" name="" title="ParentMenuType">ParentMenuType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MenuManager.IAimpServiceMenuManager.html" name="" title="IAimpServiceMenuManager">IAimpServiceMenuManager</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>Message Dispatcher</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a>Constants</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MessageDispatcher.AimpCoreMessageType.html" name="" title="AimpCoreMessageType">AimpCoreMessageType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MessageDispatcher.AimpCorePathType.html" name="" title="AimpCorePathType">AimpCorePathType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MessageDispatcher.IAimpMessageHook.html" name="" title="IAimpMessageHook">IAimpMessageHook</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MessageDispatcher.MessageDirectionType.html" name="" title="MessageDirectionType">MessageDirectionType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html" name="" title="IAimpServiceMessageDispatcher">IAimpServiceMessageDispatcher</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>Multi-Language UI</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.MUIManager.IAimpServiceMUI.html" name="" title="IAimpServiceMUI">IAimpServiceMUI</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>Music Library</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>Presets</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPreset.html" name="" title="IAimpGroupingPreset">IAimpGroupingPreset</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresets.html" name="" title="IAimpGroupingPresets">IAimpGroupingPresets</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.Presets.IAimpGroupingPresetStandard.html" name="" title="IAimpGroupingPresetStandard">IAimpGroupingPresetStandard</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>Extension</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>Command</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandAddFiles.html" name="" title="IAimpDataStorageCommandAddFiles">IAimpDataStorageCommandAddFiles</a>
+                                              </li>
+                                              <li>
+                                                  <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandAddFilesDialog.html" name="" title="IAimpDataStorageCommandAddFilesDialog">IAimpDataStorageCommandAddFilesDialog</a>
+                                              </li>
+                                              <li>
+                                                  <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandDeleteFiles.html" name="" title="IAimpDataStorageCommandDeleteFiles">IAimpDataStorageCommandDeleteFiles</a>
+                                              </li>
+                                              <li>
+                                                  <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandDropData.html" name="" title="IAimpDataStorageCommandDropData">IAimpDataStorageCommandDropData</a>
+                                              </li>
+                                              <li>
+                                                  <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandReloadTags.html" name="" title="IAimpDataStorageCommandReloadTags">IAimpDataStorageCommandReloadTags</a>
+                                              </li>
+                                              <li>
+                                                  <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandReportDialog.html" name="" title="IAimpDataStorageCommandReportDialog">IAimpDataStorageCommandReportDialog</a>
+                                              </li>
+                                              <li>
+                                                  <a href="AIMP.SDK.MusicLibrary.Extension.Command.IAimpDataStorageCommandUserMark.html" name="" title="IAimpDataStorageCommandUserMark">IAimpDataStorageCommandUserMark</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.Extension.CapabilitiesType.html" name="" title="CapabilitiesType">CapabilitiesType</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.Extension.SchemaType.html" name="" title="SchemaType">SchemaType</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.Extension.GroupingPresetsSchemaType.html" name="" title="GroupingPresetsSchemaType">GroupingPresetsSchemaType</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.html" name="" title="IAimpExtensionDataStorage">IAimpExtensionDataStorage</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>DataStorage</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.AimpDataField.html" name="" title="AimpDataField">AimpDataField</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.AimpDataFieldType.html" name="" title="AimpDataFieldType">AimpDataFieldType</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.AimpDataFieldFlagsType.html" name="" title="AimpDataFieldFlagsType">AimpDataFieldFlagsType</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.ImageType.html" name="" title="ImageType">ImageType</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpDataField.html" name="" title="IAimpDataField">IAimpDataField</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpDataFieldDisplayValue.html" name="" title="IAimpDataFieldDisplayValue">IAimpDataFieldDisplayValue</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpDataStorage.html" name="" title="IAimpDataStorage">IAimpDataStorage</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.CapabilitiesFlags.html" name="" title="CapabilitiesFlags">CapabilitiesFlags</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.html" name="" title="IAimpGroupingTreeDataProvider">IAimpGroupingTreeDataProvider</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.GroupingTreeNodeFlags.html" name="" title="GroupingTreeNodeFlags">GroupingTreeNodeFlags</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.FieldImageIndex.html" name="" title="FieldImageIndex">FieldImageIndex</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProviderSelection.html" name="" title="IAimpGroupingTreeDataProviderSelection">IAimpGroupingTreeDataProviderSelection</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeSelection.html" name="" title="IAimpGroupingTreeSelection">IAimpGroupingTreeSelection</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataStorage.IAimpDataProvider.html" name="" title="IAimpDataProvider">IAimpDataProvider</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>DataFilter</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataFilter.FieldFilterOperationType.html" name="" title="FieldFilterOperationType">FieldFilterOperationType</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilter.html" name="" title="IAimpDataFieldFilter">IAimpDataFieldFilter</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilterByArray.html" name="" title="IAimpDataFieldFilterByArray">IAimpDataFieldFilterByArray</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataFilter.FilterGroupOperationType.html" name="" title="FilterGroupOperationType">FilterGroupOperationType</a>
+                                    </li>
+                                    <li>
+                                        <a href="AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFilterGroup.html" name="" title="IAimpDataFilterGroup">IAimpDataFilterGroup</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MusicLibrary.SortDirectionType.html" name="" title="SortDirectionType">SortDirectionType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MusicLibrary.IAimpDataFilter.html" name="" title="IAimpDataFilter">IAimpDataFilter</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MusicLibrary.IAimpDataProviderSelection.html" name="" title="IAimpDataProviderSelection">IAimpDataProviderSelection</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MusicLibrary.IAimpDataStorageManager.html" name="" title="IAimpDataStorageManager">IAimpDataStorageManager</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MusicLibrary.IAimpFileList.html" name="" title="IAimpFileList">IAimpFileList</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage.html" name="" title="IAimpMusicLibraryPlaylistPreimage">IAimpMusicLibraryPlaylistPreimage</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MusicLibrary.IAimpServiceMusicLibrary.html" name="" title="IAimpServiceMusicLibrary">IAimpServiceMusicLibrary</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MusicLibrary.FilesType.html" name="" title="FilesType">FilesType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.MusicLibrary.IAimpServiceMusicLibraryUI.html" name="" title="IAimpServiceMusicLibraryUI">IAimpServiceMusicLibraryUI</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>Options Dialog</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.Options.IAimpOptionsDialogFrameKeyboardHelper.html" name="" title="IAimpOptionsDialogFrameKeyboardHelper">IAimpOptionsDialogFrameKeyboardHelper</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Options.IAimpServiceOptionsDialog.html" name="" title="IAimpServiceOptionsDialog">IAimpServiceOptionsDialog</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Options.OptionsDialogFrameNotificationType.html" name="" title="OptionsDialogFrameNotificationType">OptionsDialogFrameNotificationType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Options.IAimpOptionsDialogFrame.html" name="" title="IAimpOptionsDialogFrame">IAimpOptionsDialogFrame</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>Player</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.Player.IAimpPlayer.html" name="" title="IAimpPlayer">IAimpPlayer</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>Playlists</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.Player.IAimpPlayer.html" name="" title="IAimpPlayer">IAimpPlayer</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>Tag Editor</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.TagEditor.IAimpFileTag.html" name="" title="IAimpFileTag">IAimpFileTag</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.TagEditor.IAimpFileTagEditor.html" name="" title="IAimpFileTagEditor">IAimpFileTagEditor</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.TagEditor.TagType.html" name="" title="TagType">TagType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.TagEditor.IAimpServiceFileTagEditor.html" name="" title="IAimpServiceFileTagEditor">IAimpServiceFileTagEditor</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>Threading</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.Threading.IAimpTask.html" name="" title="IAimpTask">IAimpTask</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Threading.IAimpTaskOwner.html" name="" title="IAimpTaskOwner">IAimpTaskOwner</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Threading.IAimpServiceSynchronizer.html" name="" title="IAimpServiceSynchronizer">IAimpServiceSynchronizer</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Threading.AimpServiceThreadPoolType.html" name="" title="AimpServiceThreadPoolType">AimpServiceThreadPoolType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Threading.IAimpServiceThreadPool.html" name="" title="IAimpServiceThreadPool">IAimpServiceThreadPool</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Threading.AimpTaskPriority.html" name="" title="AimpTaskPriority">AimpTaskPriority</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Threading.IAimpTaskPriority.html" name="" title="IAimpTaskPriority">IAimpTaskPriority</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>Visuals</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="AIMP.SDK.Visuals.AimpVisualData.html" name="" title="AimpVisualData">AimpVisualData</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Visuals.AimpVisualFlags.html" name="" title="AimpVisualFlags">AimpVisualFlags</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Visuals.IAimpExtensionCustomVisualization.html" name="" title="IAimpExtensionCustomVisualization">IAimpExtensionCustomVisualization</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Visuals.AimpVisualClickButtonType.html" name="" title="AimpVisualClickButtonType">AimpVisualClickButtonType</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.html" name="" title="IAimpExtensionEmbeddedVisualization">IAimpExtensionEmbeddedVisualization</a>
+                          </li>
+                          <li>
+                              <a href="AIMP.SDK.Visuals.IAimpServiceVisualizations.html" name="" title="IAimpServiceVisualizations">IAimpServiceVisualizations</a>
+                          </li>
+                    </ul>
+                </li>
           </ul>
       </div>
     </div>

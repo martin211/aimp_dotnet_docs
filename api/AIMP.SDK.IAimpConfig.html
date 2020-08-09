@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpConfig
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpConfig
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -73,7 +73,8 @@
   
   <h1 id="AIMP_SDK_IAimpConfig" data-uid="AIMP.SDK.IAimpConfig" class="text-break">Interface IAimpConfig
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Interface IAimpConfig</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.html">AIMP.SDK</a></h6>
   <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
@@ -83,22 +84,17 @@
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L22">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_IAimpConfig_Delete_" data-uid="AIMP.SDK.IAimpConfig.Delete*"></a>
   <h4 id="AIMP_SDK_IAimpConfig_Delete_System_String_" data-uid="AIMP.SDK.IAimpConfig.Delete(System.String)">Delete(String)</h4>
   <div class="markdown level1 summary"><p>Deletes the value or section from config (section or section\value name).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Delete(string keyPath)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult Delete(string keyPath)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -110,30 +106,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">keyPath</span></td>
         <td><p>The key path (section\value name).</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L28">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_IAimpConfig_GetValueAsFloat_" data-uid="AIMP.SDK.IAimpConfig.GetValueAsFloat*"></a>
   <h4 id="AIMP_SDK_IAimpConfig_GetValueAsFloat_System_String_" data-uid="AIMP.SDK.IAimpConfig.GetValueAsFloat(System.String)">GetValueAsFloat(String)</h4>
   <div class="markdown level1 summary"><p>Gets the value as float.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">float GetValueAsFloat(string keyPath)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;float&gt; GetValueAsFloat(string keyPath)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -145,30 +151,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">keyPath</span></td>
         <td><p>The key path (section\value name).</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L34">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><p>AimpActionResult&lt;System.Single&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_IAimpConfig_GetValueAsInt32_" data-uid="AIMP.SDK.IAimpConfig.GetValueAsInt32*"></a>
   <h4 id="AIMP_SDK_IAimpConfig_GetValueAsInt32_System_String_" data-uid="AIMP.SDK.IAimpConfig.GetValueAsInt32(System.String)">GetValueAsInt32(String)</h4>
   <div class="markdown level1 summary"><p>Gets the value as int32.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">int GetValueAsInt32(string keyPath)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;int&gt; GetValueAsInt32(string keyPath)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -180,30 +196,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">keyPath</span></td>
         <td><p>The key path (section\value name).</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L40">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>AimpActionResult&lt;System.Int32&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_IAimpConfig_GetValueAsInt64_" data-uid="AIMP.SDK.IAimpConfig.GetValueAsInt64*"></a>
   <h4 id="AIMP_SDK_IAimpConfig_GetValueAsInt64_System_String_" data-uid="AIMP.SDK.IAimpConfig.GetValueAsInt64(System.String)">GetValueAsInt64(String)</h4>
   <div class="markdown level1 summary"><p>Gets the value as int64.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">long GetValueAsInt64(string keyPath)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;long&gt; GetValueAsInt64(string keyPath)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -215,30 +241,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">keyPath</span></td>
         <td><p>The key path (section\value name).</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L46">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><p>AimpActionResult&lt;Int64&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_IAimpConfig_GetValueAsStream_" data-uid="AIMP.SDK.IAimpConfig.GetValueAsStream*"></a>
   <h4 id="AIMP_SDK_IAimpConfig_GetValueAsStream_System_String_" data-uid="AIMP.SDK.IAimpConfig.GetValueAsStream(System.String)">GetValueAsStream(String)</h4>
   <div class="markdown level1 summary"><p>Gets the value as binary stream.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">IAimpStream GetValueAsStream(string keyPath)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpStream&gt; GetValueAsStream(string keyPath)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -250,30 +286,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">keyPath</span></td>
         <td><p>The key path (section\value name).</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L52">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.IAimpStream.html">IAimpStream</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpStream&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_IAimpConfig_GetValueAsString_" data-uid="AIMP.SDK.IAimpConfig.GetValueAsString*"></a>
   <h4 id="AIMP_SDK_IAimpConfig_GetValueAsString_System_String_" data-uid="AIMP.SDK.IAimpConfig.GetValueAsString(System.String)">GetValueAsString(String)</h4>
   <div class="markdown level1 summary"><p>Gets the value as string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">string GetValueAsString(string keyPath)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;string&gt; GetValueAsString(string keyPath)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -285,30 +331,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">keyPath</span></td>
         <td><p>The key path (section\value name).</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L59">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>AimpActionResult&lt;System.String&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_IAimpConfig_SetValueAsFloat_" data-uid="AIMP.SDK.IAimpConfig.SetValueAsFloat*"></a>
   <h4 id="AIMP_SDK_IAimpConfig_SetValueAsFloat_System_String_System_Single_" data-uid="AIMP.SDK.IAimpConfig.SetValueAsFloat(System.String,System.Single)">SetValueAsFloat(String, Single)</h4>
   <div class="markdown level1 summary"><p>Sets the value as float.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult SetValueAsFloat(string keyPath, float value)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult SetValueAsFloat(string keyPath, float value)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -320,36 +376,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">keyPath</span></td>
         <td><p>The key path (section\value name).</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.single(v=vs.110).aspx">Single</a></td>
+        <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L66">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_IAimpConfig_SetValueAsInt32_" data-uid="AIMP.SDK.IAimpConfig.SetValueAsInt32*"></a>
   <h4 id="AIMP_SDK_IAimpConfig_SetValueAsInt32_System_String_System_Int32_" data-uid="AIMP.SDK.IAimpConfig.SetValueAsInt32(System.String,System.Int32)">SetValueAsInt32(String, Int32)</h4>
   <div class="markdown level1 summary"><p>Sets the value as int32.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult SetValueAsInt32(string keyPath, int value)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult SetValueAsInt32(string keyPath, int value)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -361,36 +427,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">keyPath</span></td>
         <td><p>The key path (section\value name).</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L73">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_IAimpConfig_SetValueAsInt64_" data-uid="AIMP.SDK.IAimpConfig.SetValueAsInt64*"></a>
   <h4 id="AIMP_SDK_IAimpConfig_SetValueAsInt64_System_String_System_Int64_" data-uid="AIMP.SDK.IAimpConfig.SetValueAsInt64(System.String,System.Int64)">SetValueAsInt64(String, Int64)</h4>
   <div class="markdown level1 summary"><p>Sets the value as int64.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult SetValueAsInt64(string keyPath, long value)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult SetValueAsInt64(string keyPath, long value)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -402,36 +478,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">keyPath</span></td>
         <td><p>The key path (section\value name).</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int64(v=vs.110).aspx">Int64</a></td>
+        <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L80">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_IAimpConfig_SetValueAsStream_" data-uid="AIMP.SDK.IAimpConfig.SetValueAsStream*"></a>
   <h4 id="AIMP_SDK_IAimpConfig_SetValueAsStream_System_String_AIMP_SDK_IAimpStream_" data-uid="AIMP.SDK.IAimpConfig.SetValueAsStream(System.String,AIMP.SDK.IAimpStream)">SetValueAsStream(String, IAimpStream)</h4>
   <div class="markdown level1 summary"><p>Sets the value as stream.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult SetValueAsStream(string keyPath, IAimpStream stream)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult SetValueAsStream(string keyPath, IAimpStream stream)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -443,7 +529,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">keyPath</span></td>
         <td><p>The key path (section\value name).</p>
 </td>
@@ -456,23 +542,33 @@
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L87">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_IAimpConfig_SetValueAsString_" data-uid="AIMP.SDK.IAimpConfig.SetValueAsString*"></a>
   <h4 id="AIMP_SDK_IAimpConfig_SetValueAsString_System_String_System_String_" data-uid="AIMP.SDK.IAimpConfig.SetValueAsString(System.String,System.String)">SetValueAsString(String, String)</h4>
   <div class="markdown level1 summary"><p>Sets the value as string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult SetValueAsString(string keyPath, string value)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult SetValueAsString(string keyPath, string value)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -484,20 +580,35 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">keyPath</span></td>
         <td><p>The key path (section\value name).</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -505,12 +616,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_IAimpConfig.md&amp;value=---%0Auid%3A%20AIMP.SDK.IAimpConfig%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/IAimpConfig.cs/#L16" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

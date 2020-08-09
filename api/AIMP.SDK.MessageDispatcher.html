@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Namespace AIMP.SDK.MessageDispatcher
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace AIMP.SDK.MessageDispatcher
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -78,12 +78,22 @@
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="AIMP.SDK.MessageDispatcher.IAimpMessageHook.html">IAimpMessageHook</a></h4>
-      <section></section>
+      <section><p>The IAimpMessageHook interface provides an ability to hook all messages that processes via
+<a class="xref" href="AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html">IAimpServiceMessageDispatcher</a>.
+Note that you must remove hook manually in the <see cref="!:IAimpPlugin.Dispose"></see>.</p>
+</section>
       <h4><a class="xref" href="AIMP.SDK.MessageDispatcher.IAimpServiceMessageDispatcher.html">IAimpServiceMessageDispatcher</a></h4>
-      <section><p>Provides an access to the messaging mechanism.</p>
+      <section><p>Provides an access to the messaging mechanism.
+Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></p>
 </section>
     <h3 id="enums">Enums
   </h3>
+      <h4><a class="xref" href="AIMP.SDK.MessageDispatcher.AimpCoreMessageType.html">AimpCoreMessageType</a></h4>
+      <section><p>Core message type.</p>
+</section>
+      <h4><a class="xref" href="AIMP.SDK.MessageDispatcher.AimpCorePathType.html">AimpCorePathType</a></h4>
+      <section><p>Path type.</p>
+</section>
       <h4><a class="xref" href="AIMP.SDK.MessageDispatcher.MessageDirectionType.html">MessageDirectionType</a></h4>
       <section><p>Message direction types.</p>
 </section>

@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpExtensionAlbumArtCatalog
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpExtensionAlbumArtCatalog
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -73,14 +73,14 @@
   
   <h1 id="AIMP_SDK_AlbumArtManager_IAimpExtensionAlbumArtCatalog" data-uid="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog" class="text-break">Interface IAimpExtensionAlbumArtCatalog
   </h1>
-  <div class="markdown level0 summary"><p>This interface is a extension for the IAimpServiceAlbumArt service. 
+  <div class="markdown level0 summary"><p>This interface is a extension for the IAimpServiceAlbumArt service.
 It allows for the plugin to add a menu item to the context menu for external album art catalogs.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog2.html#AIMP_SDK_AlbumArtManager_IAimpExtensionAlbumArtCatalog2_Show_AIMP_SDK_FileManager_IAimpFileInfo_System_Drawing_Bitmap__">IAimpExtensionAlbumArtCatalog2.Show(IAimpFileInfo, Bitmap)</a>
+      <a class="xref" href="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog2.html#AIMP_SDK_AlbumArtManager_IAimpExtensionAlbumArtCatalog2_Show_AIMP_SDK_FileManager_IAimpFileInfo_">IAimpExtensionAlbumArtCatalog2.Show(IAimpFileInfo)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.AlbumArtManager.html">AIMP.SDK.AlbumArtManager</a></h6>
@@ -91,52 +91,71 @@ It allows for the plugin to add a menu item to the context menu for external alb
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/AlbumArtManager/IAimpExtensionAlbumArtCatalog.cs/#L28">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_AlbumArtManager_IAimpExtensionAlbumArtCatalog_GetIcon_" data-uid="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.GetIcon*"></a>
   <h4 id="AIMP_SDK_AlbumArtManager_IAimpExtensionAlbumArtCatalog_GetIcon" data-uid="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.GetIcon">GetIcon()</h4>
   <div class="markdown level1 summary"><p>Gets icon for menu item, icon must be 16x16.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">Bitmap GetIcon()</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;Bitmap&gt; GetIcon()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/AlbumArtManager/IAimpExtensionAlbumArtCatalog.cs/#L33">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.Drawing.Bitmap</span>&gt;</td>
+        <td><p>AimpActionResult&lt;Bitmap&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_AlbumArtManager_IAimpExtensionAlbumArtCatalog_GetName_" data-uid="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.GetName*"></a>
   <h4 id="AIMP_SDK_AlbumArtManager_IAimpExtensionAlbumArtCatalog_GetName" data-uid="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.GetName">GetName()</h4>
   <div class="markdown level1 summary"><p>Gets the catalog name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">string GetName()</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;string&gt; GetName()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/AlbumArtManager/IAimpExtensionAlbumArtCatalog.cs/#L44">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>AimpActionResult&lt;System.String&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_AlbumArtManager_IAimpExtensionAlbumArtCatalog_Show_" data-uid="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.Show*"></a>
-  <h4 id="AIMP_SDK_AlbumArtManager_IAimpExtensionAlbumArtCatalog_Show_System_String_System_String_System_String_System_Drawing_Bitmap__" data-uid="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.Show(System.String,System.String,System.String,System.Drawing.Bitmap@)">Show(String, String, String, out Bitmap)</h4>
+  <h4 id="AIMP_SDK_AlbumArtManager_IAimpExtensionAlbumArtCatalog_Show_System_String_System_String_System_String_" data-uid="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog.Show(System.String,System.String,System.String)">Show(String, String, String)</h4>
   <div class="markdown level1 summary"><p>This method will be called on menu item click.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Show(string fileUrl, string artist, string album, out Bitmap image)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;Bitmap&gt; Show(string fileUrl, string artist, string album)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -148,33 +167,41 @@ It allows for the plugin to add a menu item to the context menu for external alb
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">fileUrl</span></td>
         <td><p>The file URL.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">artist</span></td>
         <td><p>Optional. The artist. , can be null</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">album</span></td>
         <td><p>Optional. The album.</p>
 </td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.drawing.bitmap(v=vs.110).aspx">Bitmap</a></td>
-        <td><span class="parametername">image</span></td>
-        <td><p>Image instance, can be null if catalog does not provides an ability to select album art immediately.
-For example, if the extension just open external link via Internet browser.</p>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.Drawing.Bitmap</span>&gt;</td>
+        <td><p>AimpActionResult&lt;Bitmap&gt;.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
   <h3 id="seealso">See Also</h3>
   <div class="seealso">
       <div><a class="xref" href="AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog2.html">IAimpExtensionAlbumArtCatalog2</a></div>
@@ -187,12 +214,6 @@ For example, if the extension just open external link via Internet browser.</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_AlbumArtManager_IAimpExtensionAlbumArtCatalog.md&amp;value=---%0Auid%3A%20AIMP.SDK.AlbumArtManager.IAimpExtensionAlbumArtCatalog%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/AlbumArtManager/IAimpExtensionAlbumArtCatalog.cs/#L23" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

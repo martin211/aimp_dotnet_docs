@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpPlaylistPreimage
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpPlaylistPreimage
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -73,12 +73,14 @@
   
   <h1 id="AIMP_SDK_Playlist_IAimpPlaylistPreimage" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage" class="text-break">Interface IAimpPlaylistPreimage
   </h1>
-  <div class="markdown level0 summary"><p>It is a general interface for all preimages.
+  <div class="markdown level0 summary"><p>It is a general interface for all preimages.</p>
 <p>
 Preimage is data source for smart-playlists with manual or automatic synchronization.
-The principle of cooperation between preimage and playlist is so simple: when data or settings in preimage are changed - preimage notify playlist about the changes via the <a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.html">IAimpPlaylistPreimageListener</a> interface that related to binded playlist.
+The principle of cooperation between preimage and playlist is so simple: when data or settings in preimage are
+changed - preimage notify playlist about the changes via the <a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimageListener.html">IAimpPlaylistPreimageListener</a>
+interface that related to binded playlist.
 Playlist, in own case, will reload data from preimage as soon as data will be required by plugin or user.
-</p></p>
+</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.Playlist.html">AIMP.SDK.Playlist</a></h6>
@@ -89,99 +91,156 @@ Playlist, in own case, will reload data from preimage as soon as data will be re
   </div>
   <h3 id="properties">Properties
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistPreimage.cs/#L34">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_AutoSync_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.AutoSync*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_AutoSync" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.AutoSync">AutoSync</h4>
-  <div class="markdown level1 summary"><p>The Value different from false if automatic synchronization is switched on in the preimage (note that not all preimages support for this property).</p>
+  <div class="markdown level1 summary"><p>The Value different from false if automatic synchronization is switched on in the preimage (note that not all
+preimages support for this property).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">bool AutoSync { get; set; }</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool AutoSync { get; set; }</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistPreimage.cs/#L39">View Source</a>
-  </span>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if [automatic synchronize]; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_AutoSyncOnStartup_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.AutoSyncOnStartup*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_AutoSyncOnStartup" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.AutoSyncOnStartup">AutoSyncOnStartup</h4>
-  <div class="markdown level1 summary"><p>The Value different from false if automatic synchronization is switched on in the preimage at Application startup (note that not all preimages support for this property).</p>
+  <div class="markdown level1 summary"><p>The Value different from false if automatic synchronization is switched on in the preimage at Application startup
+(note that not all preimages support for this property).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">bool AutoSyncOnStartup { get; set; }</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool AutoSyncOnStartup { get; set; }</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistPreimage.cs/#L29">View Source</a>
-  </span>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if [automatic synchronize on startup]; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_FactoryId_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.FactoryId*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_FactoryId" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.FactoryId">FactoryId</h4>
   <div class="markdown level1 summary"><p>Id of factory that creates this preimage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">string FactoryId { get; }</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string FactoryId { get; }</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistPreimage.cs/#L44">View Source</a>
-  </span>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The factory identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_HasDialog_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.HasDialog*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_HasDialog" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.HasDialog">HasDialog</h4>
   <div class="markdown level1 summary"><p>Return value different from false if preimage has implementation of the ExecuteDialog method.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">bool HasDialog { get; }</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool HasDialog { get; }</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistPreimage.cs/#L49">View Source</a>
-  </span>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance has dialog; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_SortTemplate_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.SortTemplate*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_SortTemplate" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.SortTemplate">SortTemplate</h4>
   <div class="markdown level1 summary"><p>Return sorting template for values in playlist after adding files from preimage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">string SortTemplate { get; }</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string SortTemplate { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The sort template.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistPreimage.cs/#L56">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_ConfigLoad_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.ConfigLoad*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_ConfigLoad_AIMP_SDK_IAimpStream_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.ConfigLoad(AIMP.SDK.IAimpStream)">ConfigLoad(IAimpStream)</h4>
   <div class="markdown level1 summary"><p>Loads the configuration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult ConfigLoad(IAimpStream stream)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult ConfigLoad(IAimpStream stream)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -200,23 +259,33 @@ Playlist, in own case, will reload data from preimage as soon as data will be re
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistPreimage.cs/#L63">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_ConfigSave_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.ConfigSave*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_ConfigSave_AIMP_SDK_IAimpStream_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.ConfigSave(AIMP.SDK.IAimpStream)">ConfigSave(IAimpStream)</h4>
   <div class="markdown level1 summary"><p>Saves the configuration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult ConfigSave(IAimpStream stream)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult ConfigSave(IAimpStream stream)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -235,22 +304,33 @@ Playlist, in own case, will reload data from preimage as soon as data will be re
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistPreimage.cs/#L65">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_ExecuteDialog_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.ExecuteDialog*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_ExecuteDialog_System_IntPtr_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.ExecuteDialog(System.IntPtr)">ExecuteDialog(IntPtr)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Executes the dialog.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult ExecuteDialog(IntPtr ownerHandle)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult ExecuteDialog(IntPtr ownerHandle)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -262,43 +342,51 @@ Playlist, in own case, will reload data from preimage as soon as data will be re
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></td>
+        <td><span class="xref">System.IntPtr</span></td>
         <td><span class="parametername">ownerHandle</span></td>
-        <td></td>
+        <td><p>The owner handle.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistPreimage.cs/#L73">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_FinalizeObject_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.FinalizeObject*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_FinalizeObject" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.FinalizeObject">FinalizeObject()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Finalizes the object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">void FinalizeObject()</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void FinalizeObject()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistPreimage.cs/#L71">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_Initialize_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.Initialize*"></a>
   <h4 id="AIMP_SDK_Playlist_IAimpPlaylistPreimage_Initialize_AIMP_SDK_Playlist_IAimpPlaylistPreimageListener_" data-uid="AIMP.SDK.Playlist.IAimpPlaylistPreimage.Initialize(AIMP.SDK.Playlist.IAimpPlaylistPreimageListener)">Initialize(IAimpPlaylistPreimageListener)</h4>
   <div class="markdown level1 summary"><p>Initializes the specified listener.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">void Initialize(IAimpPlaylistPreimageListener listener)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Initialize(IAimpPlaylistPreimageListener listener)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -317,7 +405,6 @@ Playlist, in own case, will reload data from preimage as soon as data will be re
       </tr>
     </tbody>
   </table>
-  </div>
 </article>
           </div>
           
@@ -325,12 +412,6 @@ Playlist, in own case, will reload data from preimage as soon as data will be re
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_Playlist_IAimpPlaylistPreimage.md&amp;value=---%0Auid%3A%20AIMP.SDK.Playlist.IAimpPlaylistPreimage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Playlist/IAimpPlaylistPreimage.cs/#L24" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

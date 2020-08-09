@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class AimpPlugin
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class AimpPlugin
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -73,41 +73,42 @@
   
   <h1 id="AIMP_SDK_AimpPlugin" data-uid="AIMP.SDK.AimpPlugin" class="text-break">Class AimpPlugin
   </h1>
-  <div class="markdown level0 summary"><p>Base class for AIMP Plugin.</p>
+  <div class="markdown level0 summary"><p>Base class for AIMP Plugin.
+Implements the <a class="xref" href="AIMP.SDK.IAimpPlugin.html">IAimpPlugin</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
+    <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">AimpPlugin</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="AIMP.SDK.IAimpPlugin.html">IAimpPlugin</a></div>
-    <div><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.idisposable(v=vs.110).aspx">IDisposable</a></div>
+    <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.110).aspx">Object.ToString()</a>
+      <span class="xref">System.Object.ToString()</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.110).aspx">Object.Equals(Object)</a>
+      <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/w4hkze5k(v=vs.110).aspx">Object.Equals(Object, Object)</a>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/hz2a0b8x(v=vs.110).aspx">Object.ReferenceEquals(Object, Object)</a>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.110).aspx">Object.GetHashCode()</a>
+      <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.110).aspx">Object.GetType()</a>
+      <span class="xref">System.Object.GetType()</span>
     </div>
     <div>
-      <a class="xref" href="https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.110).aspx">Object.MemberwiseClone()</a>
+      <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.html">AIMP.SDK</a></h6>
@@ -116,22 +117,20 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class AimpPlugin : IAimpPlugin, IDisposable</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/AimpPlugin.cs/#L34">View Source</a>
-  </span>
+  
+  
+  <a id="AIMP_SDK_AimpPlugin_AimpPlayer_" data-uid="AIMP.SDK.AimpPlugin.AimpPlayer*"></a>
   <h4 id="AIMP_SDK_AimpPlugin_AimpPlayer" data-uid="AIMP.SDK.AimpPlugin.AimpPlayer">AimpPlayer</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or sets the aimp player.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">public IAimpPlayer AimpPlayer</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAimpPlayer AimpPlayer { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -142,77 +141,100 @@
     <tbody>
       <tr>
         <td><a class="xref" href="AIMP.SDK.Player.IAimpPlayer.html">IAimpPlayer</a></td>
-        <td></td>
+        <td><p>The aimp player.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/AimpPlugin.cs/#L41">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_AimpPlugin_Player_" data-uid="AIMP.SDK.AimpPlugin.Player*"></a>
   <h4 id="AIMP_SDK_AimpPlugin_Player" data-uid="AIMP.SDK.AimpPlugin.Player">Player</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the main player interface <a class="xref" href="AIMP.SDK.Player.IAimpPlayer.html">IAimpPlayer</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">public IAimpPlayer Player { get; }</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAimpPlayer Player { get; }</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/AimpPlugin.cs/#L39">View Source</a>
-  </span>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.Player.IAimpPlayer.html">IAimpPlayer</a></td>
+        <td><p>The player.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_AimpPlugin_PluginId_" data-uid="AIMP.SDK.AimpPlugin.PluginId*"></a>
   <h4 id="AIMP_SDK_AimpPlugin_PluginId" data-uid="AIMP.SDK.AimpPlugin.PluginId">PluginId</h4>
   <div class="markdown level1 summary"><p>Gets or sets the plugin identifier.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">public int PluginId { get; set; }</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PluginId { get; set; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The plugin identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/AimpPlugin.cs/#L51">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_AimpPlugin_Dispose_" data-uid="AIMP.SDK.AimpPlugin.Dispose*"></a>
   <h4 id="AIMP_SDK_AimpPlugin_Dispose" data-uid="AIMP.SDK.AimpPlugin.Dispose">Dispose()</h4>
-  <div class="markdown level1 summary"><p>Inside this function, plugin should dispose all resources</p>
+  <div class="markdown level1 summary"><p>Inside this function, plugin should dispose all resources.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">public abstract void Dispose()</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Dispose()</code></pre>
   </div>
-  <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="https://msdn.microsoft.com/en-us/library/es4s3w1d(v=vs.110).aspx">IDisposable.Dispose()</a></div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/AimpPlugin.cs/#L46">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_AimpPlugin_Initialize_" data-uid="AIMP.SDK.AimpPlugin.Initialize*"></a>
   <h4 id="AIMP_SDK_AimpPlugin_Initialize" data-uid="AIMP.SDK.AimpPlugin.Initialize">Initialize()</h4>
-  <div class="markdown level1 summary"><p>Inside this function, plugin should perform all initialization</p>
+  <div class="markdown level1 summary"><p>Inside this function, plugin should perform all initialization.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">public abstract void Initialize()</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Initialize()</code></pre>
   </div>
-  <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="AIMP.SDK.IAimpPlugin.html#AIMP_SDK_IAimpPlugin_Initialize">IAimpPlugin.Initialize()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AIMP.SDK.IAimpPlugin.html">IAimpPlugin</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="AIMP.SDK.IAimpPlugin.html">IAimpPlugin</a></div>
+  </div>
 </article>
           </div>
           
@@ -220,12 +242,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_AimpPlugin.md&amp;value=---%0Auid%3A%20AIMP.SDK.AimpPlugin%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/AimpPlugin.cs/#L32" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

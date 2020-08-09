@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpMusicLibraryPlaylistPreimage
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpMusicLibraryPlaylistPreimage
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -74,7 +74,8 @@
   <h1 id="AIMP_SDK_MusicLibrary_IAimpMusicLibraryPlaylistPreimage" data-uid="AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage" class="text-break">Interface IAimpMusicLibraryPlaylistPreimage
   </h1>
   <div class="markdown level0 summary"><p>Provides an access to preimage settings that based on one of data storages of Music Library.
-Note that some data storage has no support of preimages.</p>
+Note that some data storage has no support of preimages.
+Implements the <a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimage.html">IAimpPlaylistPreimage</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
@@ -118,79 +119,63 @@ Note that some data storage has no support of preimages.</p>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/IAimpMusicLibraryPlaylistPreimage.cs/#L19">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_MusicLibrary_IAimpMusicLibraryPlaylistPreimage_GetFilter_" data-uid="AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage.GetFilter*"></a>
-  <h4 id="AIMP_SDK_MusicLibrary_IAimpMusicLibraryPlaylistPreimage_GetFilter_AIMP_SDK_MusicLibrary_DataFilter_IAimpDataFieldFilter__" data-uid="AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage.GetFilter(AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilter@)">GetFilter(out IAimpDataFieldFilter)</h4>
+  <h4 id="AIMP_SDK_MusicLibrary_IAimpMusicLibraryPlaylistPreimage_GetFilter" data-uid="AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage.GetFilter">GetFilter()</h4>
   <div class="markdown level1 summary"><p>Gets the filter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult GetFilter(out IAimpDataFieldFilter filter)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpDataFilter&gt; GetFilter()</code></pre>
   </div>
-  <div class="div-decalaration">
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFieldFilter.html">IAimpDataFieldFilter</a></td>
-        <td><span class="parametername">filter</span></td>
-        <td><p>All changes in the Filter will be automatically applied to the preimage.
-Use the BeginUpdate / EndUpdate methods to change few settings at one time.</p>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.MusicLibrary.IAimpDataFilter.html">IAimpDataFilter</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpDataFilter&gt;.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/IAimpMusicLibraryPlaylistPreimage.cs/#L26">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_MusicLibrary_IAimpMusicLibraryPlaylistPreimage_GetStorage_" data-uid="AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage.GetStorage*"></a>
-  <h4 id="AIMP_SDK_MusicLibrary_IAimpMusicLibraryPlaylistPreimage_GetStorage_AIMP_SDK_MusicLibrary_DataStorage_IAimpDataStorage__" data-uid="AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage.GetStorage(AIMP.SDK.MusicLibrary.DataStorage.IAimpDataStorage@)">GetStorage(out IAimpDataStorage)</h4>
+  <h4 id="AIMP_SDK_MusicLibrary_IAimpMusicLibraryPlaylistPreimage_GetStorage" data-uid="AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage.GetStorage">GetStorage()</h4>
   <div class="markdown level1 summary"><p>Gets the storage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult GetStorage(out IAimpDataStorage storage)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpDataStorage&gt; GetStorage()</code></pre>
   </div>
-  <div class="div-decalaration">
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AIMP.SDK.MusicLibrary.DataStorage.IAimpDataStorage.html">IAimpDataStorage</a></td>
-        <td><span class="parametername">storage</span></td>
-        <td><p>The storage.</p>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.MusicLibrary.DataStorage.IAimpDataStorage.html">IAimpDataStorage</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpDataStorage&gt;.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
   <h3 id="seealso">See Also</h3>
   <div class="seealso">
+      <div><a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimage.html">IAimpPlaylistPreimage</a></div>
       <div><a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimage.html">IAimpPlaylistPreimage</a></div>
   </div>
 </article>
@@ -200,12 +185,6 @@ Use the BeginUpdate / EndUpdate methods to change few settings at one time.</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_MusicLibrary_IAimpMusicLibraryPlaylistPreimage.md&amp;value=---%0Auid%3A%20AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/MusicLibrary/IAimpMusicLibraryPlaylistPreimage.cs/#L11" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

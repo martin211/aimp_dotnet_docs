@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpServiceFileSystems
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpServiceFileSystems
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -73,31 +73,35 @@
   
   <h1 id="AIMP_SDK_FileManager_IAimpServiceFileSystems" data-uid="AIMP.SDK.FileManager.IAimpServiceFileSystems" class="text-break">Interface IAimpServiceFileSystems
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Provide ability to work with files.
+Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></p>
+</div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AIMP.SDK.IAimpService.html#AIMP_SDK_IAimpService_IsExists">IAimpService.IsExists</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.FileManager.html">AIMP.SDK.FileManager</a></h6>
   <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
   <h5 id="AIMP_SDK_FileManager_IAimpServiceFileSystems_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAimpServiceFileSystems</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IAimpServiceFileSystems : IAimpService</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/FileManager/IAimpServiceFileSystems.cs/#L18">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_FileManager_IAimpServiceFileSystems_Get_" data-uid="AIMP.SDK.FileManager.IAimpServiceFileSystems.Get*"></a>
-  <h4 id="AIMP_SDK_FileManager_IAimpServiceFileSystems_Get__1_System_String___0__" data-uid="AIMP.SDK.FileManager.IAimpServiceFileSystems.Get``1(System.String,``0@)">Get&lt;TCommand&gt;(String, out TCommand)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="AIMP_SDK_FileManager_IAimpServiceFileSystems_Get_AIMP_SDK_FileManager_FileCommandType_System_String_" data-uid="AIMP.SDK.FileManager.IAimpServiceFileSystems.Get(AIMP.SDK.FileManager.FileCommandType,System.String)">Get(FileCommandType, String)</h4>
+  <div class="markdown level1 summary"><p>Get the interface of specified command.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Get&lt;TCommand&gt;(string fileUri, out TCommand command)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpFileSystemCommand&gt; Get(FileCommandType commandType, string fileUri)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -109,33 +113,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><a class="xref" href="AIMP.SDK.FileManager.FileCommandType.html">FileCommandType</a></td>
+        <td><span class="parametername">commandType</span></td>
+        <td><p>The command type <a class="xref" href="AIMP.SDK.FileManager.FileCommandType.html">FileCommandType</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">fileUri</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">TCommand</span></td>
-        <td><span class="parametername">command</span></td>
-        <td></td>
+        <td><p>The name of virtual file.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/FileManager/IAimpServiceFileSystems.cs/#L20">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand.html">IAimpFileSystemCommand</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpFileSystemCommand&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_FileManager_IAimpServiceFileSystems_GetDefault_" data-uid="AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault*"></a>
-  <h4 id="AIMP_SDK_FileManager_IAimpServiceFileSystems_GetDefault__1___0__" data-uid="AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault``1(``0@)">GetDefault&lt;TCommand&gt;(out TCommand)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="AIMP_SDK_FileManager_IAimpServiceFileSystems_GetDefault_AIMP_SDK_FileManager_FileCommandType_" data-uid="AIMP.SDK.FileManager.IAimpServiceFileSystems.GetDefault(AIMP.SDK.FileManager.FileCommandType)">GetDefault(FileCommandType)</h4>
+  <div class="markdown level1 summary"><p>Gets the default.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult GetDefault&lt;TCommand&gt;(out TCommand command)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpFileSystemCommand&gt; GetDefault(FileCommandType commandType)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -147,12 +164,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TCommand</span></td>
-        <td><span class="parametername">command</span></td>
-        <td></td>
+        <td><a class="xref" href="AIMP.SDK.FileManager.FileCommandType.html">FileCommandType</a></td>
+        <td><span class="parametername">commandType</span></td>
+        <td><p>Type of the command.</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.FileManager.Commands.IAimpFileSystemCommand.html">IAimpFileSystemCommand</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpFileSystemCommand&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></div>
   </div>
 </article>
           </div>
@@ -161,12 +198,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_FileManager_IAimpServiceFileSystems.md&amp;value=---%0Auid%3A%20AIMP.SDK.FileManager.IAimpServiceFileSystems%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/FileManager/IAimpServiceFileSystems.cs/#L16" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

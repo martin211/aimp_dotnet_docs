@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpServiceActionManager
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpServiceActionManager
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -73,48 +73,63 @@
   
   <h1 id="AIMP_SDK_ActionManager_IAimpServiceActionManager" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager" class="text-break">Interface IAimpServiceActionManager
   </h1>
-  <div class="markdown level0 summary"><p>The service provides an access to actions.</p>
+  <div class="markdown level0 summary"><p>The service provides an access to actions.
+Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AIMP.SDK.IAimpService.html#AIMP_SDK_IAimpService_IsExists">IAimpService.IsExists</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.ActionManager.html">AIMP.SDK.ActionManager</a></h6>
   <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
   <h5 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAimpServiceActionManager</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IAimpServiceActionManager : IAimpService</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/ActionManager/IAimpServiceActionManager.cs/#L55">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_ActionManager_IAimpServiceActionManager_CreateAction_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.CreateAction*"></a>
   <h4 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_CreateAction" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.CreateAction">CreateAction()</h4>
   <div class="markdown level1 summary"><p>Creates the Aimp action instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">IAimpAction CreateAction()</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Core.CreateObject&lt;IAimpAction&gt;&quot;)]
+IAimpAction CreateAction()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/ActionManager/IAimpServiceActionManager.cs/#L28">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionManager.IAimpAction.html">IAimpAction</a></td>
+        <td><p>IAimpAction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_ActionManager_IAimpServiceActionManager_GetById_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.GetById*"></a>
-  <h4 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_GetById_System_String_AIMP_SDK_ActionManager_IAimpAction__" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.GetById(System.String,AIMP.SDK.ActionManager.IAimpAction@)">GetById(String, out IAimpAction)</h4>
+  <h4 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_GetById_System_String_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.GetById(System.String)">GetById(String)</h4>
   <div class="markdown level1 summary"><p>Gets the by identifier.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult GetById(string id, out IAimpAction action)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpAction&gt; GetById(string id)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -126,36 +141,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">id</span></td>
         <td><p>The identifier.</p>
 </td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="AIMP.SDK.ActionManager.IAimpAction.html">IAimpAction</a></td>
-        <td><span class="parametername">action</span></td>
-        <td><p>The action.</p>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.ActionManager.IAimpAction.html">IAimpAction</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpAction&gt;.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/ActionManager/IAimpServiceActionManager.cs/#L36">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_ActionManager_IAimpServiceActionManager_MakeHotkey_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.MakeHotkey*"></a>
   <h4 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_MakeHotkey_System_Windows_Input_ModifierKeys_System_UInt32_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.MakeHotkey(System.Windows.Input.ModifierKeys,System.UInt32)">MakeHotkey(ModifierKeys, UInt32)</h4>
   <div class="markdown level1 summary"><p>Makes the hotkey.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">int MakeHotkey(ModifierKeys modifiers, uint key)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int MakeHotkey(ModifierKeys modifiers, uint key)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -167,36 +186,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.windows.input.modifierkeys(v=vs.110).aspx">ModifierKeys</a></td>
+        <td><span class="xref">System.Windows.Input.ModifierKeys</span></td>
         <td><span class="parametername">modifiers</span></td>
-        <td><p>The key modifiers <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.windows.input.modifierkeys(v=vs.110).aspx">ModifierKeys</a>.</p>
+        <td><p>The key modifiers <span class="xref">System.Windows.Input.ModifierKeys</span>.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.uint32(v=vs.110).aspx">UInt32</a></td>
+        <td><span class="xref">System.UInt32</span></td>
         <td><span class="parametername">key</span></td>
         <td><p>The key.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/ActionManager/IAimpServiceActionManager.cs/#L43">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>System.Int32.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_ActionManager_IAimpServiceActionManager_Register_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.Register*"></a>
   <h4 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_Register_AIMP_SDK_ActionManager_IAimpAction_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.Register(AIMP.SDK.ActionManager.IAimpAction)">Register(IAimpAction)</h4>
   <div class="markdown level1 summary"><p>Registers the specified action.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Register(IAimpAction action)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult Register(IAimpAction action)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -215,23 +244,33 @@
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/ActionManager/IAimpServiceActionManager.cs/#L50">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_ActionManager_IAimpServiceActionManager_Register_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.Register*"></a>
   <h4 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_Register_System_Collections_Generic_ICollection_AIMP_SDK_ActionManager_IAimpAction__" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.Register(System.Collections.Generic.ICollection{AIMP.SDK.ActionManager.IAimpAction})">Register(ICollection&lt;IAimpAction&gt;)</h4>
   <div class="markdown level1 summary"><p>Registers the specified actions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Register(ICollection&lt;IAimpAction&gt; actions)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult Register(ICollection&lt;IAimpAction&gt; actions)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -243,13 +282,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/92t2ye13(v=vs.110).aspx">ICollection</a>&lt;<a class="xref" href="AIMP.SDK.ActionManager.IAimpAction.html">IAimpAction</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="AIMP.SDK.ActionManager.IAimpAction.html">IAimpAction</a>&gt;</td>
         <td><span class="parametername">actions</span></td>
         <td><p>The collection of <a class="xref" href="AIMP.SDK.ActionManager.IAimpAction.html">IAimpAction</a>.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></div>
   </div>
 </article>
           </div>
@@ -258,12 +316,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_ActionManager_IAimpServiceActionManager.md&amp;value=---%0Auid%3A%20AIMP.SDK.ActionManager.IAimpServiceActionManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/ActionManager/IAimpServiceActionManager.cs/#L20" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

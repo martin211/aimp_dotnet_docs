@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpFileTag
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpFileTag
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -73,7 +73,9 @@
   
   <h1 id="AIMP_SDK_TagEditor_IAimpFileTag" data-uid="AIMP.SDK.TagEditor.IAimpFileTag" class="text-break">Interface IAimpFileTag
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Interface IAimpFileTag
+Implements the <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IAimpFileInfo</a></p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -202,37 +204,67 @@
   <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
   <h5 id="AIMP_SDK_TagEditor_IAimpFileTag_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAimpFileTag : IAimpFileInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IAimpFileTag : IAimpFileInfo, IAimpObject</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/TagEditor/IAimpFileTag.cs/#L9">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_TagEditor_IAimpFileTag_DeleteOnSaving_" data-uid="AIMP.SDK.TagEditor.IAimpFileTag.DeleteOnSaving*"></a>
   <h4 id="AIMP_SDK_TagEditor_IAimpFileTag_DeleteOnSaving" data-uid="AIMP.SDK.TagEditor.IAimpFileTag.DeleteOnSaving">DeleteOnSaving</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether [delete on saving].</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">bool DeleteOnSaving { get; set; }</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool DeleteOnSaving { get; set; }</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/TagEditor/IAimpFileTag.cs/#L7">View Source</a>
-  </span>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if [delete on saving]; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_TagEditor_IAimpFileTag_TagId_" data-uid="AIMP.SDK.TagEditor.IAimpFileTag.TagId*"></a>
   <h4 id="AIMP_SDK_TagEditor_IAimpFileTag_TagId" data-uid="AIMP.SDK.TagEditor.IAimpFileTag.TagId">TagId</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or sets the tag identifier.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">TagType TagId { get; set; }</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TagType TagId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.TagEditor.TagType.html">TagType</a></td>
+        <td><p>The tag identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IAimpFileInfo</a></div>
   </div>
 </article>
           </div>
@@ -241,12 +273,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_TagEditor_IAimpFileTag.md&amp;value=---%0Auid%3A%20AIMP.SDK.TagEditor.IAimpFileTag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/TagEditor/IAimpFileTag.cs/#L5" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

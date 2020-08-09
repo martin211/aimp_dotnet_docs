@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpString
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpString
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -73,7 +73,8 @@
   
   <h1 id="AIMP_SDK_Objects_IAimpString" data-uid="AIMP.SDK.Objects.IAimpString" class="text-break">Interface IAimpString
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Interface IAimpString</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.Objects.html">AIMP.SDK.Objects</a></h6>
   <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
@@ -83,21 +84,17 @@
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L73">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Add_" data-uid="AIMP.SDK.Objects.IAimpString.Add*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_Add_AIMP_SDK_Objects_IAimpString_" data-uid="AIMP.SDK.Objects.IAimpString.Add(AIMP.SDK.Objects.IAimpString)">Add(IAimpString)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds the specified string.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Add(IAimpString str)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Add(IAimpString str)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -111,26 +108,38 @@
       <tr>
         <td><a class="xref" href="AIMP.SDK.Objects.IAimpString.html">IAimpString</a></td>
         <td><span class="parametername">str</span></td>
-        <td></td>
+        <td><p>The string.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L75">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Add_" data-uid="AIMP.SDK.Objects.IAimpString.Add*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_Add_System_String_System_Int32_" data-uid="AIMP.SDK.Objects.IAimpString.Add(System.String,System.Int32)">Add(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds the specified chars.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Add(string chars, int charsCount)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Add(string chars, int charsCount)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -142,33 +151,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">chars</span></td>
-        <td></td>
+        <td><p>The chars.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">charsCount</span></td>
-        <td></td>
+        <td><p>The chars count.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L77">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_ChangeCase_" data-uid="AIMP.SDK.Objects.IAimpString.ChangeCase*"></a>
-  <h4 id="AIMP_SDK_Objects_IAimpString_ChangeCase_AIMP_SDK_Objects_AIMPStringCase_" data-uid="AIMP.SDK.Objects.IAimpString.ChangeCase(AIMP.SDK.Objects.AIMPStringCase)">ChangeCase(AIMPStringCase)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="AIMP_SDK_Objects_IAimpString_ChangeCase_AIMP_SDK_Objects_AimpStringCase_" data-uid="AIMP.SDK.Objects.IAimpString.ChangeCase(AIMP.SDK.Objects.AimpStringCase)">ChangeCase(AimpStringCase)</h4>
+  <div class="markdown level1 summary"><p>Changes the case.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult ChangeCase(AIMPStringCase mode)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType ChangeCase(AimpStringCase mode)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -180,28 +202,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="AIMP.SDK.Objects.AIMPStringCase.html">AIMPStringCase</a></td>
+        <td><a class="xref" href="AIMP.SDK.Objects.AimpStringCase.html">AimpStringCase</a></td>
         <td><span class="parametername">mode</span></td>
-        <td></td>
+        <td><p>The mode.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L79">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Clone_" data-uid="AIMP.SDK.Objects.IAimpString.Clone*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_Clone_AIMP_SDK_Objects_IAimpString__" data-uid="AIMP.SDK.Objects.IAimpString.Clone(AIMP.SDK.Objects.IAimpString@)">Clone(out IAimpString)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Clones the specified string.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Clone(out IAimpString str)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Clone(out IAimpString str)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -215,26 +249,38 @@
       <tr>
         <td><a class="xref" href="AIMP.SDK.Objects.IAimpString.html">IAimpString</a></td>
         <td><span class="parametername">str</span></td>
-        <td></td>
+        <td><p>The string.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L81">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Compare_" data-uid="AIMP.SDK.Objects.IAimpString.Compare*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_Compare_AIMP_SDK_Objects_IAimpString_System_Int32__System_Boolean_" data-uid="AIMP.SDK.Objects.IAimpString.Compare(AIMP.SDK.Objects.IAimpString,System.Int32@,System.Boolean)">Compare(IAimpString, out Int32, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Compares the specified string.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Compare(IAimpString str, out int compareResult, bool ignoreCase)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Compare(IAimpString str, out int compareResult, bool ignoreCase)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -248,36 +294,50 @@
       <tr>
         <td><a class="xref" href="AIMP.SDK.Objects.IAimpString.html">IAimpString</a></td>
         <td><span class="parametername">str</span></td>
-        <td></td>
+        <td><p>The string.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">compareResult</span></td>
-        <td></td>
+        <td><p>The compare result.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">ignoreCase</span></td>
-        <td></td>
+        <td><p>if set to <code>true</code> [ignore case].</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L83">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Compare_" data-uid="AIMP.SDK.Objects.IAimpString.Compare*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_Compare_System_String_System_Int32_System_Int32__System_Boolean_" data-uid="AIMP.SDK.Objects.IAimpString.Compare(System.String,System.Int32,System.Int32@,System.Boolean)">Compare(String, Int32, out Int32, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Compares the specified chars.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Compare(string chars, int charsCount, out int compareResult, bool ignoreCase)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Compare(string chars, int charsCount, out int compareResult, bool ignoreCase)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -289,43 +349,58 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">chars</span></td>
-        <td></td>
+        <td><p>The chars.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">charsCount</span></td>
-        <td></td>
+        <td><p>The chars count.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">compareResult</span></td>
-        <td></td>
+        <td><p>The compare result.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">ignoreCase</span></td>
-        <td></td>
+        <td><p>if set to <code>true</code> [ignore case].</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L85">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Delete_" data-uid="AIMP.SDK.Objects.IAimpString.Delete*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_Delete_System_Int32_System_Int32_" data-uid="AIMP.SDK.Objects.IAimpString.Delete(System.Int32,System.Int32)">Delete(Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Deletes the specified index.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Delete(int index, int count)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Delete(int index, int count)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -337,33 +412,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">count</span></td>
-        <td></td>
+        <td><p>The count.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L87">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Find_" data-uid="AIMP.SDK.Objects.IAimpString.Find*"></a>
-  <h4 id="AIMP_SDK_Objects_IAimpString_Find_AIMP_SDK_Objects_IAimpString_System_Int32__AIMP_SDK_Objects_AIMPStringFindFlags_System_Int32_" data-uid="AIMP.SDK.Objects.IAimpString.Find(AIMP.SDK.Objects.IAimpString,System.Int32@,AIMP.SDK.Objects.AIMPStringFindFlags,System.Int32)">Find(IAimpString, out Int32, AIMPStringFindFlags, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="AIMP_SDK_Objects_IAimpString_Find_AIMP_SDK_Objects_IAimpString_System_Int32__AIMP_SDK_Objects_AimpStringFindFlags_System_Int32_" data-uid="AIMP.SDK.Objects.IAimpString.Find(AIMP.SDK.Objects.IAimpString,System.Int32@,AIMP.SDK.Objects.AimpStringFindFlags,System.Int32)">Find(IAimpString, out Int32, AimpStringFindFlags, Int32)</h4>
+  <div class="markdown level1 summary"><p>Finds the specified string.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Find(IAimpString str, out int index, AIMPStringFindFlags flags, int startFromIndex)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Find(IAimpString str, out int index, AimpStringFindFlags flags, int startFromIndex)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -377,41 +465,56 @@
       <tr>
         <td><a class="xref" href="AIMP.SDK.Objects.IAimpString.html">IAimpString</a></td>
         <td><span class="parametername">str</span></td>
-        <td></td>
+        <td><p>The string.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="AIMP.SDK.Objects.AIMPStringFindFlags.html">AIMPStringFindFlags</a></td>
+        <td><a class="xref" href="AIMP.SDK.Objects.AimpStringFindFlags.html">AimpStringFindFlags</a></td>
         <td><span class="parametername">flags</span></td>
-        <td></td>
+        <td><p>The flags.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">startFromIndex</span></td>
-        <td></td>
+        <td><p>The start from index.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L89">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Find_" data-uid="AIMP.SDK.Objects.IAimpString.Find*"></a>
-  <h4 id="AIMP_SDK_Objects_IAimpString_Find_System_String_System_Int32_System_Int32__AIMP_SDK_Objects_AIMPStringFindFlags_System_Int32_" data-uid="AIMP.SDK.Objects.IAimpString.Find(System.String,System.Int32,System.Int32@,AIMP.SDK.Objects.AIMPStringFindFlags,System.Int32)">Find(String, Int32, out Int32, AIMPStringFindFlags, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="AIMP_SDK_Objects_IAimpString_Find_System_String_System_Int32_System_Int32__AIMP_SDK_Objects_AimpStringFindFlags_System_Int32_" data-uid="AIMP.SDK.Objects.IAimpString.Find(System.String,System.Int32,System.Int32@,AIMP.SDK.Objects.AimpStringFindFlags,System.Int32)">Find(String, Int32, out Int32, AimpStringFindFlags, Int32)</h4>
+  <div class="markdown level1 summary"><p>Finds the specified chars.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Find(string chars, int charsCount, out int index, AIMPStringFindFlags flags, int startFromIndex)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Find(string chars, int charsCount, out int index, AimpStringFindFlags flags, int startFromIndex)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -423,48 +526,64 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">chars</span></td>
-        <td></td>
+        <td><p>The chars.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">charsCount</span></td>
-        <td></td>
+        <td><p>The chars count.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="AIMP.SDK.Objects.AIMPStringFindFlags.html">AIMPStringFindFlags</a></td>
+        <td><a class="xref" href="AIMP.SDK.Objects.AimpStringFindFlags.html">AimpStringFindFlags</a></td>
         <td><span class="parametername">flags</span></td>
-        <td></td>
+        <td><p>The flags.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">startFromIndex</span></td>
-        <td></td>
+        <td><p>The start from index.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L61">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_GetChar_" data-uid="AIMP.SDK.Objects.IAimpString.GetChar*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_GetChar_System_Int32_System_Char__" data-uid="AIMP.SDK.Objects.IAimpString.GetChar(System.Int32,System.Char@)">GetChar(Int32, out Char)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the character.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult GetChar(int index, out char c)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType GetChar(int index, out char c)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -476,75 +595,127 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.char(v=vs.110).aspx">Char</a></td>
+        <td><span class="xref">System.Char</span></td>
         <td><span class="parametername">c</span></td>
-        <td></td>
+        <td><p>The c.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L63">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_GetData_" data-uid="AIMP.SDK.Objects.IAimpString.GetData*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_GetData" data-uid="AIMP.SDK.Objects.IAimpString.GetData">GetData()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the data.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">string GetData()</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetData()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L67">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>System.String.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_GetHashCode_" data-uid="AIMP.SDK.Objects.IAimpString.GetHashCode*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_GetHashCode" data-uid="AIMP.SDK.Objects.IAimpString.GetHashCode">GetHashCode()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a hash code for this instance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">int GetHashCode()</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GetHashCode()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L65">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_GetLength_" data-uid="AIMP.SDK.Objects.IAimpString.GetLength*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_GetLength" data-uid="AIMP.SDK.Objects.IAimpString.GetLength">GetLength()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the length.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">int GetLength()</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GetLength()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L91">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>System.Int32.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Insert_" data-uid="AIMP.SDK.Objects.IAimpString.Insert*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_Insert_System_Int32_AIMP_SDK_Objects_IAimpString_" data-uid="AIMP.SDK.Objects.IAimpString.Insert(System.Int32,AIMP.SDK.Objects.IAimpString)">Insert(Int32, IAimpString)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Inserts the specified index.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Insert(int index, IAimpString str)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Insert(int index, IAimpString str)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -556,33 +727,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="AIMP.SDK.Objects.IAimpString.html">IAimpString</a></td>
         <td><span class="parametername">str</span></td>
-        <td></td>
+        <td><p>The string.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L93">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Insert_" data-uid="AIMP.SDK.Objects.IAimpString.Insert*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_Insert_System_Int32_System_String_System_Int32_" data-uid="AIMP.SDK.Objects.IAimpString.Insert(System.Int32,System.String,System.Int32)">Insert(Int32, String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Inserts the specified index.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Insert(int index, string chars, int charsCount)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Insert(int index, string chars, int charsCount)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -594,38 +778,52 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">chars</span></td>
-        <td></td>
+        <td><p>The chars.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">charsCount</span></td>
-        <td></td>
+        <td><p>The chars count.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L95">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Replace_" data-uid="AIMP.SDK.Objects.IAimpString.Replace*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_Replace_AIMP_SDK_Objects_IAimpString_AIMP_SDK_Objects_IAimpString_System_Int32_" data-uid="AIMP.SDK.Objects.IAimpString.Replace(AIMP.SDK.Objects.IAimpString,AIMP.SDK.Objects.IAimpString,System.Int32)">Replace(IAimpString, IAimpString, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Replaces the specified old pattern.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Replace(IAimpString oldPattern, IAimpString newPattern, int flags)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Replace(IAimpString oldPattern, IAimpString newPattern, int flags)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -639,36 +837,50 @@
       <tr>
         <td><a class="xref" href="AIMP.SDK.Objects.IAimpString.html">IAimpString</a></td>
         <td><span class="parametername">oldPattern</span></td>
-        <td></td>
+        <td><p>The old pattern.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="AIMP.SDK.Objects.IAimpString.html">IAimpString</a></td>
         <td><span class="parametername">newPattern</span></td>
-        <td></td>
+        <td><p>The new pattern.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">flags</span></td>
-        <td></td>
+        <td><p>The flags.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L97">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_Replace_" data-uid="AIMP.SDK.Objects.IAimpString.Replace*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_Replace_System_String_System_Int32_System_String_System_Int32_System_Int32_" data-uid="AIMP.SDK.Objects.IAimpString.Replace(System.String,System.Int32,System.String,System.Int32,System.Int32)">Replace(String, Int32, String, Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Replaces the specified old pattern chars.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Replace(string oldPatternChars, int oldPatternCharsCount, string newPatternChars, int newPatternCharsCount, int flags)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType Replace(string oldPatternChars, int oldPatternCharsCount, string newPatternChars, int newPatternCharsCount, int flags)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -680,48 +892,64 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">oldPatternChars</span></td>
-        <td></td>
+        <td><p>The old pattern chars.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">oldPatternCharsCount</span></td>
-        <td></td>
+        <td><p>The old pattern chars count.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">newPatternChars</span></td>
-        <td></td>
+        <td><p>The new pattern chars.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">newPatternCharsCount</span></td>
-        <td></td>
+        <td><p>The new pattern chars count.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">flags</span></td>
-        <td></td>
+        <td><p>The flags.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L69">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_SetChar_" data-uid="AIMP.SDK.Objects.IAimpString.SetChar*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_SetChar_System_Int32_System_Char_" data-uid="AIMP.SDK.Objects.IAimpString.SetChar(System.Int32,System.Char)">SetChar(Int32, Char)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the character.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult SetChar(int index, char c)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType SetChar(int index, char c)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -733,33 +961,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.char(v=vs.110).aspx">Char</a></td>
+        <td><span class="xref">System.Char</span></td>
         <td><span class="parametername">c</span></td>
-        <td></td>
+        <td><p>The c.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L71">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_SetData_" data-uid="AIMP.SDK.Objects.IAimpString.SetData*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_SetData_System_String_System_Int32_" data-uid="AIMP.SDK.Objects.IAimpString.SetData(System.String,System.Int32)">SetData(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the data.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult SetData(string chars, int charsCount)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType SetData(string chars, int charsCount)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -771,33 +1012,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">chars</span></td>
-        <td></td>
+        <td><p>The chars.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">charsCount</span></td>
-        <td></td>
+        <td><p>The chars count.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L99">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Objects_IAimpString_SubString_" data-uid="AIMP.SDK.Objects.IAimpString.SubString*"></a>
   <h4 id="AIMP_SDK_Objects_IAimpString_SubString_System_Int32_System_Int32_AIMP_SDK_Objects_IAimpString__" data-uid="AIMP.SDK.Objects.IAimpString.SubString(System.Int32,System.Int32,AIMP.SDK.Objects.IAimpString@)">SubString(Int32, Int32, out IAimpString)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Subs the string.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult SubString(int index, int count, out IAimpString str)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionResultType SubString(int index, int count, out IAimpString str)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -809,23 +1063,41 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>The index.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">count</span></td>
-        <td></td>
+        <td><p>The count.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="AIMP.SDK.Objects.IAimpString.html">IAimpString</a></td>
         <td><span class="parametername">str</span></td>
-        <td></td>
+        <td><p>The string.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.ActionResultType.html">ActionResultType</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -833,12 +1105,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_Objects_IAimpString.md&amp;value=---%0Auid%3A%20AIMP.SDK.Objects.IAimpString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Objects/IAimpString.cs/#L59" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

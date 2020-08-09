@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Interface IAimpExtensionEmbeddedVisualization
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpExtensionEmbeddedVisualization
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -73,10 +73,12 @@
   
   <h1 id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization" class="text-break">Interface IAimpExtensionEmbeddedVisualization
   </h1>
-  <div class="markdown level0 summary"><p>This type visualization displays on visual display of player only and can be chosen by user.
+  <div class="markdown level0 summary"><p>This type visualization displays on visual display of player only and can be chosen by user.</p>
 <p>
-Instance should be created by plugin and must be registered in the application in the <a class="xref" href="AIMP.SDK.AimpPlugin.html#AIMP_SDK_AimpPlugin_Initialize">Initialize()</a> method via the <a class="xref" href="AIMP.SDK.IAimpCore.html#AIMP_SDK_IAimpCore_RegisterExtension_AIMP_SDK_IAimpExtension_">RegisterExtension(IAimpExtension)</a> method.
-</p></p>
+Instance should be created by plugin and must be registered in the application in the
+<a class="xref" href="AIMP.SDK.AimpPlugin.html#AIMP_SDK_AimpPlugin_Initialize">Initialize()</a> method via the <a class="xref" href="AIMP.SDK.IAimpCore.html#AIMP_SDK_IAimpCore_RegisterExtension_AIMP_SDK_IAimpExtension_">RegisterExtension(IAimpExtension)</a> method.
+</p>
+Implements the <a class="xref" href="AIMP.SDK.IAimpExtension.html">IAimpExtension</a>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.Visuals.html">AIMP.SDK.Visuals</a></h6>
@@ -87,22 +89,17 @@ Instance should be created by plugin and must be registered in the application i
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Visuals/IAimpExtensionEmbeddedVisualization.cs/#L36">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_Click_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.Click*"></a>
   <h4 id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_Click_System_Int32_System_Int32_AIMP_SDK_Visuals_AimpVisualClickButtonType_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.Click(System.Int32,System.Int32,AIMP.SDK.Visuals.AimpVisualClickButtonType)">Click(Int32, Int32, AimpVisualClickButtonType)</h4>
   <div class="markdown level1 summary"><p>Occurs when user clicked on visualization.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">void Click(int x, int y, AimpVisualClickButtonType button)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Click(int x, int y, AimpVisualClickButtonType button)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -114,13 +111,13 @@ Instance should be created by plugin and must be registered in the application i
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">x</span></td>
         <td><p>Position by X.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">y</span></td>
         <td><p>Position by Y.</p>
 </td>
@@ -133,23 +130,17 @@ Instance should be created by plugin and must be registered in the application i
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Visuals/IAimpExtensionEmbeddedVisualization.cs/#L83">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_Draw_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.Draw*"></a>
   <h4 id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_Draw_System_IntPtr_AIMP_SDK_Visuals_AimpVisualData_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.Draw(System.IntPtr,AIMP.SDK.Visuals.AimpVisualData)">Draw(IntPtr, AimpVisualData)</h4>
   <div class="markdown level1 summary"><p>Draws visualization on the specified output screen.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">void Draw(IntPtr dc, AimpVisualData data)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Draw(IntPtr dc, AimpVisualData data)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -161,7 +152,7 @@ Instance should be created by plugin and must be registered in the application i
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></td>
+        <td><span class="xref">System.IntPtr</span></td>
         <td><span class="parametername">dc</span></td>
         <td><p>The output screen handle.</p>
 </td>
@@ -174,114 +165,99 @@ Instance should be created by plugin and must be registered in the application i
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Visuals/IAimpExtensionEmbeddedVisualization.cs/#L48">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_GetFlags_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.GetFlags*"></a>
   <h4 id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_GetFlags" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.GetFlags">GetFlags()</h4>
   <div class="markdown level1 summary"><p>Returns zero or combination of followed flags <a class="xref" href="AIMP.SDK.Visuals.AimpVisualFlags.html">AimpVisualFlags</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpVisualFlags GetFlags()</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpVisualFlags GetFlags()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Visuals/IAimpExtensionEmbeddedVisualization.cs/#L56">View Source</a>
-  </span>
-  <a id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_GetMaxDisplaySize_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.GetMaxDisplaySize*"></a>
-  <h4 id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_GetMaxDisplaySize_System_Int32__System_Int32__" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.GetMaxDisplaySize(System.Int32@,System.Int32@)">GetMaxDisplaySize(out Int32, out Int32)</h4>
-  <div class="markdown level1 summary"><p>Method returns a maximal resolution supported by the extension. If current resolution is not supported by extension, player will automatically stretch output.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult GetMaxDisplaySize(out int width, out int height)</code></pre>
-  	</div>
-  </div>
-  <div class="div-decalaration">
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
-        <td><span class="parametername">width</span></td>
-        <td><p>The width.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
-        <td><span class="parametername">height</span></td>
-        <td><p>The height.</p>
+        <td><a class="xref" href="AIMP.SDK.Visuals.AimpVisualFlags.html">AimpVisualFlags</a></td>
+        <td><p>AimpVisualFlags.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_GetMaxDisplaySize_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.GetMaxDisplaySize*"></a>
+  <h4 id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_GetMaxDisplaySize" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.GetMaxDisplaySize">GetMaxDisplaySize()</h4>
+  <div class="markdown level1 summary"><p>Method returns a maximal resolution supported by the extension. If current resolution is not supported by
+extension, player will automatically stretch output.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;int, int&gt; GetMaxDisplaySize()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Visuals/IAimpExtensionEmbeddedVisualization.cs/#L63">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-2.html">AimpActionResult</a>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Item1 is width, Item2 is height.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_GetName_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.GetName*"></a>
-  <h4 id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_GetName_System_String__" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.GetName(System.String@)">GetName(out String)</h4>
+  <h4 id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_GetName" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.GetName">GetName()</h4>
   <div class="markdown level1 summary"><p>Gets the visualization display name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult GetName(out string name)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;string&gt; GetName()</code></pre>
   </div>
-  <div class="div-decalaration">
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The display name.</p>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>AimpActionResult&lt;System.String&gt;.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Visuals/IAimpExtensionEmbeddedVisualization.cs/#L71">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_Initialize_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.Initialize*"></a>
   <h4 id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_Initialize_System_Int32_System_Int32_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.Initialize(System.Int32,System.Int32)">Initialize(Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Initializes the visualization. Occurs when user activate the visualization.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">AimpActionResult Initialize(int width, int height)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult Initialize(int width, int height)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -293,51 +269,57 @@ Instance should be created by plugin and must be registered in the application i
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">width</span></td>
         <td><p>The width.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">height</span></td>
         <td><p>The height.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Visuals/IAimpExtensionEmbeddedVisualization.cs/#L76">View Source</a>
-  </span>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>AimpActionResult.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_OnFinalize_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.OnFinalize*"></a>
   <h4 id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_OnFinalize" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.OnFinalize">OnFinalize()</h4>
   <div class="markdown level1 summary"><p>Called when visualization should be finalized.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">void OnFinalize()</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnFinalize()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Visuals/IAimpExtensionEmbeddedVisualization.cs/#L43">View Source</a>
-  </span>
+  
+  
   <a id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_Resize_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.Resize*"></a>
   <h4 id="AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization_Resize_System_Int32_System_Int32_" data-uid="AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization.Resize(System.Int32,System.Int32)">Resize(Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Occurs when the sizes of the visualization window are changed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
-  <div class="div-decalaration">
-  	<h5 class="decalaration">Declaration</h5>
-  	<div class="codewrapper">
-  	<pre><code class="lang-csharp hljs">void Resize(int newWidth, int newHeight)</code></pre>
-  	</div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Resize(int newWidth, int newHeight)</code></pre>
   </div>
-  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -349,19 +331,22 @@ Instance should be created by plugin and must be registered in the application i
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">newWidth</span></td>
         <td><p>The new width.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">newHeight</span></td>
         <td><p>The new height.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="AIMP.SDK.IAimpExtension.html">IAimpExtension</a></div>
   </div>
 </article>
           </div>
@@ -370,12 +355,6 @@ Instance should be created by plugin and must be registered in the application i
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/new/master/apiSpec/new?filename=AIMP_SDK_Visuals_IAimpExtensionEmbeddedVisualization.md&amp;value=---%0Auid%3A%20AIMP.SDK.Visuals.IAimpExtensionEmbeddedVisualization%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/martin211/aimp_dotnet/blob/master/src/AIMP.SDK/Visuals/IAimpExtensionEmbeddedVisualization.cs/#L28" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

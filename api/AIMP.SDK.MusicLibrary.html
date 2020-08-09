@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Namespace AIMP.SDK.MusicLibrary
-   | AIMP DotNet SDK </title>
+   </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace AIMP.SDK.MusicLibrary
-   | AIMP DotNet SDK ">
-    <meta name="generator" content="docfx 2.33.0.0">
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -19,10 +19,10 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    <meta property="docfx:rel" content="../">
+    
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -49,15 +49,15 @@
             </div>
           </div>
         </nav>
-      </header>
-      <div class="container body-content">
         
-        <div id="search-results">
-          <div class="search-list"></div>
-          <div class="sr-items"></div>
-          <ul id="pagination"></ul>
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </header>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -78,36 +78,44 @@
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="AIMP.SDK.MusicLibrary.IAimpDataFilter.html">IAimpDataFilter</a></h4>
-      <section></section>
+      <section><p>Interface IAimpDataFilter
+Implements the <a class="xref" href="AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFilterGroup.html">IAimpDataFilterGroup</a></p>
+</section>
       <h4><a class="xref" href="AIMP.SDK.MusicLibrary.IAimpDataProviderSelection.html">IAimpDataProviderSelection</a></h4>
       <section><p>Interface provides access to the currently selected data at DataProvider.
 Interface implementation must support asynchronous access.</p>
 </section>
       <h4><a class="xref" href="AIMP.SDK.MusicLibrary.IAimpDataStorageManager.html">IAimpDataStorageManager</a></h4>
-      <section><p>Uses for notify library about changes at data storage.
+      <section><p>Uses for notify library about changes at data storage.</p>
 <p>
-Instance of interface creates by music library manager and put to plugin via the <a class="xref" href="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.html#AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Initialize_AIMP_SDK_MusicLibrary_IAimpDataStorageManager_">Initialize(IAimpDataStorageManager)</a> method.
-</p></p>
+Instance of interface creates by music library manager and put to plugin via the
+<a class="xref" href="AIMP.SDK.MusicLibrary.Extension.IAimpExtensionDataStorage.html#AIMP_SDK_MusicLibrary_Extension_IAimpExtensionDataStorage_Initialize_AIMP_SDK_MusicLibrary_IAimpDataStorageManager_">Initialize(IAimpDataStorageManager)</a> method.
+</p>
 </section>
       <h4><a class="xref" href="AIMP.SDK.MusicLibrary.IAimpFileList.html">IAimpFileList</a></h4>
       <section><p>Represents the pair {File name, ID} for data provider.</p>
 </section>
       <h4><a class="xref" href="AIMP.SDK.MusicLibrary.IAimpMusicLibraryPlaylistPreimage.html">IAimpMusicLibraryPlaylistPreimage</a></h4>
       <section><p>Provides an access to preimage settings that based on one of data storages of Music Library.
-Note that some data storage has no support of preimages.</p>
+Note that some data storage has no support of preimages.
+Implements the <a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistPreimage.html">IAimpPlaylistPreimage</a></p>
 </section>
       <h4><a class="xref" href="AIMP.SDK.MusicLibrary.IAimpServiceMusicLibrary.html">IAimpServiceMusicLibrary</a></h4>
-      <section><p>Provides an access to data storages of Music Library.</p>
+      <section><p>Provides an access to data storages of Music Library.
+Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></p>
 </section>
       <h4><a class="xref" href="AIMP.SDK.MusicLibrary.IAimpServiceMusicLibraryUI.html">IAimpServiceMusicLibraryUI</a></h4>
-      <section><p>Provides an access to data of UI elements for an active data storage that uses by the user.</p>
+      <section><p>Provides an access to data of UI elements for an active data storage that uses by the user.
+Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></p>
 </section>
     <h3 id="enums">Enums
   </h3>
       <h4><a class="xref" href="AIMP.SDK.MusicLibrary.FilesType.html">FilesType</a></h4>
-      <section></section>
+      <section><p>Enum FilesType</p>
+</section>
       <h4><a class="xref" href="AIMP.SDK.MusicLibrary.SortDirectionType.html">SortDirectionType</a></h4>
-      <section></section>
+      <section><p>Enum SortDirectionType</p>
+</section>
 </article>
           </div>
           

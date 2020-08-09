@@ -1,0 +1,542 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IAimpServicePlaylistManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IAimpServicePlaylistManager
+   ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager">
+  
+  
+  <h1 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager" class="text-break">Interface IAimpServicePlaylistManager
+  </h1>
+  <div class="markdown level0 summary"><p>The service provides an access to playlist manager.
+Implements the <a class="xref" href="AIMP.SDK.Playlist.IAimpServicePlaylistManager2.html">IAimpServicePlaylistManager2</a>
+Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AIMP.SDK.Playlist.IAimpServicePlaylistManager2.html#AIMP_SDK_Playlist_IAimpServicePlaylistManager2_GetPreimageFactory_System_Int32_">IAimpServicePlaylistManager2.GetPreimageFactory(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.Playlist.IAimpServicePlaylistManager2.html#AIMP_SDK_Playlist_IAimpServicePlaylistManager2_GetPreimageFactoryById_System_String_">IAimpServicePlaylistManager2.GetPreimageFactoryById(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.Playlist.IAimpServicePlaylistManager2.html#AIMP_SDK_Playlist_IAimpServicePlaylistManager2_GetPreimageFactoryCount">IAimpServicePlaylistManager2.GetPreimageFactoryCount()</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.IAimpService.html#AIMP_SDK_IAimpService_IsExists">IAimpService.IsExists</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AIMP.SDK.Playlist.html">AIMP.SDK.Playlist</a></h6>
+  <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
+  <h5 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAimpServicePlaylistManager : IAimpServicePlaylistManager2, IAimpService</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_PlaylistQueue_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.PlaylistQueue*"></a>
+  <h4 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_PlaylistQueue" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.PlaylistQueue">PlaylistQueue</h4>
+  <div class="markdown level1 summary"><p>Gets the playlist queue.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IAimpPlaylistQueue PlaylistQueue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylistQueue.html">IAimpPlaylistQueue</a></td>
+        <td><p>The playlist queue.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_CreatePlaylist_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.CreatePlaylist*"></a>
+  <h4 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_CreatePlaylist_System_String_System_Boolean_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.CreatePlaylist(System.String,System.Boolean)">CreatePlaylist(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates the playlist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpPlaylist&gt; CreatePlaylist(string name, bool isActive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The playlist name.</p>
+<p>
+Automatic name will be applied if name is equals empty value.
+</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isActive</span></td>
+        <td><p>If set to <code>true</code> playlist will be active.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylist.html">IAimpPlaylist</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpPlaylist&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_CreatePlaylistFromFile_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.CreatePlaylistFromFile*"></a>
+  <h4 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_CreatePlaylistFromFile_System_String_System_Boolean_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.CreatePlaylistFromFile(System.String,System.Boolean)">CreatePlaylistFromFile(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates the playlist from file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpPlaylist&gt; CreatePlaylistFromFile(string fileName, bool isActive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td><p>Name of the file.</p>
+<p>
+Automatic name will be applied if name is equals empty value.
+</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isActive</span></td>
+        <td><p>If set to <code>true</code> playlist will be active.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylist.html">IAimpPlaylist</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpPlaylist&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetActivePlaylist_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetActivePlaylist*"></a>
+  <h4 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetActivePlaylist" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetActivePlaylist">GetActivePlaylist()</h4>
+  <div class="markdown level1 summary"><p>Gets the current active playlist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpPlaylist&gt; GetActivePlaylist()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylist.html">IAimpPlaylist</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpPlaylist&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetLoadedPlaylist_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetLoadedPlaylist*"></a>
+  <h4 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetLoadedPlaylist_System_Int32_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetLoadedPlaylist(System.Int32)">GetLoadedPlaylist(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the loaded playlist by index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpPlaylist&gt; GetLoadedPlaylist(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylist.html">IAimpPlaylist</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpPlaylist&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetLoadedPlaylistById_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetLoadedPlaylistById*"></a>
+  <h4 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetLoadedPlaylistById_System_String_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetLoadedPlaylistById(System.String)">GetLoadedPlaylistById(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the loaded playlist by identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpPlaylist&gt; GetLoadedPlaylistById(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylist.html">IAimpPlaylist</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpPlaylist&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetLoadedPlaylistByName_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetLoadedPlaylistByName*"></a>
+  <h4 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetLoadedPlaylistByName_System_String_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetLoadedPlaylistByName(System.String)">GetLoadedPlaylistByName(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the loaded playlist by name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpPlaylist&gt; GetLoadedPlaylistByName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylist.html">IAimpPlaylist</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpPlaylist&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetLoadedPlaylistCount_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetLoadedPlaylistCount*"></a>
+  <h4 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetLoadedPlaylistCount" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetLoadedPlaylistCount">GetLoadedPlaylistCount()</h4>
+  <div class="markdown level1 summary"><p>Gets the loaded playlist count.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GetLoadedPlaylistCount()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>System.Int32.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetPlayablePlaylist_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetPlayablePlaylist*"></a>
+  <h4 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_GetPlayablePlaylist" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.GetPlayablePlaylist">GetPlayablePlaylist()</h4>
+  <div class="markdown level1 summary"><p>Gets the playable playlist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpPlaylist&gt; GetPlayablePlaylist()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylist.html">IAimpPlaylist</a>&gt;</td>
+        <td><p>AimpActionResult&lt;IAimpPlaylist&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_SetActivePlaylist_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.SetActivePlaylist*"></a>
+  <h4 id="AIMP_SDK_Playlist_IAimpServicePlaylistManager_SetActivePlaylist_AIMP_SDK_Playlist_IAimpPlaylist_" data-uid="AIMP.SDK.Playlist.IAimpServicePlaylistManager.SetActivePlaylist(AIMP.SDK.Playlist.IAimpPlaylist)">SetActivePlaylist(IAimpPlaylist)</h4>
+  <div class="markdown level1 summary"><p>Sets the playlist as active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AimpActionResult SetActivePlaylist(IAimpPlaylist playList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylist.html">IAimpPlaylist</a></td>
+        <td><span class="parametername">playList</span></td>
+        <td><p>The playlist <a class="xref" href="AIMP.SDK.Playlist.IAimpPlaylist.html">IAimpPlaylist</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
+        <td><p>ActionResultType.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="AIMP.SDK.Playlist.IAimpServicePlaylistManager2.html">IAimpServicePlaylistManager2</a></div>
+      <div><a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
