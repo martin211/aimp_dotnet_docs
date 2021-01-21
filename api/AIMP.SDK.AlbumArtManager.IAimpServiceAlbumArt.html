@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpServiceAlbumArt
    ">
-    <meta name="generator" content="docfx 2.55.0.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -110,16 +110,19 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
   <h3 id="methods">Methods
   </h3>
   
-  
   <a id="AIMP_SDK_AlbumArtManager_IAimpServiceAlbumArt_Cancel_" data-uid="AIMP.SDK.AlbumArtManager.IAimpServiceAlbumArt.Cancel*"></a>
   <h4 id="AIMP_SDK_AlbumArtManager_IAimpServiceAlbumArt_Cancel_System_Int32_AIMP_SDK_AlbumArtManager_AimpFindCovertArtType_" data-uid="AIMP.SDK.AlbumArtManager.IAimpServiceAlbumArt.Cancel(System.Int32,AIMP.SDK.AlbumArtManager.AimpFindCovertArtType)">Cancel(Int32, AimpFindCovertArtType)</h4>
   <div class="markdown level1 summary"><p>Cancels the get cover art request by specified task identifier.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult Cancel(int taskId, AimpFindCovertArtType flags)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult Cancel(int taskId, AimpFindCovertArtType flags)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -144,33 +147,21 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
-        <td><p>AimpActionResult.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
+  </div>
   
   <a id="AIMP_SDK_AlbumArtManager_IAimpServiceAlbumArt_Get_" data-uid="AIMP.SDK.AlbumArtManager.IAimpServiceAlbumArt.Get*"></a>
   <h4 id="AIMP_SDK_AlbumArtManager_IAimpServiceAlbumArt_Get_System_String_System_String_System_String_AIMP_SDK_AlbumArtManager_AimpFindCovertArtType_System_Object_" data-uid="AIMP.SDK.AlbumArtManager.IAimpServiceAlbumArt.Get(System.String,System.String,System.String,AIMP.SDK.AlbumArtManager.AimpFindCovertArtType,System.Object)">Get(String, String, String, AimpFindCovertArtType, Object)</h4>
   <div class="markdown level1 summary"><p>Gets the image.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult&lt;int&gt; Get(string fileUrl, string artist, string album, AimpFindCovertArtType flags, object userData)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult&lt;int&gt; Get(string fileUrl, string artist, string album, AimpFindCovertArtType flags, object userData)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -213,33 +204,21 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><p>AimpActionResult&lt;System.Int32&gt;.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
+  </div>
   
   <a id="AIMP_SDK_AlbumArtManager_IAimpServiceAlbumArt_Get2_" data-uid="AIMP.SDK.AlbumArtManager.IAimpServiceAlbumArt.Get2*"></a>
   <h4 id="AIMP_SDK_AlbumArtManager_IAimpServiceAlbumArt_Get2_AIMP_SDK_FileManager_IAimpFileInfo_AIMP_SDK_AlbumArtManager_AimpFindCovertArtType_System_Object_" data-uid="AIMP.SDK.AlbumArtManager.IAimpServiceAlbumArt.Get2(AIMP.SDK.FileManager.IAimpFileInfo,AIMP.SDK.AlbumArtManager.AimpFindCovertArtType,System.Object)">Get2(IAimpFileInfo, AimpFindCovertArtType, Object)</h4>
   <div class="markdown level1 summary"><p>Gets the image.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult&lt;int&gt; Get2(IAimpFileInfo fileInfo, AimpFindCovertArtType flags, object userData)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult&lt;int&gt; Get2(IAimpFileInfo fileInfo, AimpFindCovertArtType flags, object userData)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -270,33 +249,20 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><p>AimpActionResult&lt;System.Int32&gt;.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  </div>
   <h3 id="events">Events
   </h3>
-  
   
   <h4 id="AIMP_SDK_AlbumArtManager_IAimpServiceAlbumArt_Completed" data-uid="AIMP.SDK.AlbumArtManager.IAimpServiceAlbumArt.Completed">Completed</h4>
   <div class="markdown level1 summary"><p>Occurs when search was completed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event EventHandler&lt;AimpGetAlbumArtEventArgs&gt; Completed</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">event EventHandler&lt;AimpGetAlbumArtEventArgs&gt; Completed</code></pre>
+  	</div>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -328,7 +294,8 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

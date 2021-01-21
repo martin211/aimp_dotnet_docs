@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpFileTag
    ">
-    <meta name="generator" content="docfx 2.55.0.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -89,10 +89,10 @@ Implements the <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IA
       <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_AlbumArtist">IAimpFileInfo.AlbumArtist</a>
     </div>
     <div>
-      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Gain">IAimpFileInfo.Gain</a>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_AlbumGain">IAimpFileInfo.AlbumGain</a>
     </div>
     <div>
-      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Peak">IAimpFileInfo.Peak</a>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_AlbumPeak">IAimpFileInfo.AlbumPeak</a>
     </div>
     <div>
       <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Artist">IAimpFileInfo.Artist</a>
@@ -149,9 +149,6 @@ Implements the <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IA
       <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Lyrics">IAimpFileInfo.Lyrics</a>
     </div>
     <div>
-      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Mark">IAimpFileInfo.Mark</a>
-    </div>
-    <div>
       <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Publisher">IAimpFileInfo.Publisher</a>
     </div>
     <div>
@@ -182,13 +179,43 @@ Implements the <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IA
       <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_LastPlayedDate">IAimpFileInfo.LastPlayedDate</a>
     </div>
     <div>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Conductor">IAimpFileInfo.Conductor</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Mood">IAimpFileInfo.Mood</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Catalog">IAimpFileInfo.Catalog</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Isrc">IAimpFileInfo.Isrc</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Lyricist">IAimpFileInfo.Lyricist</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_EncodedBy">IAimpFileInfo.EncodedBy</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_Rating">IAimpFileInfo.Rating</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_StatAddingDate">IAimpFileInfo.StatAddingDate</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_StatLastPlayDate">IAimpFileInfo.StatLastPlayDate</a>
+    </div>
+    <div>
       <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_StatMark">IAimpFileInfo.StatMark</a>
     </div>
     <div>
-      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_PlayCount">IAimpFileInfo.PlayCount</a>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_StatPlayCount">IAimpFileInfo.StatPlayCount</a>
     </div>
     <div>
-      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_StateRating">IAimpFileInfo.StateRating</a>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_StatRating">IAimpFileInfo.StatRating</a>
+    </div>
+    <div>
+      <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_StatDisplayingMark">IAimpFileInfo.StatDisplayingMark</a>
     </div>
     <div>
       <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html#AIMP_SDK_FileManager_IAimpFileInfo_AlbumArt">IAimpFileInfo.AlbumArt</a>
@@ -209,59 +236,31 @@ Implements the <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IA
   <h3 id="properties">Properties
   </h3>
   
-  
   <a id="AIMP_SDK_TagEditor_IAimpFileTag_DeleteOnSaving_" data-uid="AIMP.SDK.TagEditor.IAimpFileTag.DeleteOnSaving*"></a>
   <h4 id="AIMP_SDK_TagEditor_IAimpFileTag_DeleteOnSaving" data-uid="AIMP.SDK.TagEditor.IAimpFileTag.DeleteOnSaving">DeleteOnSaving</h4>
   <div class="markdown level1 summary"><p>Gets or sets a value indicating whether [delete on saving].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool DeleteOnSaving { get; set; }</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">bool DeleteOnSaving { get; set; }</code></pre>
+  	</div>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p><code>true</code> if [delete on saving]; otherwise, <code>false</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
   
   <a id="AIMP_SDK_TagEditor_IAimpFileTag_TagId_" data-uid="AIMP.SDK.TagEditor.IAimpFileTag.TagId*"></a>
   <h4 id="AIMP_SDK_TagEditor_IAimpFileTag_TagId" data-uid="AIMP.SDK.TagEditor.IAimpFileTag.TagId">TagId</h4>
   <div class="markdown level1 summary"><p>Gets or sets the tag identifier.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TagType TagId { get; set; }</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">TagType TagId { get; set; }</code></pre>
+  	</div>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.TagEditor.TagType.html">TagType</a></td>
-        <td><p>The tag identifier.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="seealso">See Also</h3>
   <div class="seealso">
       <div><a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IAimpFileInfo</a></div>
@@ -276,7 +275,8 @@ Implements the <a class="xref" href="AIMP.SDK.FileManager.IAimpFileInfo.html">IA
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

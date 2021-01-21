@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpServiceActionManager
    ">
-    <meta name="generator" content="docfx 2.55.0.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -92,44 +92,33 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
   <h3 id="methods">Methods
   </h3>
   
-  
   <a id="AIMP_SDK_ActionManager_IAimpServiceActionManager_CreateAction_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.CreateAction*"></a>
   <h4 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_CreateAction" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.CreateAction">CreateAction()</h4>
   <div class="markdown level1 summary"><p>Creates the Aimp action instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Core.CreateObject&lt;IAimpAction&gt;&quot;)]
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Core.CreateObject&lt;IAimpAction&gt;&quot;)]
 IAimpAction CreateAction()</code></pre>
+  	</div>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.ActionManager.IAimpAction.html">IAimpAction</a></td>
-        <td><p>IAimpAction.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
   
   <a id="AIMP_SDK_ActionManager_IAimpServiceActionManager_GetById_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.GetById*"></a>
   <h4 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_GetById_System_String_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.GetById(System.String)">GetById(String)</h4>
   <div class="markdown level1 summary"><p>Gets the by identifier.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpAction&gt; GetById(string id)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpAction&gt; GetById(string id)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -148,33 +137,21 @@ IAimpAction CreateAction()</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.ActionManager.IAimpAction.html">IAimpAction</a>&gt;</td>
-        <td><p>AimpActionResult&lt;IAimpAction&gt;.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
+  </div>
   
   <a id="AIMP_SDK_ActionManager_IAimpServiceActionManager_MakeHotkey_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.MakeHotkey*"></a>
   <h4 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_MakeHotkey_System_Windows_Input_ModifierKeys_System_UInt32_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.MakeHotkey(System.Windows.Input.ModifierKeys,System.UInt32)">MakeHotkey(ModifierKeys, UInt32)</h4>
   <div class="markdown level1 summary"><p>Makes the hotkey.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int MakeHotkey(ModifierKeys modifiers, uint key)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">int MakeHotkey(ModifierKeys modifiers, uint key)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -199,33 +176,21 @@ IAimpAction CreateAction()</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>System.Int32.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
+  </div>
   
   <a id="AIMP_SDK_ActionManager_IAimpServiceActionManager_Register_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.Register*"></a>
   <h4 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_Register_AIMP_SDK_ActionManager_IAimpAction_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.Register(AIMP.SDK.ActionManager.IAimpAction)">Register(IAimpAction)</h4>
   <div class="markdown level1 summary"><p>Registers the specified action.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult Register(IAimpAction action)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult Register(IAimpAction action)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -244,33 +209,21 @@ IAimpAction CreateAction()</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
-        <td><p>AimpActionResult.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
+  </div>
   
   <a id="AIMP_SDK_ActionManager_IAimpServiceActionManager_Register_" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.Register*"></a>
   <h4 id="AIMP_SDK_ActionManager_IAimpServiceActionManager_Register_System_Collections_Generic_ICollection_AIMP_SDK_ActionManager_IAimpAction__" data-uid="AIMP.SDK.ActionManager.IAimpServiceActionManager.Register(System.Collections.Generic.ICollection{AIMP.SDK.ActionManager.IAimpAction})">Register(ICollection&lt;IAimpAction&gt;)</h4>
   <div class="markdown level1 summary"><p>Registers the specified actions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult Register(ICollection&lt;IAimpAction&gt; actions)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult Register(ICollection&lt;IAimpAction&gt; actions)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -289,22 +242,7 @@ IAimpAction CreateAction()</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
-        <td><p>AimpActionResult.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  </div>
   <h3 id="seealso">See Also</h3>
   <div class="seealso">
       <div><a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></div>
@@ -319,7 +257,8 @@ IAimpAction CreateAction()</code></pre>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpGroupingTreeDataProvider
    ">
-    <meta name="generator" content="docfx 2.55.0.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -85,16 +85,19 @@
   <h3 id="methods">Methods
   </h3>
   
-  
   <a id="AIMP_SDK_MusicLibrary_DataStorage_IAimpGroupingTreeDataProvider_AppendFilter_" data-uid="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.AppendFilter*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_DataStorage_IAimpGroupingTreeDataProvider_AppendFilter_AIMP_SDK_MusicLibrary_DataFilter_IAimpDataFilterGroup_AIMP_SDK_MusicLibrary_DataStorage_IAimpGroupingTreeSelection_" data-uid="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.AppendFilter(AIMP.SDK.MusicLibrary.DataFilter.IAimpDataFilterGroup,AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeSelection)">AppendFilter(IAimpDataFilterGroup, IAimpGroupingTreeSelection)</h4>
   <div class="markdown level1 summary"><p>Plugin must build the data filter for table based on current Selection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult AppendFilter(IAimpDataFilterGroup filter, IAimpGroupingTreeSelection selection)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult AppendFilter(IAimpDataFilterGroup filter, IAimpGroupingTreeSelection selection)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -119,60 +122,34 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
-        <td><p>AimpActionResult.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
+  </div>
   
   <a id="AIMP_SDK_MusicLibrary_DataStorage_IAimpGroupingTreeDataProvider_GetCapabilities_" data-uid="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.GetCapabilities*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_DataStorage_IAimpGroupingTreeDataProvider_GetCapabilities" data-uid="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.GetCapabilities">GetCapabilities()</h4>
   <div class="markdown level1 summary"><p>Gets the capabilities.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">CapabilitiesFlags GetCapabilities()</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">CapabilitiesFlags GetCapabilities()</code></pre>
+  	</div>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.MusicLibrary.DataStorage.CapabilitiesFlags.html">CapabilitiesFlags</a></td>
-        <td><p>CapabilitiesFlags.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
   
   <a id="AIMP_SDK_MusicLibrary_DataStorage_IAimpGroupingTreeDataProvider_GetData_" data-uid="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.GetData*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_DataStorage_IAimpGroupingTreeDataProvider_GetData_AIMP_SDK_MusicLibrary_DataStorage_IAimpGroupingTreeSelection_" data-uid="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.GetData(AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeSelection)">GetData(IAimpGroupingTreeSelection)</h4>
   <div class="markdown level1 summary"><p>Returns the data for next level of selected node in grouping tree.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpGroupingTreeDataProviderSelection&gt; GetData(IAimpGroupingTreeSelection selection)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult&lt;IAimpGroupingTreeDataProviderSelection&gt; GetData(IAimpGroupingTreeSelection selection)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -191,49 +168,20 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<a class="xref" href="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProviderSelection.html">IAimpGroupingTreeDataProviderSelection</a>&gt;</td>
-        <td><p>AimpActionResult&lt;IAimpGroupingTreeDataProviderSelection&gt;.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
+  </div>
   
   <a id="AIMP_SDK_MusicLibrary_DataStorage_IAimpGroupingTreeDataProvider_GetFieldForAlphabeticIndex_" data-uid="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.GetFieldForAlphabeticIndex*"></a>
   <h4 id="AIMP_SDK_MusicLibrary_DataStorage_IAimpGroupingTreeDataProvider_GetFieldForAlphabeticIndex" data-uid="AIMP.SDK.MusicLibrary.DataStorage.IAimpGroupingTreeDataProvider.GetFieldForAlphabeticIndex">GetFieldForAlphabeticIndex()</h4>
   <div class="markdown level1 summary"><p>Returns the name of top level field for alphabetic index.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult&lt;string&gt; GetFieldForAlphabeticIndex()</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult&lt;string&gt; GetFieldForAlphabeticIndex()</code></pre>
+  	</div>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><p>AimpActionResult&lt;System.String&gt;.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
@@ -244,7 +192,8 @@
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

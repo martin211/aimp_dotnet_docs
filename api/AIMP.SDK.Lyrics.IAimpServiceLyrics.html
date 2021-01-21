@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpServiceLyrics
    ">
-    <meta name="generator" content="docfx 2.55.0.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -92,16 +92,19 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
   <h3 id="methods">Methods
   </h3>
   
-  
   <a id="AIMP_SDK_Lyrics_IAimpServiceLyrics_Cancel_" data-uid="AIMP.SDK.Lyrics.IAimpServiceLyrics.Cancel*"></a>
   <h4 id="AIMP_SDK_Lyrics_IAimpServiceLyrics_Cancel_System_IntPtr_AIMP_SDK_Lyrics_LyricsFlags_" data-uid="AIMP.SDK.Lyrics.IAimpServiceLyrics.Cancel(System.IntPtr,AIMP.SDK.Lyrics.LyricsFlags)">Cancel(IntPtr, LyricsFlags)</h4>
   <div class="markdown level1 summary"><p>Aborts a current active task.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult Cancel(IntPtr taskId, LyricsFlags flags)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult Cancel(IntPtr taskId, LyricsFlags flags)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -126,33 +129,21 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
-        <td><p><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
+  </div>
   
   <a id="AIMP_SDK_Lyrics_IAimpServiceLyrics_Get_" data-uid="AIMP.SDK.Lyrics.IAimpServiceLyrics.Get*"></a>
   <h4 id="AIMP_SDK_Lyrics_IAimpServiceLyrics_Get_AIMP_SDK_FileManager_IAimpFileInfo_AIMP_SDK_Lyrics_LyricsFlags_System_Object_" data-uid="AIMP.SDK.Lyrics.IAimpServiceLyrics.Get(AIMP.SDK.FileManager.IAimpFileInfo,AIMP.SDK.Lyrics.LyricsFlags,System.Object)">Get(IAimpFileInfo, LyricsFlags, Object)</h4>
   <div class="markdown level1 summary"><p>Gets a lyrics for file.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult&lt;IntPtr&gt; Get(IAimpFileInfo fileInfo, LyricsFlags flags, object userData)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult&lt;IntPtr&gt; Get(IAimpFileInfo fileInfo, LyricsFlags flags, object userData)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -183,33 +174,20 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.IntPtr</span>&gt;</td>
-        <td><p>Return the <a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a> with async task id.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  </div>
   <h3 id="events">Events
   </h3>
-  
   
   <h4 id="AIMP_SDK_Lyrics_IAimpServiceLyrics_LyricsReceive" data-uid="AIMP.SDK.Lyrics.IAimpServiceLyrics.LyricsReceive">LyricsReceive</h4>
   <div class="markdown level1 summary"><p>Occurs when [lyrics receive].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event AimpServiceLyricsReceive LyricsReceive</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">event AimpServiceLyricsReceive LyricsReceive</code></pre>
+  	</div>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -240,7 +218,8 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

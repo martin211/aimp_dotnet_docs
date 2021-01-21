@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAimpServiceThreadPool
    ">
-    <meta name="generator" content="docfx 2.55.0.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -92,21 +92,25 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
   <h6><strong>Assembly</strong>: AIMP.SDK.dll</h6>
   <h5 id="AIMP_SDK_Threading_IAimpServiceThreadPool_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAimpServiceThreadPool : IAimpService</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use IAimpServiceThreads&quot;)]
+public interface IAimpServiceThreadPool : IAimpService</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  
   
   <a id="AIMP_SDK_Threading_IAimpServiceThreadPool_Cancel_" data-uid="AIMP.SDK.Threading.IAimpServiceThreadPool.Cancel*"></a>
   <h4 id="AIMP_SDK_Threading_IAimpServiceThreadPool_Cancel_System_UIntPtr_AIMP_SDK_Threading_AimpServiceThreadPoolType_" data-uid="AIMP.SDK.Threading.IAimpServiceThreadPool.Cancel(System.UIntPtr,AIMP.SDK.Threading.AimpServiceThreadPoolType)">Cancel(UIntPtr, AimpServiceThreadPoolType)</h4>
   <div class="markdown level1 summary"><p>Cancels the specified task.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult Cancel(UIntPtr taskHandle, AimpServiceThreadPoolType flags)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult Cancel(UIntPtr taskHandle, AimpServiceThreadPoolType flags)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -131,33 +135,21 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
-        <td><p>AimpActionResult.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
+  </div>
   
   <a id="AIMP_SDK_Threading_IAimpServiceThreadPool_Execute_" data-uid="AIMP.SDK.Threading.IAimpServiceThreadPool.Execute*"></a>
   <h4 id="AIMP_SDK_Threading_IAimpServiceThreadPool_Execute_AIMP_SDK_Threading_IAimpTask_" data-uid="AIMP.SDK.Threading.IAimpServiceThreadPool.Execute(AIMP.SDK.Threading.IAimpTask)">Execute(IAimpTask)</h4>
   <div class="markdown level1 summary"><p>Executes the specified task.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult&lt;UIntPtr&gt; Execute(IAimpTask task)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult&lt;UIntPtr&gt; Execute(IAimpTask task)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -176,33 +168,21 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult-1.html">AimpActionResult</a>&lt;<span class="xref">System.UIntPtr</span>&gt;</td>
-        <td><p>AimpActionResult&lt;UIntPtr&gt;.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
+  </div>
   
   <a id="AIMP_SDK_Threading_IAimpServiceThreadPool_WaitFor_" data-uid="AIMP.SDK.Threading.IAimpServiceThreadPool.WaitFor*"></a>
   <h4 id="AIMP_SDK_Threading_IAimpServiceThreadPool_WaitFor_System_UIntPtr_" data-uid="AIMP.SDK.Threading.IAimpServiceThreadPool.WaitFor(System.UIntPtr)">WaitFor(UIntPtr)</h4>
   <div class="markdown level1 summary"><p>Method provides an ability to wait for task completion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AimpActionResult WaitFor(UIntPtr taskHandle)</code></pre>
+
+  <div class="div-decalaration">
+  	<h5 class="decalaration">Declaration</h5>
+  	<div class="codewrapper">
+  	<pre><code class="lang-csharp hljs">AimpActionResult WaitFor(UIntPtr taskHandle)</code></pre>
+  	</div>
   </div>
+  <div class="div-decalaration">
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -221,22 +201,7 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="AIMP.SDK.AimpActionResult.html">AimpActionResult</a></td>
-        <td><p>AimpActionResult.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  </div>
   <h3 id="seealso">See Also</h3>
   <div class="seealso">
       <div><a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a></div>
@@ -251,7 +216,8 @@ Implements the <a class="xref" href="AIMP.SDK.IAimpService.html">IAimpService</a
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
